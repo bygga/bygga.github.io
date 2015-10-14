@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="fr-FR" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+<head >
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<title>Bygga</title>
+
+<meta name="description" content="Voici comment mettre en avant les commentaires de l&#39;admin dans WordPress">
+<link rel="canonical" href="https://www.bygga.fr/differencier-les-commentaires-de-lauteur-de-ceux-des-visiteurs-sous-wordpress/" />
+
+<link href="https://www.bygga.fr/feed.xml" type="application/atom+xml" rel="alternate" title="Bygga Feed">
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="https://www.bygga.fr/assets/css/style.css">
+<link rel="stylesheet" type="text/css" href="https://www.bygga.fr/assets/css/main.min.css">
+	
+
+
+<link rel="shortcut icon" href="https://www.bygga.fr/favicon.ico">
+
+<link rel="shortcut icon" href="https://www.bygga.fr/favicon.png">
+
+<link rel="apple-touch-icon-precomposed" href="https://www.bygga.fr/images/apple-touch-icon-precomposed.png">
+
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://www.bygga.fr/images/apple-touch-icon-72x72-precomposed.png">
+
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://www.bygga.fr/images/apple-touch-icon-114x114-precomposed.png">
+
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://www.bygga.fr/images/apple-touch-icon-144x144-precomposed.png">
+
+</head>
+<body>
+
+  
+  <nav class="navbar navbar-default stuck">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar-collapse-1" aria-expanded="false"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+        <a class="navbar-brand" href="https://www.bygga.fr/"><img class="logo-nav" alt="logo" src="img/logo-nav.png"><img class="logo-head" alt="logo" src="img/logo-head.png"></a> </div>
+      <div class="collapse navbar-collapse" id="bs-navbar-collapse-1">
+        <ul class="nav navbar-nav nav-left">
+          
+          
+            <li><a href="https://www.bygga.fr/article/">Articles</a></li>
+          
+            <li><a href="https://www.bygga.fr/outils-reussir-site-et-blog/">Outils pour réussir</a></li>
+          
+            <li><a href="https://www.bygga.fr/themes-wordpress/">Thèmes WordPress</a></li>
+          
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#"><i class="fa fa-sign-in"></i> Login</a></li>
+          <li><a href="#" class="btn">JOIN US</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+   
+
+
+
+
+
+<div class="single">
+    <main role="main">
+        <article>
+            <header class="section-spacing title-banner text-center">
+                <div class="container">
+                    <h1>Différencier les commentaires de l’auteur de ceux des visiteurs sous WordPress</h1>
+                </div>
+            </header>
+            <section class="container">
+                <div class="row">
+                    <div class="col-sm-2">
+                        <div class="post-meta">
+                            <div>27 Sep 2012</div>
+                                <div class="post-categories">
+                                    <a href="https://www.bygga.fr/categories/d%C3%A9veloppement-web">Développement Web</a>
+                                </div>
+                            </div>
+                        </div>
+                    <div class="col-sm-8 content">
+                        
+
+<h2 id="pourquoi-personnaliser-les-commentaires-de-l-auteur:d0623d004d8ccf29a58fd87b183ece2f">Pourquoi personnaliser les commentaires de l&rsquo;auteur</h2>
+
+<p>Il est souvent intéressant pour les visiteurs de pouvoir faire la distinction entre les commentaires de l’auteur d’un article ou bien de l’admin d’un site, de ceux des visiteurs.</p>
+
+<p>En mettant en valeur certain commentaire on améliore l’expérience des utilisateurs. <strong>Par exemple un visiteur donnera plus d’importance dans un débat aux remarques de l’auteur de l’article.</strong> Le visiteur pourra également se rendre compte si le débat est vivant en notant rapidement le nombre d’intervention de l’auteur.</p>
+
+<p>Il existe plusieurs manières de mettre en avant les commentaires d’un utilisateur. On peut :</p>
+
+<ul>
+<li>Donner une différente couleur aux commentaires de l’auteur</li>
+<li>Ajouter une bordure aux commentaires de l’auteur</li>
+<li>Ajouter un symbole à côté du nom de l’auteur</li>
+<li>Ajouter un ruban au commentaire de l’auteur</li>
+<li>…</li>
+</ul>
+
+<h2 id="modification-de-la-classe-du-commentaire:d0623d004d8ccf29a58fd87b183ece2f">Modification de la classe du commentaire</h2>
+
+<p>La première chose à faire, quelque soit le <a href="http://www.bygga.fr/c/design/" title="Design WordPress" target="_blank">design</a> que vous voulez avoir pour le commentaire de l&rsquo;auteur est d&rsquo;indiquer qu&rsquo;il s&rsquo;agit du commentaire de l&rsquo;auteur. Rien de bien surprenant jusque là ! Ce qui est surprenant c&rsquo;est que c&rsquo;est super simple depuis une mise à jour récente de WordPress. Pas besoin de nombreuses lignes de code PHP pour faire cela.<br />
+Ouvrez votre fichier <code>comment.php</code> et cherchez la ligne suivante :</p>
+
+<pre class="language-php">
+<code>
+// dans votre fichier comment.php.
+&lt;?php wp_list_comments(array('callback' =&gt; 'comment_callback')); ?&gt;
+</code>
+</pre>
+
+<p>Identifiez le nom de la fonction après &lsquo;callback&rsquo;. Ici il s&rsquo;agit de &lsquo;<a href="https://codex.wordpress.org/Function_Reference/wp_list_comments" title="wp_list_comments" target="_blank">comment_callback</a>&lsquo;. Ca peut être différent pour vous.<br />
+Rendez vous ensuite dans votre fichier <code>fonction.php</code> et chercher la fonction comment_callback (ou bien le nom de la fonction identifiée précédemment).<br />
+Dans cette fonction allez sur la première balise <code>&lt;li&gt;</code> et ajoutez la fonction <code>comment_class()</code> comme ceci :</p>
+
+<pre class="language-php">
+<code>
+// dans votre fonction comment_callback
+function comment_callback( $comment, $args, $depth ) {
+?&gt;
+    &lt;li &lt;?php comment_class(); ?&gt; id="comment-&lt;?php comment_ID(); ?&gt;"&gt;
+        &lt;div class="comment-wrapper clearfix"&gt;
+...
+</code>
+</pre>
+
+<p><a href="http://codex.wordpress.org/Function_Reference/comment_class" title="Fonction comment_class" target="_blank">comment_class()</a> va automatiquement créer la classe class=&nbsp;&raquo;bypostauthor&nbsp;&raquo; si l&rsquo;auteur du commentaire est aussi l&rsquo;auteur de l&rsquo;article. Exactement ce qu&rsquo;il nous faut.</p>
+
+<h2 id="exemple-1-changer-la-couleur-du-commentaire-de-l-auteur:d0623d004d8ccf29a58fd87b183ece2f">Exemple 1 : Changer la couleur du commentaire de l’auteur</h2>
+
+<p>Pour cette exemple nous allons changer la couleur du background du commentaire. S’il s’agit d’un commentaire provenant d’un visiteur la couleur sera blanche. S’il s’agit d’un commentaire de l’auteur de l’article, la couleur de son commentaire sera grise.<br />
+Une fois la modification faite dans votre fonction &lsquo;callback&rsquo; vous allez pouvoir modifier le style du commentaire dans le fichier de style de votre site, souvent appelé <code>style.css</code>.<br />
+Ajoutez le code suivant pour avoir un fond gris lorsque l&rsquo;auteur commente.</p>
+
+<pre class="language-css">
+<code>
+.bypostauthor{ 
+    background: #BDBDBD !important;
+}
+</code>
+</pre>
+
+<h2 id="exemple-2-ajouter-une-bordure-au-commentaire:d0623d004d8ccf29a58fd87b183ece2f">Exemple 2 : Ajouter une bordure au commentaire</h2>
+
+<p>Cette fois on voudrait ajouter une bordure rouge aux commentaires de l&rsquo;auteur de l&rsquo;article. Pour ca ajouter le code suivant au fichier <code>style.css</code>.</p>
+
+<pre class="language-css">
+<code>
+.bypostauthor{ 
+    border:2px solid red !important;
+}
+</code>
+</pre>
+
+<p>Laissez votre imagination travailler pour styler les commentaires de l&rsquo;auteur comme vous voulez. Laissez nous votre site en commentaire et on ira voir comment vous avez stylé vos commentaires !</p>
+
+                    </div>
+                </div>
+            </section>
+            <footer>
+                <section class="share container">
+    <div class="row">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-8 content">
+            <div id="share-large">   
+
+                <a href="https://twitter.com/share?text=Diff%c3%a9rencier%20les%20commentaires%20de%20l%e2%80%99auteur%20de%20ceux%20des%20visiteurs%20sous%20WordPress&amp;url=https%3a%2f%2fwww.bygga.fr%2fdifferencier-les-commentaires-de-lauteur-de-ceux-des-visiteurs-sous-wordpress%2f" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" class="twitter"><svg class="icon-twitter"><use xlink:href="/assets/img/theme-icons.svg#icon-twitter"></use></svg></a>
+            
+                <a href="https://plus.google.com/share?url=https%3a%2f%2fwww.bygga.fr%2fdifferencier-les-commentaires-de-lauteur-de-ceux-des-visiteurs-sous-wordpress%2f" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;" class="google-plus"><svg class="icon-gplus"><use xlink:href="/assets/img/theme-icons.svg#icon-gplus"></use></svg></a>
+
+                <a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fwww.bygga.fr%2fdifferencier-les-commentaires-de-lauteur-de-ceux-des-visiteurs-sous-wordpress%2f" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" class="facebook"><svg class="icon-facebook"><use xlink:href="/assets/img/theme-icons.svg#icon-facebook"></use></svg></a>
+                            
+            </div>
+        </div>
+    </div>
+</section>   
+            </footer>
+        </article> 
+    </main> 
+    
+    <div class="related-post container">
+	<div class="row">
+		<div class="col-sm-2"></div>
+        <div class="col-sm-8 content">
+			<h5>Nos articles coup de coeur</h5>
+			<ul>
+				<li><a href="https://www.bygga.fr/outils-reussir-site-et-blog/">Outils indispensable pour votre site</a></li>
+				<li><a href="https://www.bygga.fr/ou-trouver-des-photos-gratuites-pour-votre-site-internet/">Où trouver des photos gratuites pour votre site web</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+</div>
+       
+
+
+<footer class="site-footer section-spacing text-center">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <p class="footer-links"><a href="">Terms of Use</a> <a href="">Privacy Policy</a></p>
+      </div>
+      <div class="col-md-4"> <small>2015 - Bygga.fr</small></div>
+      <div class="col-md-4"> 
+        
+        
+        <ul class="social">
+          <li><a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a></li>
+          <li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+          <li><a href="https://www.youtube.com/" target="_blank"><i class="fa fa-youtube-play"></i></a></li>
+        </ul>
+        
+         
+        
+      </div>
+    </div>
+  </div>
+</footer>
+ 
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script> 
+<script src="https://www.bygga.fr/assets/js/main.min.js"></script>
+
+</body>
+</html>

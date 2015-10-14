@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="fr-FR" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+<head >
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<title>Bygga</title>
+
+<meta name="description" content="Développeur de thèmes WordPress, voici comment en facilité leur traduction">
+<link rel="canonical" href="https://www.bygga.fr/comment-faciliter-la-traduction-de-son-theme-wordpress/" />
+
+<link href="https://www.bygga.fr/feed.xml" type="application/atom+xml" rel="alternate" title="Bygga Feed">
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="https://www.bygga.fr/assets/css/style.css">
+<link rel="stylesheet" type="text/css" href="https://www.bygga.fr/assets/css/main.min.css">
+	
+
+
+<link rel="shortcut icon" href="https://www.bygga.fr/favicon.ico">
+
+<link rel="shortcut icon" href="https://www.bygga.fr/favicon.png">
+
+<link rel="apple-touch-icon-precomposed" href="https://www.bygga.fr/images/apple-touch-icon-precomposed.png">
+
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://www.bygga.fr/images/apple-touch-icon-72x72-precomposed.png">
+
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://www.bygga.fr/images/apple-touch-icon-114x114-precomposed.png">
+
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://www.bygga.fr/images/apple-touch-icon-144x144-precomposed.png">
+
+</head>
+<body>
+
+  
+  <nav class="navbar navbar-default stuck">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar-collapse-1" aria-expanded="false"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+        <a class="navbar-brand" href="https://www.bygga.fr/"><img class="logo-nav" alt="logo" src="img/logo-nav.png"><img class="logo-head" alt="logo" src="img/logo-head.png"></a> </div>
+      <div class="collapse navbar-collapse" id="bs-navbar-collapse-1">
+        <ul class="nav navbar-nav nav-left">
+          
+          
+            <li><a href="https://www.bygga.fr/article/">Articles</a></li>
+          
+            <li><a href="https://www.bygga.fr/outils-reussir-site-et-blog/">Outils pour réussir</a></li>
+          
+            <li><a href="https://www.bygga.fr/themes-wordpress/">Thèmes WordPress</a></li>
+          
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#"><i class="fa fa-sign-in"></i> Login</a></li>
+          <li><a href="#" class="btn">JOIN US</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+   
+
+
+
+
+
+<div class="single">
+    <main role="main">
+        <article>
+            <header class="section-spacing title-banner text-center">
+                <div class="container">
+                    <h1>Comment faciliter la traduction de son thème WordPress</h1>
+                </div>
+            </header>
+            <section class="container">
+                <div class="row">
+                    <div class="col-sm-2">
+                        <div class="post-meta">
+                            <div>26 Sep 2012</div>
+                                <div class="post-categories">
+                                    <a href="https://www.bygga.fr/categories/d%C3%A9veloppement-web">Développement Web</a>
+                                </div>
+                            </div>
+                        </div>
+                    <div class="col-sm-8 content">
+                        
+
+<h2 id="wordpress-l-rsquo-anglais-et-le-français:c83652d1631de9d477db1f881436549a">WordPress, l&rsquo;anglais et le français</h2>
+
+<p>L&rsquo;anglais est de loin la langue la plus utilisée dans <a href="http://www.bygga.fr/c/design/selection-de-themes/" title="Thème WordPress">les thèmes WordPress</a>. Il est très rare qu&rsquo;un thème soit mis en vente sous une autre langue. Mais cela ne doit pas empêcher les utilisateurs d&rsquo;avoir le thème sur un site en français ou en espagnol.</p>
+
+<p>Il est donc important que le développeur du thème permette la <a href="http://www.bygga.fr/comment-traduire-un-theme-wordpress-en-francais/" title="Comment traduire un thème WordPress en francais">traduction</a> de son thème d&rsquo;une manière aisée sans avoir à changer manuellement l&rsquo;ensemble du texte.</p>
+
+<p>Les développeurs de WordPress ont pensé à tout et mettent à la disposition des programmeurs, deux fonctions PHP pour permettre la traduction : <code>_e()</code> et <code>__()</code>.</p>
+
+<h2 id="utilisation-de-e-et:c83652d1631de9d477db1f881436549a">Utilisation de _e() et __()</h2>
+
+<p>Lorsque vous ajoutez du texte au thème que vous développez, faites le passer en argument de la fonction <code>_e()</code>.<br />
+Example :
+<pre class="language-php">
+<code>
+_e(All rights reserved,&lsquo;bygga&rsquo;);
+</code>
+</pre>
+Le texte All rights reserved sera affiché, à moins qu&rsquo;il n’existe un fichier de localisation en français, de nom &lsquo;bygga&rsquo; et une traduction française sera affichée à la place.<br />
+L&rsquo;avantage c&rsquo;est que le futur utilisateur n&rsquo;a pas besoin de parcourir l&rsquo;ensemble de votre code pour trouver les textes à modifier.</p>
+
+<p>Si vous ne souhaitez pas directement afficher le texte, mais l&rsquo;utiliser en tant que variable, utiliser la fonction <code>__()</code> à la place.<br />
+<code>_e()</code> est équivalent à <code>&lt;?php echo __(); ?&gt;</code></p>
+
+<p>Si vous souhaitez plus d&rsquo;information sur ces fonctions et leurs petites soeurs, vous pouvez consulter directement le <a href="http://codex.wordpress.org/Translating_WordPress" title="traduire WordPress" target="_blank">codex de WordPress</a>.</p>
+
+<h2 id="outil-de-traduction:c83652d1631de9d477db1f881436549a">Outil de traduction</h2>
+
+<p>L&rsquo;utilisateur à la possibilité de traduire manuellement le texte que vous avez inséré grâce à ces deux fonctions en utilisant notamment le plugin <a href="http://wordpress.org/extend/plugins/codestyling-localization/" title="Codestyling Localization Plugin" target="_blank">Codestyling Localization</a><br />
+Vous pouvez trouver un tuto sur ce plugin dans notre article sur la <a href="http://www.bygga.fr/comment-traduire-un-theme-wordpress-en-francais/" title="Comment traduire un thème WordPress en francais" target="_blank">traduction d&rsquo;un thème en français</a>.</p>
+
+                    </div>
+                </div>
+            </section>
+            <footer>
+                <section class="share container">
+    <div class="row">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-8 content">
+            <div id="share-large">   
+
+                <a href="https://twitter.com/share?text=Comment%20faciliter%20la%20traduction%20de%20son%20th%c3%a8me%20WordPress&amp;url=https%3a%2f%2fwww.bygga.fr%2fcomment-faciliter-la-traduction-de-son-theme-wordpress%2f" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" class="twitter"><svg class="icon-twitter"><use xlink:href="/assets/img/theme-icons.svg#icon-twitter"></use></svg></a>
+            
+                <a href="https://plus.google.com/share?url=https%3a%2f%2fwww.bygga.fr%2fcomment-faciliter-la-traduction-de-son-theme-wordpress%2f" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;" class="google-plus"><svg class="icon-gplus"><use xlink:href="/assets/img/theme-icons.svg#icon-gplus"></use></svg></a>
+
+                <a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fwww.bygga.fr%2fcomment-faciliter-la-traduction-de-son-theme-wordpress%2f" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" class="facebook"><svg class="icon-facebook"><use xlink:href="/assets/img/theme-icons.svg#icon-facebook"></use></svg></a>
+                            
+            </div>
+        </div>
+    </div>
+</section>   
+            </footer>
+        </article> 
+    </main> 
+    
+    <div class="related-post container">
+	<div class="row">
+		<div class="col-sm-2"></div>
+        <div class="col-sm-8 content">
+			<h5>Nos articles coup de coeur</h5>
+			<ul>
+				<li><a href="https://www.bygga.fr/outils-reussir-site-et-blog/">Outils indispensable pour votre site</a></li>
+				<li><a href="https://www.bygga.fr/ou-trouver-des-photos-gratuites-pour-votre-site-internet/">Où trouver des photos gratuites pour votre site web</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+</div>
+       
+
+
+<footer class="site-footer section-spacing text-center">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <p class="footer-links"><a href="">Terms of Use</a> <a href="">Privacy Policy</a></p>
+      </div>
+      <div class="col-md-4"> <small>2015 - Bygga.fr</small></div>
+      <div class="col-md-4"> 
+        
+        
+        <ul class="social">
+          <li><a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a></li>
+          <li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+          <li><a href="https://www.youtube.com/" target="_blank"><i class="fa fa-youtube-play"></i></a></li>
+        </ul>
+        
+         
+        
+      </div>
+    </div>
+  </div>
+</footer>
+ 
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script> 
+<script src="https://www.bygga.fr/assets/js/main.min.js"></script>
+
+</body>
+</html>

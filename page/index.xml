@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on Bygga</title>
+    <link>https://www.bygga.fr/page/</link>
+    <description>Recent content in Pages on Bygga</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-FR</language>
+    <lastBuildDate>Thu, 08 Oct 2015 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.bygga.fr/page/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Guide pour les thèmes WordPress</title>
+      <link>https://www.bygga.fr/themes-wordpress/</link>
+      <pubDate>Thu, 08 Oct 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.bygga.fr/themes-wordpress/</guid>
+      <description>
+
+&lt;h2 id=&#34;pourquoi-choisir-un-thème-pro:f3f032c0dff7859a14eb269057a3ba15&#34;&gt;Pourquoi choisir un thème pro&lt;/h2&gt;
+
+&lt;p&gt;Voici pourquoi il faut acheter un thème pro !&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Outils pour réussir son site ou son blog</title>
+      <link>https://www.bygga.fr/outils-reussir-site-et-blog/</link>
+      <pubDate>Wed, 07 Oct 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.bygga.fr/outils-reussir-site-et-blog/</guid>
+      <description>
+
+&lt;h2 id=&#34;outils-et-services-que-j-utilise-et-recommande:b386a8173945ee4c6bb62da3cbc6a37a&#34;&gt;Outils et services que j&amp;rsquo;utilise et recommande&lt;/h2&gt;
+
+&lt;p&gt;Si vous êtes voulez vraiment créer un site internet ou un blog à succès, il faut vous en donner les moyens.&lt;/p&gt;
+
+&lt;p&gt;Le succès n&amp;rsquo;arrive pas par hasard et pour mettre toutes les chances de votre coté, &lt;strong&gt;voici des outils et services que j&amp;rsquo;utilise personnellement ou bien pour mes clients.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;outil-1-un-hébergement-internet-rapide-sûr-et-adapté-à-vos-besoins:b386a8173945ee4c6bb62da3cbc6a37a&#34;&gt;Outil 1: Un hébergement internet rapide, sûr et adapté à vos besoins&lt;/h2&gt;
+
+&lt;p&gt;Tous les hébergement internet ne sont pas équivalents. Et comme bien souvent dans la vie, ceux qui sont les moins chers sont aussi ceux qui sont les moins performants.&lt;/p&gt;
+
+&lt;p&gt;OVH.com propose un hébergement à un prix abordable et qui répond à vos besoins : L&amp;rsquo;hébergement est simple, rapide et sûr.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Importance : Indispensable pour les amateurs et les pros.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;outil-2-accélérez-le-dévelopement-de-votre-site-avec-wordpress:b386a8173945ee4c6bb62da3cbc6a37a&#34;&gt;Outil 2: Accélérez le dévelopement de votre site avec WordPress&lt;/h2&gt;
+
+&lt;p&gt;WordPress est un très bon outil pour débuter un blog, un site de e-commerce ou bien un une plateforme avec plusieurs millier de pages.&lt;/p&gt;
+
+&lt;p&gt;L&amp;rsquo;installation prend moins de 5 minutes, et vous pouvez personnalisé l&amp;rsquo;apparence avec des thèmes variés et de qualités sans avoir aucune connaissance en programmation.&lt;/p&gt;
+
+&lt;p&gt;C&amp;rsquo;est donc une aubaine pour les amateurs, et peut être très utile pour les pros qui cherchent à minimiser le budget developpement en utilisant une plateforme qui fait ses preuves (50% des sites internets utilisent WordPress).&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Importance : Indispensable pour les amateurs, Optionnel pour les pros.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;accélérer-la-vitesse-de-son-site-avec-un-cdn:b386a8173945ee4c6bb62da3cbc6a37a&#34;&gt;Accélérer la vitesse de son site avec un CDN&lt;/h2&gt;
+
+&lt;p&gt;Le temps de réponse de votre site dépend de la vitesse de votre serveur mais aussi de la distance des visiteurs à ce serveur.
+Même si votre hébergeur internet est rapide, si vos utilisateurs son loin des serveurs (il existe dans francophone partout dans le monde) votre site se chargera lentement.&lt;/p&gt;
+
+&lt;p&gt;Heuresement les solutions existent : Les CDN, Content Delivery Network.&lt;/p&gt;
+
+&lt;p&gt;Le plus populaire et abordable s&amp;rsquo;appelle MaxCDN. Vous pouvez facilement gagner quelques secondes précieuses si vous l&amp;rsquo;utilisé pour délivrer vos images et vos scripts.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Importance : Optionnel pour les amateurs. Indispensable pour les pros.&lt;/strong&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

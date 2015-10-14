@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="fr-FR" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+<head >
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<title>Bygga</title>
+
+<meta name="description" content="Un guide qui explique comment simplement installer Bootstrap 3 sous WordPress avec et sans plugin">
+<link rel="canonical" href="https://www.bygga.fr/installer-bootstrap-3-wordpress/" />
+
+<link href="https://www.bygga.fr/feed.xml" type="application/atom+xml" rel="alternate" title="Bygga Feed">
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="https://www.bygga.fr/assets/css/style.css">
+<link rel="stylesheet" type="text/css" href="https://www.bygga.fr/assets/css/main.min.css">
+	
+
+
+<link rel="shortcut icon" href="https://www.bygga.fr/favicon.ico">
+
+<link rel="shortcut icon" href="https://www.bygga.fr/favicon.png">
+
+<link rel="apple-touch-icon-precomposed" href="https://www.bygga.fr/images/apple-touch-icon-precomposed.png">
+
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://www.bygga.fr/images/apple-touch-icon-72x72-precomposed.png">
+
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://www.bygga.fr/images/apple-touch-icon-114x114-precomposed.png">
+
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://www.bygga.fr/images/apple-touch-icon-144x144-precomposed.png">
+
+</head>
+<body>
+
+  
+  <nav class="navbar navbar-default stuck">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar-collapse-1" aria-expanded="false"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+        <a class="navbar-brand" href="https://www.bygga.fr/"><img class="logo-nav" alt="logo" src="img/logo-nav.png"><img class="logo-head" alt="logo" src="img/logo-head.png"></a> </div>
+      <div class="collapse navbar-collapse" id="bs-navbar-collapse-1">
+        <ul class="nav navbar-nav nav-left">
+          
+          
+            <li><a href="https://www.bygga.fr/article/">Articles</a></li>
+          
+            <li><a href="https://www.bygga.fr/outils-reussir-site-et-blog/">Outils pour réussir</a></li>
+          
+            <li><a href="https://www.bygga.fr/themes-wordpress/">Thèmes WordPress</a></li>
+          
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#"><i class="fa fa-sign-in"></i> Login</a></li>
+          <li><a href="#" class="btn">JOIN US</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+   
+
+
+
+
+
+<div class="single">
+    <main role="main">
+        <article>
+            <header class="section-spacing title-banner text-center">
+                <div class="container">
+                    <h1>Comment installer facilement Bootstrap 3 sous WordPress</h1>
+                </div>
+            </header>
+            <section class="container">
+                <div class="row">
+                    <div class="col-sm-2">
+                        <div class="post-meta">
+                            <div>12 Oct 2013</div>
+                                <div class="post-categories">
+                                    <a href="https://www.bygga.fr/categories/d%C3%A9veloppement-web">Développement Web</a>
+                                </div>
+                            </div>
+                        </div>
+                    <div class="col-sm-8 content">
+                        
+
+<h2 id="pourquoi-utiliser-bootstrap-et-wordpress:72dfdf911c2abd35d044d581bdfe45ab">Pourquoi utiliser Bootstrap et WordPress</h2>
+
+<p>Bootstrap est un outil très pratique développé par Twitter et open-source. Il s&rsquo;agit d&rsquo;une collection de CSS et de javascript qui vous permet de créer un site internet moderne et complexe en seulement quelque lignes de code.</p>
+
+<p>Vous n&rsquo;avez pas à vous prendre la tête pour créer un bouton ou une fenêtre modale. Il vous suffit d&rsquo;utiliser la bonne classe CSS dans votre code, et le tour est joué.</p>
+
+<p><a href="http://getbootstrap.com/" title="Site officiel de bootstrap 3" target="_blank">Bootstrap 3</a> s&rsquo;intègre très facilement avec WordPress. Il vous suffit soit d&rsquo;installer un plugin ou bien copier quelques lignes de code dans votre thème.</p>
+
+<h2 id="installer-bootstrap-3-avec-un-plugin:72dfdf911c2abd35d044d581bdfe45ab">Installer Bootstrap 3 avec un plugin</h2>
+
+<p><img src="http://www.bygga.fr/wp-content/uploads/2013/10/Wordpress-twitter-plugin.jpg" alt="Wordpress-twitter-plugin" width="600" height="196" class="aligncenter size-full wp-image-928" /></p>
+
+<p>L&rsquo;un des intérêt de WordPress c&rsquo;est qu&rsquo;il est possible d&rsquo;installer facilement de nouvelles fonctions sans avoir à toucher une seule ligne de code. Rendez-vous dans l&rsquo;onglet &laquo;&nbsp;extensions&nbsp;&raquo; et &laquo;&nbsp;Ajouter&nbsp;&raquo; puis chercher pour le plugin suivant : &laquo;&nbsp;WordPress Twitter Bootstrap CSS&nbsp;&raquo;. Vous pouvez aussi le télécharger directement sur le site de <a href="http://wordpress.org/plugins/wordpress-bootstrap-css/" title="Wordpress Bootstrap CSS" target="_blank">WordPress</a>.</p>
+
+<h2 id="installer-bootstrap-3-manuellement:72dfdf911c2abd35d044d581bdfe45ab">Installer Bootstrap 3 manuellement</h2>
+
+<p>Installer Bootstrap 3 manuellement dans WordPress est très simple. Presque aussi simple que d&rsquo;utiliser un plugin finalement. Ouvrez le fichier <code>function.php</code> de votre thème et copier le code suivant:</p>
+
+<pre class="language-php"><code>function bygga_bootstrap_scripts()
+{
+    if (!is_admin()) {
+        wp_register_script('bootstrapjs', '//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js', array(), '3.0.0'); 
+        wp_enqueue_script('bootstrapjs');
+    }
+}
+add_action('init', 'bygga_bootstrap_scripts');
+function bygga_bootstrap_styles()
+{    
+    wp_register_style('bootstrapcss', '//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css', array(), '3.0.0', 'all');
+    wp_enqueue_style('bootstrapcss');
+}
+add_action('wp_enqueue_scripts', 'bygga_bootstrap_styles');</code>
+</pre>
+
+<p>Cette syntaxe est la méthode officielle recommandée par WordPress pour <a href="http://www.tweetpress.fr/codewp/inserer-scripts-css-proprement/" title="Ajouter CSS et Javascript sous WordPress" target="_blank">ajouter du CSS ou Javascript</a>.</p>
+
+<p>Vous n&rsquo;avez pas besoin d&rsquo;ajouter aucun fichier à votre installation. Les fichiers sont hébergé sur un server CDN. Sans rentrer dans les détails, c&rsquo;est très bien pour vous puisque cela devrait rendre le chargement de ces fichier rapide lorsqu&rsquo;un visiteur visite votre site.</p>
+
+<p>Une fois que vous avez copié ces lignes, vous pouvez modifier votre thème pour y ajouter le CSS ou Javascript qui vous plait.</p>
+
+<p>Par exemple pour <a href="http://www.bygga.fr/generateur-de-bouton-formulaire-icone-ruban-css-html/" title="Générateur de bouton">ajouter un bouton</a>, vous pouvez utiliser le code html suivant:</p>
+
+<pre class="language-html"><code>&lt;button type="button" class="btn btn-primary"&gt;Primary&lt;/button&gt;</code>
+</pre>
+
+<p>Qui donne comme résultat</p>
+
+<p><img src="http://www.bygga.fr/wp-content/uploads/2013/10/bouton-bootstrap.jpg" alt="bouton-bootstrap" width="79" height="48" class="aligncenter size-full wp-image-927" /></p>
+
+<h2 id="utiliser-un-thème-wordpress-avec-boostrap:72dfdf911c2abd35d044d581bdfe45ab">Utiliser un thème WordPress avec Boostrap</h2>
+
+<p>Utiliser les deux méthodes ci-dessus signifie que vous aller utiliser le design et look classique de Bootstrap. Ce n&rsquo;est pas forcement l&rsquo;effet que vous voulez. Votre thème risque de ressembler à des milliers d&rsquo;autres. Vous pouvez difficilement personnaliser les couleurs ou la taille des polices de caractère.</p>
+
+<p>La meilleure solution pour sortir du lot et avoir un version de Bootstrap au design différent c&rsquo;est d&rsquo;utiliser un <a href="http://www.bygga.fr/10-theme-wordpress-agence-communication/" title="10 Theme WordPress pour Agence de Communication" target="_blank">thème WordPress</a> déjà personalisé avec Boostrap. Il en existe des dixaines, mais voici quelques idées:</p>
+
+<h3 id="room-cartoon:72dfdf911c2abd35d044d581bdfe45ab">Room Cartoon</h3>
+
+<p><a href="http://themeforest.net/item/room-cartoons-word-press/5478356?ref=bygga"><img src="http://www.bygga.fr/wp-content/uploads/2013/10/Room-Cartoons-WordPress.jpg" alt="Room-Cartoons-WordPress" width="600" height="289" class="aligncenter size-full wp-image-929" /></a></p>
+
+<h3 id="news-grid:72dfdf911c2abd35d044d581bdfe45ab">News Grid</h3>
+
+<p><a href="http://themeforest.net/item/news-grid-wp-magazine-theme/5624719?ref=bygga"><img src="http://www.bygga.fr/wp-content/uploads/2013/10/news-grid.jpg" alt="news-grid" width="600" height="305" class="aligncenter size-full wp-image-930" /></a></p>
+
+<h3 id="political-press:72dfdf911c2abd35d044d581bdfe45ab">Political press</h3>
+
+<p><a href="http://themeforest.net/item/political-press-responsive-wordpress-theme/5748117?ref=bygga"><img src="http://www.bygga.fr/wp-content/uploads/2013/10/political-press.jpg" alt="political-press" width="600" height="305" class="aligncenter size-full wp-image-931" /></a></p>
+
+                    </div>
+                </div>
+            </section>
+            <footer>
+                <section class="share container">
+    <div class="row">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-8 content">
+            <div id="share-large">   
+
+                <a href="https://twitter.com/share?text=Comment%20installer%20facilement%20Bootstrap%203%20sous%20WordPress&amp;url=https%3a%2f%2fwww.bygga.fr%2finstaller-bootstrap-3-wordpress%2f" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" class="twitter"><svg class="icon-twitter"><use xlink:href="/assets/img/theme-icons.svg#icon-twitter"></use></svg></a>
+            
+                <a href="https://plus.google.com/share?url=https%3a%2f%2fwww.bygga.fr%2finstaller-bootstrap-3-wordpress%2f" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;" class="google-plus"><svg class="icon-gplus"><use xlink:href="/assets/img/theme-icons.svg#icon-gplus"></use></svg></a>
+
+                <a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fwww.bygga.fr%2finstaller-bootstrap-3-wordpress%2f" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" class="facebook"><svg class="icon-facebook"><use xlink:href="/assets/img/theme-icons.svg#icon-facebook"></use></svg></a>
+                            
+            </div>
+        </div>
+    </div>
+</section>   
+            </footer>
+        </article> 
+    </main> 
+    
+    <div class="related-post container">
+	<div class="row">
+		<div class="col-sm-2"></div>
+        <div class="col-sm-8 content">
+			<h5>Nos articles coup de coeur</h5>
+			<ul>
+				<li><a href="https://www.bygga.fr/outils-reussir-site-et-blog/">Outils indispensable pour votre site</a></li>
+				<li><a href="https://www.bygga.fr/ou-trouver-des-photos-gratuites-pour-votre-site-internet/">Où trouver des photos gratuites pour votre site web</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+</div>
+       
+
+
+<footer class="site-footer section-spacing text-center">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <p class="footer-links"><a href="">Terms of Use</a> <a href="">Privacy Policy</a></p>
+      </div>
+      <div class="col-md-4"> <small>2015 - Bygga.fr</small></div>
+      <div class="col-md-4"> 
+        
+        
+        <ul class="social">
+          <li><a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a></li>
+          <li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+          <li><a href="https://www.youtube.com/" target="_blank"><i class="fa fa-youtube-play"></i></a></li>
+        </ul>
+        
+         
+        
+      </div>
+    </div>
+  </div>
+</footer>
+ 
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script> 
+<script src="https://www.bygga.fr/assets/js/main.min.js"></script>
+
+</body>
+</html>

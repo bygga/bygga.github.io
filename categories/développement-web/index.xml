@@ -1,0 +1,1034 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Développement Web on Bygga</title>
+    <link>https://www.bygga.fr/categories/d%C3%A9veloppement-web/</link>
+    <description>Recent content in Développement Web on Bygga</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-FR</language>
+    <lastBuildDate>Sat, 12 Oct 2013 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.bygga.fr/categories/d%C3%A9veloppement-web/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Comment installer facilement Bootstrap 3 sous WordPress</title>
+      <link>https://www.bygga.fr/installer-bootstrap-3-wordpress/</link>
+      <pubDate>Sat, 12 Oct 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.bygga.fr/installer-bootstrap-3-wordpress/</guid>
+      <description>
+
+&lt;h2 id=&#34;pourquoi-utiliser-bootstrap-et-wordpress:72dfdf911c2abd35d044d581bdfe45ab&#34;&gt;Pourquoi utiliser Bootstrap et WordPress&lt;/h2&gt;
+
+&lt;p&gt;Bootstrap est un outil très pratique développé par Twitter et open-source. Il s&amp;rsquo;agit d&amp;rsquo;une collection de CSS et de javascript qui vous permet de créer un site internet moderne et complexe en seulement quelque lignes de code.&lt;/p&gt;
+
+&lt;p&gt;Vous n&amp;rsquo;avez pas à vous prendre la tête pour créer un bouton ou une fenêtre modale. Il vous suffit d&amp;rsquo;utiliser la bonne classe CSS dans votre code, et le tour est joué.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://getbootstrap.com/&#34; title=&#34;Site officiel de bootstrap 3&#34; target=&#34;_blank&#34;&gt;Bootstrap 3&lt;/a&gt; s&amp;rsquo;intègre très facilement avec WordPress. Il vous suffit soit d&amp;rsquo;installer un plugin ou bien copier quelques lignes de code dans votre thème.&lt;/p&gt;
+
+&lt;h2 id=&#34;installer-bootstrap-3-avec-un-plugin:72dfdf911c2abd35d044d581bdfe45ab&#34;&gt;Installer Bootstrap 3 avec un plugin&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://www.bygga.fr/wp-content/uploads/2013/10/Wordpress-twitter-plugin.jpg&#34; alt=&#34;Wordpress-twitter-plugin&#34; width=&#34;600&#34; height=&#34;196&#34; class=&#34;aligncenter size-full wp-image-928&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;L&amp;rsquo;un des intérêt de WordPress c&amp;rsquo;est qu&amp;rsquo;il est possible d&amp;rsquo;installer facilement de nouvelles fonctions sans avoir à toucher une seule ligne de code. Rendez-vous dans l&amp;rsquo;onglet &amp;laquo;&amp;nbsp;extensions&amp;nbsp;&amp;raquo; et &amp;laquo;&amp;nbsp;Ajouter&amp;nbsp;&amp;raquo; puis chercher pour le plugin suivant : &amp;laquo;&amp;nbsp;WordPress Twitter Bootstrap CSS&amp;nbsp;&amp;raquo;. Vous pouvez aussi le télécharger directement sur le site de &lt;a href=&#34;http://wordpress.org/plugins/wordpress-bootstrap-css/&#34; title=&#34;Wordpress Bootstrap CSS&#34; target=&#34;_blank&#34;&gt;WordPress&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;installer-bootstrap-3-manuellement:72dfdf911c2abd35d044d581bdfe45ab&#34;&gt;Installer Bootstrap 3 manuellement&lt;/h2&gt;
+
+&lt;p&gt;Installer Bootstrap 3 manuellement dans WordPress est très simple. Presque aussi simple que d&amp;rsquo;utiliser un plugin finalement. Ouvrez le fichier &lt;code&gt;function.php&lt;/code&gt; de votre thème et copier le code suivant:&lt;/p&gt;
+
+&lt;pre class=&#34;language-php&#34;&gt;&lt;code&gt;function bygga_bootstrap_scripts()
+{
+    if (!is_admin()) {
+        wp_register_script(&#39;bootstrapjs&#39;, &#39;//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js&#39;, array(), &#39;3.0.0&#39;); 
+        wp_enqueue_script(&#39;bootstrapjs&#39;);
+    }
+}
+add_action(&#39;init&#39;, &#39;bygga_bootstrap_scripts&#39;);
+function bygga_bootstrap_styles()
+{    
+    wp_register_style(&#39;bootstrapcss&#39;, &#39;//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css&#39;, array(), &#39;3.0.0&#39;, &#39;all&#39;);
+    wp_enqueue_style(&#39;bootstrapcss&#39;);
+}
+add_action(&#39;wp_enqueue_scripts&#39;, &#39;bygga_bootstrap_styles&#39;);&lt;/code&gt;
+&lt;/pre&gt;
+
+&lt;p&gt;Cette syntaxe est la méthode officielle recommandée par WordPress pour &lt;a href=&#34;http://www.tweetpress.fr/codewp/inserer-scripts-css-proprement/&#34; title=&#34;Ajouter CSS et Javascript sous WordPress&#34; target=&#34;_blank&#34;&gt;ajouter du CSS ou Javascript&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Vous n&amp;rsquo;avez pas besoin d&amp;rsquo;ajouter aucun fichier à votre installation. Les fichiers sont hébergé sur un server CDN. Sans rentrer dans les détails, c&amp;rsquo;est très bien pour vous puisque cela devrait rendre le chargement de ces fichier rapide lorsqu&amp;rsquo;un visiteur visite votre site.&lt;/p&gt;
+
+&lt;p&gt;Une fois que vous avez copié ces lignes, vous pouvez modifier votre thème pour y ajouter le CSS ou Javascript qui vous plait.&lt;/p&gt;
+
+&lt;p&gt;Par exemple pour &lt;a href=&#34;http://www.bygga.fr/generateur-de-bouton-formulaire-icone-ruban-css-html/&#34; title=&#34;Générateur de bouton&#34;&gt;ajouter un bouton&lt;/a&gt;, vous pouvez utiliser le code html suivant:&lt;/p&gt;
+
+&lt;pre class=&#34;language-html&#34;&gt;&lt;code&gt;&amp;lt;button type=&#34;button&#34; class=&#34;btn btn-primary&#34;&amp;gt;Primary&amp;lt;/button&amp;gt;&lt;/code&gt;
+&lt;/pre&gt;
+
+&lt;p&gt;Qui donne comme résultat&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://www.bygga.fr/wp-content/uploads/2013/10/bouton-bootstrap.jpg&#34; alt=&#34;bouton-bootstrap&#34; width=&#34;79&#34; height=&#34;48&#34; class=&#34;aligncenter size-full wp-image-927&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;utiliser-un-thème-wordpress-avec-boostrap:72dfdf911c2abd35d044d581bdfe45ab&#34;&gt;Utiliser un thème WordPress avec Boostrap&lt;/h2&gt;
+
+&lt;p&gt;Utiliser les deux méthodes ci-dessus signifie que vous aller utiliser le design et look classique de Bootstrap. Ce n&amp;rsquo;est pas forcement l&amp;rsquo;effet que vous voulez. Votre thème risque de ressembler à des milliers d&amp;rsquo;autres. Vous pouvez difficilement personnaliser les couleurs ou la taille des polices de caractère.&lt;/p&gt;
+
+&lt;p&gt;La meilleure solution pour sortir du lot et avoir un version de Bootstrap au design différent c&amp;rsquo;est d&amp;rsquo;utiliser un &lt;a href=&#34;http://www.bygga.fr/10-theme-wordpress-agence-communication/&#34; title=&#34;10 Theme WordPress pour Agence de Communication&#34; target=&#34;_blank&#34;&gt;thème WordPress&lt;/a&gt; déjà personalisé avec Boostrap. Il en existe des dixaines, mais voici quelques idées:&lt;/p&gt;
+
+&lt;h3 id=&#34;room-cartoon:72dfdf911c2abd35d044d581bdfe45ab&#34;&gt;Room Cartoon&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://themeforest.net/item/room-cartoons-word-press/5478356?ref=bygga&#34;&gt;&lt;img src=&#34;http://www.bygga.fr/wp-content/uploads/2013/10/Room-Cartoons-WordPress.jpg&#34; alt=&#34;Room-Cartoons-WordPress&#34; width=&#34;600&#34; height=&#34;289&#34; class=&#34;aligncenter size-full wp-image-929&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;news-grid:72dfdf911c2abd35d044d581bdfe45ab&#34;&gt;News Grid&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://themeforest.net/item/news-grid-wp-magazine-theme/5624719?ref=bygga&#34;&gt;&lt;img src=&#34;http://www.bygga.fr/wp-content/uploads/2013/10/news-grid.jpg&#34; alt=&#34;news-grid&#34; width=&#34;600&#34; height=&#34;305&#34; class=&#34;aligncenter size-full wp-image-930&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;political-press:72dfdf911c2abd35d044d581bdfe45ab&#34;&gt;Political press&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://themeforest.net/item/political-press-responsive-wordpress-theme/5748117?ref=bygga&#34;&gt;&lt;img src=&#34;http://www.bygga.fr/wp-content/uploads/2013/10/political-press.jpg&#34; alt=&#34;political-press&#34; width=&#34;600&#34; height=&#34;305&#34; class=&#34;aligncenter size-full wp-image-931&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Favicon - Toutes les size et type à utiliser pour n&#39;oublier personne</title>
+      <link>https://www.bygga.fr/favicon-toutes-les-size-et-type-a-utiliser-pour-noublier-personne/</link>
+      <pubDate>Sun, 15 Sep 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.bygga.fr/favicon-toutes-les-size-et-type-a-utiliser-pour-noublier-personne/</guid>
+      <description>
+
+&lt;h2 id=&#34;qu-rsquo-est-ce-qu-rsquo-un-favicon:33230c4350a18d05859ac95922f00bee&#34;&gt;Qu&amp;rsquo;est-ce qu&amp;rsquo;un Favicon&lt;/h2&gt;
+
+&lt;p&gt;Un favicon correspond à l&amp;rsquo;icône qui s&amp;rsquo;affiche juste avant le titre de la page internet que vous visiter. Dans Chrome par exemple, le favicon se retrouve sur la gauche dans chaque onglet.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://www.bygga.fr/wp-content/uploads/2013/09/favicon-facebook.jpg&#34; alt=&#34;Favicon de Facebook&#34; width=&#34;276&#34; height=&#34;33&#34; class=&#34;aligncenter size-full wp-image-891&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Cet image est très utilisée puisqu&amp;rsquo;elle permet à vos visiteurs de rapidement identifier votre site internet lorsque plusieurs onglets sont ouverts.&lt;/p&gt;
+
+&lt;p&gt;Mais un favicon peut être utilisé également par le navigateur internet à d&amp;rsquo;autres endroits. Il peut être affiché par exemple lorsque vous ajouter une page à vos favoris, ou bien sous iOS et Windows 8 lorsque vous créez un raccourci vers un site internet.&lt;/p&gt;
+
+&lt;h2 id=&#34;comment-ajouter-un-favicon-à-votre-site-internet:33230c4350a18d05859ac95922f00bee&#34;&gt;Comment ajouter un favicon à votre site internet&lt;/h2&gt;
+
+&lt;h3 id=&#34;classique-favicon-8211-obligatoire:33230c4350a18d05859ac95922f00bee&#34;&gt;Classique Favicon &amp;#8211; Obligatoire&lt;/h3&gt;
+
+&lt;p&gt;Ce que j&amp;rsquo;appelle le classique favicon, c&amp;rsquo;est l&amp;rsquo;icône qui est utilisée et affiché par les navigateurs internet. C&amp;rsquo;est donc la plus courante et aussi la plus simple à installer. Pour ce faire rien de plus simple. Il suffit de créer une favicon, de nommer le fichier &lt;code&gt;favicon.ico&lt;/code&gt; et de le placer directement au plus haut niveau de votre site. (Dans le dossier parent).&lt;/p&gt;
+
+&lt;p&gt;Il n&amp;rsquo;y a pas besoin d&amp;rsquo;ajouter du code HTML dans ce cas. Tous les navigateurs internet vont chercher le fichier favicon.ico dans le dossier de votre site.&lt;/p&gt;
+
+&lt;h3 id=&#34;favicon-pour-ios-2-0-et-android-2-1-8211-optionnel:33230c4350a18d05859ac95922f00bee&#34;&gt;Favicon pour iOS 2.0+ et Android 2.1+ &amp;#8211; Optionnel&lt;/h3&gt;
+
+&lt;p&gt;Il s&amp;rsquo;agit de l&amp;rsquo;icône qui s&amp;rsquo;affiche lorsque vous sauvegardez un site internet sur la page d&amp;rsquo;accueil de votre téléphone sous Android et iOS.&lt;/p&gt;
+
+&lt;p&gt;Pour permettre cette fonction, ajouter la ligne suivante dans le header de votre site, dans la balise &lt;code&gt;&amp;lt;head&amp;gt;&lt;/code&gt;.&lt;/p&gt;
+
+&lt;pre class=&#34;language-html&#34;&gt;&lt;code&gt;&amp;lt;link rel=&#34;apple-touch-icon-precomposed&#34; href=&#34;path/to/favicon-152.png&#34;&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Explication:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&amp;laquo;&amp;nbsp;path/to/favicon-152.png&amp;nbsp;&amp;raquo; correspond au chemin vers lequel vous avez votre image. Par exemple image/favicon-152.png.&lt;/li&gt;
+&lt;li&gt;L&amp;rsquo;image en question doit être au format .png&lt;/li&gt;
+&lt;li&gt;L&amp;rsquo;image doit avoir une taille de 152px x 152px.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Sous WordPress vous pouvez ajouter le code suivant dans votre fichier &lt;code&gt;function.php&lt;/code&gt;.&lt;/p&gt;
+
+&lt;pre class=&#34;language-php&#34;&gt;&lt;code&gt;function mon_favicon() { ?&amp;gt;
+&amp;lt;link rel=&#34;apple-touch-icon-precomposed&#34; href=&#34;path/to/favicon-152.png&#34;&amp;gt;
+&amp;lt;?php }
+add_action(&#39;wp_head&#39;, &#39;mon_favicon&#39;);&lt;/code&gt;
+&lt;/pre&gt;
+
+&lt;h3 id=&#34;favicon-pour-internet-explorer-10-metro-8211-optionnel:33230c4350a18d05859ac95922f00bee&#34;&gt;Favicon pour Internet Explorer 10 Metro &amp;#8211; Optionnel&lt;/h3&gt;
+
+&lt;p&gt;Comme pour les favicon ci-dessus, si vous utilisez IE10 vous pouvez avoir une image associé aux tuiles que vous créer. Utilisez le code suivant, également à placer dans la balise &lt;code&gt;&amp;lt;head&amp;gt;&lt;/code&gt;.&lt;/p&gt;
+
+&lt;pre class=&#34;language-html&#34;&gt;&lt;code&gt;&amp;lt;meta name=&#34;msapplication-TileColor&#34; content=&#34;#FFFFFF&#34;&amp;gt;
+&amp;lt;meta name=&#34;msapplication-TileImage&#34; content=&#34;/path/to/favicon-144.png&#34;&amp;gt;&lt;/code&gt;
+&lt;/pre&gt;
+
+&lt;p&gt;Dans ce cas, l&amp;rsquo;icône doit avoir une taille de 144x144px et être au format .png.&lt;/p&gt;
+
+&lt;h3 id=&#34;extra-favicon-pour-ios-8211-optionnel:33230c4350a18d05859ac95922f00bee&#34;&gt;Extra Favicon pour iOS &amp;#8211; Optionnel&lt;/h3&gt;
+
+&lt;p&gt;Selon les versions d&amp;rsquo;Apple iOS et de la résolution de l&amp;rsquo;écran (Retina ou non Retina), il existe différente taille de favicon que vous pouvez ajouter. En voici la liste.&lt;/p&gt;
+
+&lt;pre class=&#34;language-html&#34;&gt;&lt;code&gt;&amp;lt;!-- For iPad with high-resolution Retina display running iOS ≥ 7: --&amp;gt;
+&amp;lt;link rel=&#34;apple-touch-icon-precomposed&#34; sizes=&#34;152x152&#34; href=&#34;https://www.bygga.fr/path/to/favicon-152.png&#34;&amp;gt;
+
+&amp;lt;!-- For iPad with high-resolution Retina display running iOS ≤ 6: --&amp;gt;
+&amp;lt;link rel=&#34;apple-touch-icon-precomposed&#34; sizes=&#34;144x144&#34; href=&#34;https://www.bygga.fr/path/to/favicon-144.png&#34;&amp;gt;
+
+&amp;lt;!-- For iPhone with high-resolution Retina display running iOS ≥ 7: --&amp;gt;
+&amp;lt;link rel=&#34;apple-touch-icon-precomposed&#34; sizes=&#34;120x120&#34; href=&#34;https://www.bygga.fr/path/to/favicon-120.png&#34;&amp;gt;
+
+&amp;lt;!-- For iPhone with high-resolution Retina display running iOS ≤ 6: --&amp;gt;
+&amp;lt;link rel=&#34;apple-touch-icon-precomposed&#34; sizes=&#34;114x114&#34; href=&#34;https://www.bygga.fr/path/to/favicon-114.png&#34;&amp;gt;
+
+&amp;lt;!-- For first- and second-generation iPad: --&amp;gt;
+&amp;lt;link rel=&#34;apple-touch-icon-precomposed&#34; sizes=&#34;72x72&#34; href=&#34;https://www.bygga.fr/path/to/favicon-72.png&#34;&amp;gt;
+
+&amp;lt;!-- For non-Retina iPhone, iPod Touch, and Android 2.1+ devices: --&amp;gt;
+&amp;lt;link rel=&#34;apple-touch-icon-precomposed&#34; href=&#34;https://www.bygga.fr/path/to/favicon-57.png&#34;&amp;gt;&lt;/code&gt;
+&lt;/pre&gt;
+
+&lt;h2 id=&#34;comment-créer-une-favicon:33230c4350a18d05859ac95922f00bee&#34;&gt;Comment créer une favicon&lt;/h2&gt;
+
+&lt;p&gt;Pour les images au format .png vous pouvez utiliser Photoshop, Gimp, voir même paint. Commencez un nouveau fichier et sélectionnez la taille en pixel qui correspond à l&amp;rsquo;icône que vous voulez. Sauvegardez et utilisez ensuite votre client FTP pour envoyer l&amp;rsquo;image chez votre hébergeur de site internet.&lt;/p&gt;
+
+&lt;p&gt;Pour créer un fichier .ico, vous pouvez commencer par créer un fichier .png et ensuite aller sur le site internet &lt;a href=&#34;http://www.faviconer.com&#34; title=&#34;Convertir Favicon&#34; target=&#34;_blank&#34;&gt;Faviconer.com&lt;/a&gt; pour convertir l&amp;rsquo;image PNG en ICO. Il est même possible de dessiner à la main l&amp;rsquo;icône directement.&lt;/p&gt;
+
+&lt;p&gt;&lt;small&gt;Référence: &lt;a title=&#34;Favicon cheatsheet&#34; href=&#34;https://github.com/audreyr/favicon-cheat-sheet&#34;&gt;AudreyR&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Ajouter facilement la météo sur votre site WordPress avec un plugin</title>
+      <link>https://www.bygga.fr/ajouter-meteo-site-wordpress-plugin/</link>
+      <pubDate>Fri, 22 Feb 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.bygga.fr/ajouter-meteo-site-wordpress-plugin/</guid>
+      <description>
+
+&lt;h2 id=&#34;pourquoi-avoir-la-météo-sur-votre-site:b498609dbcd578ef65c851f6e1c2e7fc&#34;&gt;Pourquoi avoir la météo sur votre site ?&lt;/h2&gt;
+
+&lt;p&gt;Il existe deux raisons pour lesquels vous pouvez vouloir ajouter la météo sous votre site internet : Parce que c’est utile, pour faire croire que vous êtes un bon programmeur.&lt;/p&gt;
+
+&lt;p&gt;La deuxième raison est bien sûr inutile, parce que intégré un bulletin Météo avec la température et les conditions climatiques d’une ville est un jeu d’enfant et ne demande aucune programmation ! Juste l’installation d’un plugin gratuit.&lt;/p&gt;
+
+&lt;p&gt;Si votre site internet propose les services suivants, ajoutez définitivement ce plugin pour apporter du contenu relevant et aider vos visiteurs.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Un site avec des évènements en extérieurs (concert, BBQ, match de foot, etc…)&lt;/li&gt;
+&lt;li&gt;Un site d’un parc, parc botanique, parc d’attraction, etc…&lt;/li&gt;
+&lt;li&gt;Un site de voyage avec des destinations exotiques et radieuses ou bien sur une station de ski&lt;/li&gt;
+&lt;li&gt;etc…&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Si votre site web sert à &lt;a href=&#34;http://www.bygga.fr/comment-vendre-et-distribuer-un-ebook-avec-wordpress/&#34; title=&#34;Comment vendre et distribuer un ebook avec WordPress&#34;&gt;vendre et promouvoir un ebook&lt;/a&gt;, inutile de vous dire que vous aurez l’air stupide avec un plugin de météo. Je vous aurai prévenu.&lt;/p&gt;
+
+&lt;h2 id=&#34;utiliser-weather-layer:b498609dbcd578ef65c851f6e1c2e7fc&#34;&gt;Utiliser Weather Layer&lt;/h2&gt;
+
+&lt;p&gt;Weather Layer permet d&amp;rsquo;afficher la météo d&amp;rsquo;une ville partout dans le monde. Vous pouvez afficher le temps, la température, l&amp;rsquo;humidité et la force du vent. Il est possible également de voir une prévision (moins détaillée) sur 2 jours. Ce plugin WordPress gratuit utilise l&amp;rsquo;API et les données mise à disposition par Yahoo!&lt;br /&gt;
+&lt;img src=&#34;http://www.bygga.fr/wp-content/uploads/2013/02/meteo.jpg&#34; alt=&#34;Exemple de météo offerte par le plugin&#34; width=&#34;276&#34; height=&#34;321&#34; class=&#34;size-full wp-image-675&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;installation-du-plugin:b498609dbcd578ef65c851f6e1c2e7fc&#34;&gt;Installation du plugin&lt;/h3&gt;
+
+&lt;p&gt;Pour afficher la météo, donc, rien de plus simple. Installer le plugin &lt;a href=&#34;http://wordpress.org/extend/plugins/weather-layer/&#34; title=&#34;Télécharger weather layer&#34; target=&#34;_blank&#34;&gt;Weather Layer&lt;/a&gt; depuis votre tableau de bord WordPress sous la rubrique extensions.&lt;br /&gt;
+Vérifiez qu’il s’agit bien du plugin par Morgan Fabre (un français !).&lt;/p&gt;
+
+&lt;h3 id=&#34;configuration:b498609dbcd578ef65c851f6e1c2e7fc&#34;&gt;Configuration&lt;/h3&gt;
+
+&lt;p&gt;Une fois installé, rendez-vous sur le panneau de configuration du plugin, accessible depuis : Extensions &amp;gt; Weather Layer.&lt;br /&gt;
+Vous pouvez choisir la langue à utiliser (disponible en Français, anglais, etc&amp;#8230;) et si la température sera en celsius ou Fahrenheit. Pour encore plus de personnalisation, vous pouvez choisir comment la ville et le pays seront affiché. Par défaut le style est : Ville (Pays). Mais on peut imaginer facilement ne mettre que la ville par exemple.&lt;/p&gt;
+
+&lt;p&gt;Avec seulement trois options disponibles il est donc très facile de mettre en place ce plugin Météo. La dernière étape consiste à insérer un shortcode à l&amp;rsquo;endroit où vous voulez afficher votre code.&lt;/p&gt;
+
+&lt;h3 id=&#34;utilisation-dans-le-contenu:b498609dbcd578ef65c851f6e1c2e7fc&#34;&gt;Utilisation dans le contenu&lt;/h3&gt;
+
+&lt;p&gt;Si vous voulez afficher la météo de Marne la vallée dans votre article sur DisneyLand, vous devez écrire le code suivant dans directement dans l&amp;rsquo;éditeur de l&amp;rsquo;article en question.&lt;/p&gt;
+
+&lt;pre class=&#34;language-html&#34;&gt;&lt;code&gt;&amp;#091; weatherlayer country=&#34;France&#34; city=&#34;Paris&#34; &amp;#093;&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;utilisation-dans-un-widget:b498609dbcd578ef65c851f6e1c2e7fc&#34;&gt;Utilisation dans un widget&lt;/h3&gt;
+
+&lt;p&gt;Il est aussi possible d&amp;rsquo;afficher la météo dans une sidebar de votre site. Cela fonctionne très bien si vous avez besoin d&amp;rsquo;afficher la météo sur l&amp;rsquo;ensemble des pages de votre site. Cette fois ci, il ne faut pas utiliser un shortcode mais un widget.&lt;br /&gt;
+Rendez-vous donc dans Apparence &amp;gt; Widgets et déplacez le widget &amp;laquo;&amp;nbsp;Weather Layer&amp;nbsp;&amp;raquo; dans le bloc sidebar.&lt;br /&gt;
+Vous pouvez ensuite choisir le pays et la ville dont vous souhaitez afficher la météo.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://www.bygga.fr/wp-content/uploads/2013/02/widget.jpg&#34; alt=&#34;Utilisation du Widget&#34; width=&#34;266&#34; height=&#34;187&#34; class=&#34;size-full wp-image-674&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Ajouter facilement une table des matières dans WordPress</title>
+      <link>https://www.bygga.fr/ajouter-facilement-table-matieres-wordpress/</link>
+      <pubDate>Fri, 15 Feb 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.bygga.fr/ajouter-facilement-table-matieres-wordpress/</guid>
+      <description>
+
+&lt;h2 id=&#34;une-table-des-matières-comme-wikipedia:3bf30adf6e9f25d844ce210bb51f8381&#34;&gt;Une table des matières comme Wikipedia&lt;/h2&gt;
+
+&lt;div id=&#34;attachment_633&#34; style=&#34;width: 610px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
+  &lt;img src=&#34;http://www.bygga.fr/wp-content/uploads/2013/01/Sommaire.jpg&#34; alt=&#34;Sommaire de Wikipedia&#34; width=&#34;600&#34; height=&#34;361&#34; class=&#34;size-full wp-image-633&#34; /&gt;
+  
+  &lt;p class=&#34;wp-caption-text&#34;&gt;
+    Sommaire sur Wikipedia
+  &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div id=&#34;attachment_641&#34; style=&#34;width: 610px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
+  &lt;img src=&#34;http://www.bygga.fr/wp-content/uploads/2013/01/sommaire-bygga.jpg&#34; alt=&#34;Sommaire sur Bygga avec le Plugin&#34; width=&#34;600&#34; height=&#34;272&#34; class=&#34;size-full wp-image-641&#34; /&gt;
+  
+  &lt;p class=&#34;wp-caption-text&#34;&gt;
+    Sommaire sur Bygga avec le Plugin
+  &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Lorsque vous écrivez de longs articles qui contiennent plusieurs chapitres il est intéressant de pouvoir ajouter une table des matières (sommaire) au début de votre article.&lt;br /&gt;
+Wikipedia est un exemple de site web qui utilise une table des matières pour faciliter la navigation au sein de ses articles. Il appellent ca aussi un sommaire.&lt;/p&gt;
+
+&lt;p&gt;Il est bien sûr possible de créer cette table manuellement en prenant les titres de vos chapitres et en faisant un lien vers ceux-ci. Mais l’opération est longue et pas toujours facile en maintenance lorsque vous faites une mise à jour du contenu.&lt;/p&gt;
+
+&lt;p&gt;Heureusement il existe un &lt;a href=&#34;http://www.bygga.fr/c/code-et-plugins/plugins-wordpress/&#34; title=&#34;plugin WordPress&#34;&gt;plugin WordPress&lt;/a&gt; très pratique pour ajouter facilement une table des matières. La table est générée automatiquement et mise à jour en même temps que votre article est mis à jour.&lt;br /&gt;
+Vous pouvez choisir d’insérer la table des matières automatiquement ou bien avec un shortcode pour encore plus de personnalisation.&lt;/p&gt;
+
+&lt;h2 id=&#34;installation-et-configuration-du-plugin-wordpress:3bf30adf6e9f25d844ce210bb51f8381&#34;&gt;Installation et configuration du plugin WordPress&lt;/h2&gt;
+
+&lt;h3 id=&#34;installer-table-of-contents-plus:3bf30adf6e9f25d844ce210bb51f8381&#34;&gt;Installer Table of Contents Plus&lt;/h3&gt;
+
+&lt;div id=&#34;attachment_632&#34; style=&#34;width: 556px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
+  &lt;img src=&#34;http://www.bygga.fr/wp-content/uploads/2013/01/installer.jpg&#34; alt=&#34;Installer Table of Contents Plus&#34; width=&#34;546&#34; height=&#34;242&#34; class=&#34;size-full wp-image-632&#34; /&gt;
+  
+  &lt;p class=&#34;wp-caption-text&#34;&gt;
+    Installer Table of Contents Plus
+  &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Rendez-vous sur la page d’installation de plugins WordPress accessible depuis le chemin admin &amp;gt; Extensions &amp;gt; Ajouter&lt;br /&gt;
+Recherchez le plugin &lt;a href=&#34;http://wordpress.org/extend/plugins/table-of-contents-plus/&#34; title=&#34;Table of Contents Plus sur WordPress&#34; target=&#34;_blank&#34;&gt;Table of Contents Plus&lt;/a&gt; par Michael Tran et cliquez sur installer. Ce plugin est complètement gratuit.&lt;br /&gt;
+Une fois le plugin installé vous aller devoir le configurer sur la page Admin &amp;gt;&amp;nbsp;Réglages &amp;gt; TOC+&lt;/p&gt;
+
+&lt;h3 id=&#34;configurer-la-table-des-matières:3bf30adf6e9f25d844ce210bb51f8381&#34;&gt;Configurer la table des matières&lt;/h3&gt;
+
+&lt;p&gt;L’intérêt de ce plugin c’est que vous pouvez facilement configurer le contenu et l’aspect de la table des matières.&lt;br /&gt;
+Parmi les options les plus importantes vous pouvez noter les suivantes :&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Possibilité de choisir l’en tête de la table à afficher. Vous pouvez nommer cela &amp;laquo;&amp;nbsp;Sommaire&amp;nbsp;&amp;raquo; par exemple.&lt;/li&gt;
+&lt;li&gt;Possibilité d’inclure la table que dans les articles « longs », avec suffisamment de titres. Note : Vous pouvez mettre une très grande valeur pour afficher manuellement la table avec un shotcode plutôt qu’automatiquement. (ou utiliser &amp;#091;no_toc&amp;#093;)&lt;/li&gt;
+&lt;li&gt;Possibilité de choisir l’emplacement d&amp;rsquo;affichage de la table.&lt;/li&gt;
+&lt;li&gt;Le style (couleur, etc&amp;#8230;) est personnalisable également.&lt;/li&gt;
+&lt;li&gt;Empêcher l&amp;rsquo;affichage sur certaine page, post type&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;insérez-la-table-avec-un-shotcode:3bf30adf6e9f25d844ce210bb51f8381&#34;&gt;Insérez la table avec un shotcode&lt;/h3&gt;
+
+&lt;p&gt;Si vous choisissez d’insérer la table manuellement dans vos articles, vous devez utiliser le code suivant et le copier dans le contenu de votre article de la manière suivante : &amp;#091;toc&amp;#093;&lt;/p&gt;
+
+&lt;div id=&#34;attachment_638&#34; style=&#34;width: 610px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
+  &lt;img src=&#34;http://www.bygga.fr/wp-content/uploads/2013/01/toc.jpg&#34; alt=&#34;Insertion du shortcode&#34; width=&#34;600&#34; height=&#34;231&#34; class=&#34;size-full wp-image-638&#34; /&gt;
+  
+  &lt;p class=&#34;wp-caption-text&#34;&gt;
+    Insertion du shortcode
+  &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Vous pouvez ensuite admirer le résultat !&lt;br /&gt;
+Pour chacun de vos titres, un lien vers la section correspondante de votre article est créé automatiquement. Si vous ajoutez un titre supplémentaire, il sera automatiquement ajouté à la table sans action supplémentaire de votre part.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>3 Plugins pour ajouter facilement des tableaux dans WordPress</title>
+      <link>https://www.bygga.fr/plugins-ajouter-facilement-tableaux-wordpress/</link>
+      <pubDate>Tue, 12 Feb 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.bygga.fr/plugins-ajouter-facilement-tableaux-wordpress/</guid>
+      <description>
+
+&lt;h2 id=&#34;créer-un-tableau-pas-toujours-facile:e48967297c55d5230d46daad968547f1&#34;&gt;Créer un tableau : pas toujours facile&lt;/h2&gt;
+
+&lt;p&gt;Faire des &lt;a href=&#34;http://www.siteduzero.com/informatique/tutoriels/apprenez-a-creer-votre-site-web-avec-html5-et-css3/les-tableaux&#34; title=&#34;tableaux html&#34; target=&#34;_blank&#34;&gt;tableaux en HTML et en CSS&lt;/a&gt; c&amp;rsquo;est l&amp;rsquo;une des choses les plus chiantes que je connaisse. Que vous soyez un novice ou bien un webmaster pro, vous détestez forcement ajouter tables et tableaux à votre site web.&lt;/p&gt;
+
+&lt;p&gt;Si le tableau ne comporte que deux lignes et deux colonnes la tâche est pénible mais pas insurmontable. Au delà ca devient simplement un casse tête et une perte de temps.&lt;/p&gt;
+
+&lt;p&gt;Même WordPress qui simplifie la tâche de tout le monde en offrant une interface simple qui permet de créer du code HTML et CSS complexe n&amp;rsquo;arrive pas à offrir une bonne solution pour ces fichus tableaux.&lt;/p&gt;
+
+&lt;p&gt;Alors encore une fois, quand le squelette de WordPress arrive à ses limites il faut se tourner vers les plugins Facebook. Et heureusement il y a des programmeurs qui ont pensé à nous et nous offre des outils simples mais efficace pour créer des tableaux aux allures pro en moins de 2min.&lt;/p&gt;
+
+&lt;p&gt;Petit tour d&amp;rsquo;horizon des plugins WordPress pour créer des tableaux HTML.&lt;/p&gt;
+
+&lt;h2 id=&#34;plugin-wordpress-pour-tableaux:e48967297c55d5230d46daad968547f1&#34;&gt;Plugin WordPress pour tableaux&lt;/h2&gt;
+
+&lt;h3 id=&#34;tablepress:e48967297c55d5230d46daad968547f1&#34;&gt;TablePress&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://wordpress.org/extend/plugins/tablepress/&#34; title=&#34;TablePress sur WordPress&#34; target=&#34;_blank&#34;&gt;TablePress&lt;/a&gt; est un nouveau plugin qui à été introduit fin 2012. Il remplace le plugin WP-Table Reloaded qui est maintenant obsolete.&lt;br /&gt;
+Ce plugin WordPress pour créer et ajouter des tableaux dans votre site internet est gratuit. L&amp;rsquo;utiliser est un jeu d&amp;rsquo;enfant. L&amp;rsquo;interface est très simple. Vous choisissez la taille de votre table et vous pouvez ensuite remplir les éléments comme si vous utilisiez Excel.&lt;/p&gt;
+
+&lt;p&gt;Vous pouvez créer n&amp;rsquo;importe quel type de tableaux avec ce plugin. Voici quelques exemples :&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Classement championnat (sport, jeux vidéo)&lt;/li&gt;
+&lt;li&gt;Tableau comparatif&lt;/li&gt;
+&lt;li&gt;Liste de contact, clients&lt;/li&gt;
+&lt;li&gt;etc&amp;#8230;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Il suffit ensuite d&amp;rsquo;insérer un shortcut dans votre page/article et le tour est joué.&lt;br /&gt;
+On obtient ceci&lt;/p&gt;
+
+&lt;div id=&#34;attachment_593&#34; style=&#34;width: 610px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
+  &lt;img src=&#34;http://www.bygga.fr/wp-content/uploads/2013/01/TablePress-Demo.jpg&#34; alt=&#34;Exemple TablePress&#34; width=&#34;600&#34; height=&#34;446&#34; class=&#34;size-full wp-image-593&#34; /&gt;
+  
+  &lt;p class=&#34;wp-caption-text&#34;&gt;
+    Exemple de tableau par TablePress
+  &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;TablePress permet aussi d&amp;rsquo;importer des données, supporte le tri de colonne, la recherche, les images, etc&amp;#8230;&lt;/p&gt;
+
+&lt;h3 id=&#34;go-pricing:e48967297c55d5230d46daad968547f1&#34;&gt;Go Pricing&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://codecanyon.net/item/go-responsive-pricing-compare-tables-for-wp/3725820?ref=bygga&#34; title=&#34;Go Pricing&#34; target=&#34;_blank&#34;&gt;Go Pricing&lt;/a&gt; pour WordPress est un plugin qui permet de créer des tableaux à couper le souffle. Le design est bien plus joli que le plugin gratuit TablePress et il constitue un atout incontestable pour les sites internet qui cherchent à vendre un produit ou un service.&lt;/p&gt;
+
+&lt;p&gt;Je vous laisse voir le résultat par vous même.&lt;/p&gt;
+
+&lt;div id=&#34;attachment_596&#34; style=&#34;width: 610px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
+  &lt;a href=&#34;http://codecanyon.net/item/go-responsive-pricing-compare-tables-for-wp/3725820?ref=bygga&#34; title=&#34;Go Pricing&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;http://www.bygga.fr/wp-content/uploads/2013/01/table-prix.jpg&#34; alt=&#34;Go Princing&#34; width=&#34;600&#34; height=&#34;282&#34; class=&#34;size-full wp-image-596&#34; /&gt;&lt;/a&gt;
+  
+  &lt;p class=&#34;wp-caption-text&#34;&gt;
+    Plugin Go Pricing
+  &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Rendez-vous sur leur site pour voir plus de démo du design que vous pouvez espérer en utilisant ce plugin. Les tableaux réagissent aussi à la souris et changent de couleur ou de taille par exemple.&lt;/p&gt;
+
+&lt;p&gt;Ces tableaux sont aussi dynamiques et responsive. Cela signifie qu&amp;rsquo;il vont s&amp;rsquo;adapter à la taille de l&amp;rsquo;écran du visiteur. Un internaute sur un Iphone pourra donc toujours apprécier vos tableaux sans avoir à dézoomer.&lt;/p&gt;
+
+&lt;h3 id=&#34;pricing-tables:e48967297c55d5230d46daad968547f1&#34;&gt;Pricing Tables&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://codecanyon.net/item/css3-pricing-tables-wordpress-plugin/2060052?ref=bygga&#34; title=&#34;Pricing Table sur CodeCanyon&#34; target=&#34;_blank&#34;&gt;Pricing Tables&lt;/a&gt; est un autre plugin WordPress payant mais de bien meilleure qualité qu&amp;rsquo;un plugin gratuit. Tout comme Go Pricing, et comme son nom l&amp;rsquo;indique, l&amp;rsquo;accent est mis sur le coté business des tableaux.&lt;br /&gt;
+Si vous voulez comparer plusieurs produits et services, ce plugin est fait pour vous.&lt;br /&gt;
+L&amp;rsquo;ensemble du design peut être changé et adapté à vos goûts.&lt;/p&gt;
+
+&lt;p&gt;Voici à quoi ressemble un tableau créer avec Pricing Tables et sans toucher au HTML ou CSS.&lt;/p&gt;
+
+&lt;div id=&#34;attachment_597&#34; style=&#34;width: 610px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
+  &lt;a href=&#34;http://codecanyon.net/item/css3-pricing-tables-wordpress-plugin/2060052?ref=bygga&#34; title=&#34;Pricing Table sur CodeCanyon&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;http://www.bygga.fr/wp-content/uploads/2013/01/Pricing-Tables.jpg&#34; alt=&#34;Pricing Table&#34; width=&#34;600&#34; height=&#34;422&#34; class=&#34;size-full wp-image-597&#34; /&gt;&lt;/a&gt;
+  
+  &lt;p class=&#34;wp-caption-text&#34;&gt;
+    Tableau créer avec Pricing Table
+  &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;conclusion:e48967297c55d5230d46daad968547f1&#34;&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;Avant pour créer un tableau en HTML i fallait écrire ca :&lt;/p&gt;
+
+&lt;pre class=&#34;language-html&#34;&gt;&lt;code&gt;&amp;lt;table border=&#34;1&#34;&amp;gt;
+&amp;lt;tr&amp;gt;
+&amp;lt;th&amp;gt;Header 1&amp;lt;/th&amp;gt;
+&amp;lt;th&amp;gt;Header 2&amp;lt;/th&amp;gt;
+&amp;lt;/tr&amp;gt;
+&amp;lt;tr&amp;gt;
+&amp;lt;td&amp;gt;row 1, cell 1&amp;lt;/td&amp;gt;
+&amp;lt;td&amp;gt;row 1, cell 2&amp;lt;/td&amp;gt;
+&amp;lt;/tr&amp;gt;
+&amp;lt;tr&amp;gt;
+&amp;lt;td&amp;gt;row 2, cell 1&amp;lt;/td&amp;gt;
+&amp;lt;td&amp;gt;row 2, cell 2&amp;lt;/td&amp;gt;
+&amp;lt;/tr&amp;gt;
+&amp;lt;/table&amp;gt;&lt;/code&gt;
+&lt;/pre&gt;
+
+&lt;p&gt;Et le résultat ressemblait à ca :&lt;br /&gt;
+&lt;img src=&#34;http://www.bygga.fr/wp-content/uploads/2013/01/HTML-Tables.png&#34; alt=&#34;HTML tableau&#34; width=&#34;180&#34; height=&#34;86&#34; class=&#34;aligncenter size-full wp-image-592&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Maintenant avec ces plugins WordPress vous avez uniquement besoin d&amp;rsquo;ajouter un bout de code à votre contenu et le tour est joué !&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>10 raisons pourquoi WordPress est parfait pour les petites entreprises</title>
+      <link>https://www.bygga.fr/10-raisons-pourquoi-wordpress-parfait-petites-entreprises-pme/</link>
+      <pubDate>Wed, 06 Feb 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.bygga.fr/10-raisons-pourquoi-wordpress-parfait-petites-entreprises-pme/</guid>
+      <description>
+
+&lt;h2 id=&#34;l-importance-d-un-site-internet-pour-les-pme:39ac3dd46fbb9479a60b4e37b28cd882&#34;&gt;L&amp;rsquo;importance d&amp;rsquo;un site internet pour les PME&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://www.bygga.fr/wp-content/uploads/2013/02/wordpress-logo.png&#34; alt=&#34;Logo WordPress&#34; width=&#34;295&#34; height=&#34;295&#34; class=&#34;alignright size-full wp-image-689&#34; /&gt;&lt;br /&gt;
+Si vous avez une petite ou moyenne entreprise (PME) et que vous n&amp;rsquo;avez pas encore de site internet pour vous représenter vous perdez une bonne opportunité de booster votre chiffre d&amp;rsquo;affaire.&lt;/p&gt;
+
+&lt;p&gt;De nos jours, avoir un site internet est devenu crucial pour toutes les &lt;a href=&#34;http://www.agence-csv.com/utilite-site-internet-entreprise/&#34; title=&#34;agence-csv&#34; target=&#34;_blank&#34;&gt;entreprises&lt;/a&gt;. Avoir une présence sur le web n&amp;rsquo;est plus réservé aux grosses entreprises qui ont les moyens de mettre en place un tel outil.&lt;/p&gt;
+
+&lt;p&gt;Il est maintenant possible d&amp;rsquo;avoir un site internet pour votre société sans dépenser des sommes trop importante. Un &lt;a href=&#34;http://www.bygga.fr/20-themes-plugins-restaurant-wordpress/&#34; title=&#34;20 Thèmes et plugins pour restaurant sous WordPress&#34;&gt;restaurant pourra créer un site internet&lt;/a&gt; avec un investissement de moins de 150€ par an.&lt;/p&gt;
+
+&lt;p&gt;Voici une vidéo très bien faite qui permet de se rendre compte à quel point un site internet peut aider votre entreprise.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;On retiendra entre autre qu&amp;rsquo;un site internet peut vous aider avec points suivants :&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Donner une description de votre entreprise&lt;/li&gt;
+&lt;li&gt;Avoir un plus grand marché en ciblant nationalement et non plus localement&lt;/li&gt;
+&lt;li&gt;Avoir une foire aux questions pour faciliter le service après vente.&lt;/li&gt;
+&lt;li&gt;Avoir une présence sur les réseaux sociaux.&lt;/li&gt;
+&lt;li&gt;etc&amp;#8230;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;le-produit-miracle-wordpress:39ac3dd46fbb9479a60b4e37b28cd882&#34;&gt;Le produit miracle : WordPress&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://fr.wordpress.org/&#34; title=&#34;WordPress France&#34; target=&#34;_blank&#34;&gt;WordPress&lt;/a&gt; est une plateforme qui permet de créer des sites internet sans avoir aucune connaissance en programmation et design. Vous n&amp;rsquo;avez donc aucune raison de ne pas vous lancer. Voici en dix points, les &lt;a href=&#34;http://www.bygga.fr/5-raisons-dutiliser-wordpress-pour-developper-son-site-internet/&#34; title=&#34;5 Raisons d’utiliser WordPress pour développer son site internet&#34; target=&#34;_blank&#34;&gt;avantages de WordPress&lt;/a&gt; et pourquoi il constitue un outil indispensable pour réaliser votre site internet.&lt;/p&gt;
+
+&lt;h3 id=&#34;wordpress-est-gratuit:39ac3dd46fbb9479a60b4e37b28cd882&#34;&gt;WordPress est gratuit&lt;/h3&gt;
+
+&lt;p&gt;WordPress est un logiciel développé sous une licence qui autorise l&amp;rsquo;utilisation et la modification gratuitement, même pour un usage commercial. C&amp;rsquo;est un atout considérable pour les petites entreprises au budget limité.&lt;/p&gt;
+
+&lt;h3 id=&#34;facile-à-mettre-à-jour:39ac3dd46fbb9479a60b4e37b28cd882&#34;&gt;Facile à mettre à jour&lt;/h3&gt;
+
+&lt;p&gt;Si vous savez utiliser Microsoft Word, vous savez utiliser WordPress. Ajouter un article, une page de description, un produit ou une image est un jeu d&amp;rsquo;enfant. L&amp;rsquo;interface visuel est simple et explicite et n&amp;rsquo;importe qui peut l&amp;rsquo;utiliser, même sans avoir jamais programmé ou utiliser des logiciels compliqués dans sa vie. Aucune connaissance du HTML n&amp;rsquo;est nécessaire.&lt;/p&gt;
+
+&lt;h3 id=&#34;l-rsquo-installation-est-rapide:39ac3dd46fbb9479a60b4e37b28cd882&#34;&gt;L&amp;rsquo;installation est rapide&lt;/h3&gt;
+
+&lt;p&gt;WordPress en est fière et le met en avant. Il est possible d&amp;rsquo;installer WordPress en moins de cinq minutes et seulement une dizaine de champs sont demandé.&lt;/p&gt;
+
+&lt;h3 id=&#34;facile-à-apprendre:39ac3dd46fbb9479a60b4e37b28cd882&#34;&gt;Facile à apprendre&lt;/h3&gt;
+
+&lt;p&gt;Vous êtes un designer ou un webmaster ? Non ? Ce n&amp;rsquo;est pas grave et je vous assure que vous pouvez créer vous même votre site de A à Z sans vous arracher les cheveux. Il existe des &lt;a href=&#34;http://blog.oxidesign.fr/les-5-meilleurs-sites-pour-apprendre-wordpress/&#34; title=&#34;apprendre WordPress&#34; target=&#34;_blank&#34;&gt;centaines d&amp;rsquo;articles et de livres&lt;/a&gt; sur le sujet pour vous aider.&lt;/p&gt;
+
+&lt;h3 id=&#34;des-thèmes-par-millier:39ac3dd46fbb9479a60b4e37b28cd882&#34;&gt;Des thèmes par millier&lt;/h3&gt;
+
+&lt;p&gt;Le gros atout de WordPress c&amp;rsquo;est que l&amp;rsquo;on peut installer des thèmes, &lt;a href=&#34;http://www.bygga.fr/voila-pourquoi-il-faut-acheter-un-theme-payant-plutot-que-gratuit/&#34; title=&#34;Voilà pourquoi il faut acheter un thème payant plutôt que gratuit&#34; target=&#34;_blank&#34;&gt;gratuits ou payant&lt;/a&gt;, pour mettre en place le design de son site internet et le rendre unique. Tout cela en seulement quelques clics.&lt;br /&gt;
+Vous économisez donc le travail d&amp;rsquo;un programmeur + designer, ce qui représente une grosse somme pour une petite ou moyenne entreprise.&lt;/p&gt;
+
+&lt;h3 id=&#34;une-grosse-communauté:39ac3dd46fbb9479a60b4e37b28cd882&#34;&gt;Une grosse communauté&lt;/h3&gt;
+
+&lt;p&gt;La communauté WordPress est sans doute la plus grosse qu&amp;rsquo;il existe en comparaisons aux autres solutions (Joomla, Drupal, Blogger, etc&amp;#8230;). Si vous avez une question vous pouvez la poser, en français, sur un des nombreux &lt;a href=&#34;http://www.wordpress-fr.net/support/&#34; title=&#34;Forum WordPress France&#34; target=&#34;_blank&#34;&gt;forums&lt;/a&gt; ou sites dédiés à la plateforme.&lt;/p&gt;
+
+&lt;h3 id=&#34;une-bonne-seo:39ac3dd46fbb9479a60b4e37b28cd882&#34;&gt;Une bonne SEO&lt;/h3&gt;
+
+&lt;p&gt;WordPress est optimisé pour vous garantir un classement optimal de votre site internet sur les moteurs de recherche comme Google, Bing ou Yahoo!. C&amp;rsquo;est très important pour que les visiteurs et clients puissent facilement trouver votre entreprise sur le web.&lt;/p&gt;
+
+&lt;h3 id=&#34;solution-sécurisé:39ac3dd46fbb9479a60b4e37b28cd882&#34;&gt;Solution sécurisé&lt;/h3&gt;
+
+&lt;p&gt;Ce sont des centaines de développeurs qui travaillent sur le projet pour vous garantir la meilleure expérience en terme de vitesse, fonctions et surtout sécurité. Le coeur de WordPress est codé de manière à ce que votre site web soit en toute sécurité. Vous n&amp;rsquo;avez donc pas à craindre de perdre ou vous faire voler toutes vos données. (Cela peut arriver si les pirates vous veulent vraiment du mal. Tout le monde n&amp;rsquo;est pas à l&amp;rsquo;abri, même le &lt;a href=&#34;http://www.francesoir.fr/loisirs/nouvelles-techno/piratage-du-site-du-fbi-anonymous-revendique-sa-plus-grosse-attaque-176228.html&#34; title=&#34;Pirate FBI&#34; target=&#34;_blank&#34;&gt;FBI&lt;/a&gt; !)&lt;/p&gt;
+
+&lt;h3 id=&#34;facile-à-personnaliser:39ac3dd46fbb9479a60b4e37b28cd882&#34;&gt;Facile à personnaliser&lt;/h3&gt;
+
+&lt;p&gt;La structure de WordPress permet d&amp;rsquo;installer des &amp;laquo;&amp;nbsp;plugins&amp;nbsp;&amp;raquo; qui permettent d&amp;rsquo;ajouter des fonctions manquantes à votre site. Vous pouvez par exemple ajouter un menu pour votre site de restauration ou bien un widget pour afficher la météo.&lt;/p&gt;
+
+&lt;h3 id=&#34;restez-au-top:39ac3dd46fbb9479a60b4e37b28cd882&#34;&gt;Restez au top&lt;/h3&gt;
+
+&lt;p&gt;Vous pouvez mettre à jour la plateforme gratuitement pour obtenir les dernières fonctions et améliorations. Ces mises à jour se font en un clique et ne demande donc pas l&amp;rsquo;aide d&amp;rsquo;un webmaster.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Comment ajouter facilement Google Fonts à votre site WordPress</title>
+      <link>https://www.bygga.fr/comment-ajouter-facilement-google-fonts-a-votre-site-wordpress/</link>
+      <pubDate>Fri, 01 Feb 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.bygga.fr/comment-ajouter-facilement-google-fonts-a-votre-site-wordpress/</guid>
+      <description>
+
+&lt;p&gt;Avec l&amp;rsquo;arrivée de CSS3, il est bien plus facile d&amp;rsquo;avoir un site internet attractif. L&amp;rsquo;une des possibilités qui s&amp;rsquo;offre désormais aux concepteurs de site internet, c&amp;rsquo;est d&amp;rsquo;ajouter une police de caractère originale et ce facilement.&lt;/p&gt;
+
+&lt;p&gt;Pour cela on peut utiliser Google Web Fonts qui permet de choisir parmi plus de 616 (à l&amp;rsquo;heure de l&amp;rsquo;écriture de cet article) polices de caractère, fonts en anglais, pour votre design.&lt;/p&gt;
+
+&lt;h2 id=&#34;choisir-la-police-sur-google-web-fonts:44c967ded3d2f846781f313e7ee52790&#34;&gt;Choisir la police sur Google Web Fonts&lt;/h2&gt;
+
+&lt;p&gt;La première étape consiste à sélectionner la police de caractère qui convient le mieux à votre site. Vous pouvez choisir une ou plusieurs polices selon le design souhaité pour votre site internet. Mon conseil c&amp;rsquo;est tout de même de ne pas sélectionner plus de deux polices. Vous pouvez par exemple en avoir une pour les titres et une pour le texte.&lt;/p&gt;
+
+&lt;p&gt;Rendez-vous sur &lt;a href=&#34;http://www.google.com/webfonts&#34; title=&#34;Google Web Fonts&#34; target=&#34;_blank&#34;&gt;Google Web Fonts&lt;/a&gt; pour voir l&amp;rsquo;ensemble des polices disponibles. Grace aux onglets du haut de la page vous pouvez sélectionner un aperçu pour différent type de contenu : mot, phrase, paragraphe.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://www.bygga.fr/wp-content/uploads/2013/01/Google-Web-Fonts.jpg&#34; alt=&#34;Quick use&#34; width=&#34;600&#34; height=&#34;294&#34; class=&#34;aligncenter size-full wp-image-529&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Une fois la police choisie, cliquez sur &lt;code&gt;Quick use&lt;/code&gt;. Si la police le permet, choisissez un ou plusieurs styles pour cette font. Gardez en mémoire que plus vous en choisissez, plus le temps de chargement de votre page sera long.&lt;/p&gt;
+
+&lt;h2 id=&#34;utiliser-la-police-de-google-font-dans-wordpress:44c967ded3d2f846781f313e7ee52790&#34;&gt;Utiliser la police de Google Font dans WordPress&lt;/h2&gt;
+
+&lt;p&gt;Pour maintenant utiliser dans votre site internet vous devez suivre la procédure suivante. Cette méthode pour insérer Google Font fonctionne à la fois pour les sites sous WordPress et pour les autres.&lt;/p&gt;
+
+&lt;p&gt;Rendez vous dans le fichier qui contient la balise HTML &lt;code&gt;&amp;lt;head&amp;gt;&lt;/code&gt;Classiquement elle se situe dans le fichier &lt;code&gt;header.php&lt;/code&gt;. Insérez le code que vous avez récupéré avec votre font :&lt;br /&gt;
+&lt;img src=&#34;http://www.bygga.fr/wp-content/uploads/2013/01/Google-Web-Fonts1.jpg&#34; alt=&#34;Import Google Font&#34; width=&#34;600&#34; height=&#34;161&#34; class=&#34;aligncenter size-full wp-image-531&#34; /&gt;&lt;/p&gt;
+
+&lt;pre class=&#34;language-html&#34;&gt;&lt;code&gt;&amp;lt;link href=&#39;http://fonts.googleapis.com/css?family=Fruktur&#39; rel=&#39;stylesheet&#39; type=&#39;text/css&#39;&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Avec cette étape vous avez demandé au navigateur internet de télécharger la police de caractère directement sur le site de Google. Vous devez maintenant associer cette police à la balise que vous voulez.&lt;/p&gt;
+
+&lt;p&gt;Dans cette exemple je veux que mes titres utilisent ma nouvelle police. Allez donc dans votre fichier CSS, classiquement &lt;code&gt;style.css&lt;/code&gt; et insérez le code suivant (ou similaire selon votre cas) :&lt;/p&gt;
+
+&lt;pre class=&#34;language-css&#34;&gt;&lt;code&gt;h1, h2, h3, h4, h5, h6 {
+   font-family: &#39;Fruktur&#39;, serif;
+}&lt;/code&gt;
+&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;Explication :&lt;/strong&gt; Fruktur correspond à la police que j&amp;rsquo;ai chargé. Utilisez le nom de votre police. Sherif correspond à la police par défaut que le navigateur doit afficher s&amp;rsquo;il y a un problème pour afficher votre Google Font.&lt;/p&gt;
+
+&lt;h2 id=&#34;fonctions-avancées:44c967ded3d2f846781f313e7ee52790&#34;&gt;Fonctions avancées&lt;/h2&gt;
+
+&lt;h3 id=&#34;charger-plusieurs-polices-en-une-seule-ligne:44c967ded3d2f846781f313e7ee52790&#34;&gt;Charger plusieurs polices en une seule ligne&lt;/h3&gt;
+
+&lt;p&gt;Si vous voulez ajouter plusieurs polices en une seule fois, vous pouvez les regrouper et utiliser le séparateur | .&lt;/p&gt;
+
+&lt;pre class=&#34;language-html&#34;&gt;&lt;code&gt;&amp;lt;link href=&#39;http://fonts.googleapis.com/css?family=Fruktur|Stalemate&#39; rel=&#39;stylesheet&#39; type=&#39;text/css&#39;&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;ajouter-un-effet-à-la-police:44c967ded3d2f846781f313e7ee52790&#34;&gt;Ajouter un effet à la police&lt;/h3&gt;
+
+&lt;p&gt;Google teste une nouvelle fonctionnalité qui pour le moment n&amp;rsquo;est pas supportée par tous les navigateurs internet. Vous pouvez consulter la liste de tous les effets et leur compatibilité &lt;a href=&#34;https://developers.google.com/webfonts/docs/getting_started?#Effects&#34; title=&#34;Google Web Font effets&#34; target=&#34;_blank&#34;&gt;ici&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://www.bygga.fr/wp-content/uploads/2013/01/animation.jpg&#34; alt=&#34;Effet google Font&#34; width=&#34;600&#34; height=&#34;306&#34; class=&#34;aligncenter size-full wp-image-541&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Par exemple si je veux utiliser l&amp;rsquo;effet &amp;laquo;&amp;nbsp;feu&amp;nbsp;&amp;raquo; je peux charger la police comme précédemment mais en ajoutant le nom de l&amp;rsquo;effet dans l&amp;rsquo;url.&lt;/p&gt;
+
+&lt;pre class=&#34;language-html&#34;&gt;&lt;code&gt;&amp;lt;link href=&#39;http://fonts.googleapis.com/css?family=Fruktur|Stalemate&amp;amp;effect=fire&#39; rel=&#39;stylesheet&#39; type=&#39;text/css&#39;&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Je peux ensuite simple utiliser cet effet en le ciblant comme classe d&amp;rsquo;un &lt;code&gt;&lt;pre&gt;&amp;lt;div&amp;gt;&lt;/pre&gt;&lt;/code&gt; par exemple. Pour cela il faut utiliser la classe : &amp;laquo;&amp;nbsp;font-effect&amp;nbsp;&amp;raquo; suivit du nom de l&amp;rsquo;effet.&lt;br /&gt;
+Ce qui donne :&lt;/p&gt;
+
+&lt;pre class=&#34;language-html&#34;&gt;&lt;code&gt;&amp;lt;div class=&#34;font-effect-fire&#34;&amp;gt;Je suis en feu&amp;lt;div&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Comment facilement afficher une date et une heure sur WordPress</title>
+      <link>https://www.bygga.fr/comment-facilement-afficher-une-date-et-une-heure-sur-wordpress/</link>
+      <pubDate>Thu, 17 Jan 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.bygga.fr/comment-facilement-afficher-une-date-et-une-heure-sur-wordpress/</guid>
+      <description>
+
+&lt;p&gt;Voici une petite astuce qui permet d&amp;rsquo;afficher facilement et rapidement une sous WordPress sans connaissance en PHP ou autres languages.&lt;/p&gt;
+
+&lt;p&gt;Vous pouvez afficher au choix la date et l&amp;rsquo;heure actuelle ou la date de mise en ligne d&amp;rsquo;un article.&lt;/p&gt;
+
+&lt;h2 id=&#34;date-et-heure-actuelle:c771eb48feabe623691a57f1c98691c3&#34;&gt;Date et heure actuelle&lt;/h2&gt;
+
+&lt;p&gt;La solution ne prend qu&amp;rsquo;une seule ligne et vous devez la copier telle quelle à l&amp;rsquo;endroit où vous voulez que la date soit affichée.&lt;/p&gt;
+
+&lt;p&gt;Pour afficher la date actuelle telle que définie dans votre tableau de bord &amp;gt; Réglages &amp;gt;&amp;nbsp;Général, on va utiliser la fonction php &lt;code&gt;&lt;a href=&#34;http://php.net/manual/fr/function.date.php&#34; title=&#34;date PHP&#34; target=&#34;_blank&#34;&gt;date()&lt;/a&gt;&lt;/code&gt;&lt;/p&gt;
+
+&lt;pre class=&#34;language-php&#34;&gt;
+&lt;code&gt;&amp;lt;?php echo date(get_option(&#39;date_format&#39;)); ?&amp;gt;&lt;/code&gt;
+&lt;/pre&gt;
+
+&lt;p&gt;Pour afficher l&amp;rsquo;heure actuelle telle que définie dans votre tableau de bord &amp;gt; Réglages &amp;gt;&amp;nbsp;Général&lt;/p&gt;
+
+&lt;pre class=&#34;language-php&#34;&gt;&lt;code&gt;&amp;lt;?php echo date(get_option(&#39;time_format&#39;)); ?&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;date-de-mise-en-ligne-d-rsquo-une-article:c771eb48feabe623691a57f1c98691c3&#34;&gt;Date de mise en ligne d&amp;rsquo;une article.&lt;/h2&gt;
+
+&lt;p&gt;Voici maintenant comment afficher la date à laquelle un article a été mis en ligne. Vous avez deux choix possible :&lt;br /&gt;
+Une date absolue, classique qui vous donne comme résultat par exemple : 17 janvier 2013.&lt;br /&gt;
+Code à insérer au sein de la boucle WordPress, par exemple dans votre fichier &lt;code&gt;single.php&lt;/code&gt;&lt;/p&gt;
+
+&lt;pre class=&#34;language-php&#34;&gt;&lt;code&gt;&amp;lt;p&amp;gt;Date de publication : &amp;lt;?php the_date(); ?&amp;gt;&amp;lt;/p&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Documentation sur la fonction &lt;a href=&#34;http://codex.wordpress.org/fr:Marqueurs_de_Modele/the_date&#34; title=&#34;the_date WordPress&#34; target=&#34;_blank&#34;&gt;ici&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Ou bien vous pouvez afficher une date relative, par rapport à l&amp;rsquo;instant présent (comme sur Facebook, Twitter, etc&amp;#8230;) du type : il y a 15 jours.&lt;br /&gt;
+Code à insérer au sein de la boucle WordPress, par exemple dans votre fichier &lt;code&gt;single.php&lt;/code&gt;&lt;/p&gt;
+
+&lt;pre class=&#34;language-php&#34;&gt;
+&lt;code&gt;&amp;lt;p&amp;gt;Article mise en ligne il y a : &amp;lt;?php echo human_time_diff( get_the_time(&#39;U&#39;), current_time(&#39;timestamp&#39;) ); ?&amp;gt;&amp;lt;/p&amp;gt;&lt;/code&gt;
+&lt;/pre&gt;
+
+&lt;p&gt;Note : Si vous voulez faire de même pour un commentaire au lieu d&amp;rsquo;un article vous pouvez remplacer la fonction &lt;code&gt;get_the_time()&lt;/code&gt; par la fonction &lt;code&gt;get_comment_time()&lt;/code&gt;. Ce qui donne :&lt;/p&gt;
+
+&lt;pre class=&#34;language-php&#34;&gt;
+&lt;code&gt;&amp;lt;p&amp;gt;Commentaire écrit il y a : &amp;lt;?php echo human_time_diff( get_comment_time(&#39;U&#39;), current_time(&#39;timestamp&#39;) ); ?&amp;gt;&amp;lt;/p&amp;gt;&lt;/code&gt;
+&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>5 Raisons d&#39;utiliser WordPress pour développer son site internet</title>
+      <link>https://www.bygga.fr/5-raisons-dutiliser-wordpress-pour-developper-son-site-internet/</link>
+      <pubDate>Tue, 02 Oct 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.bygga.fr/5-raisons-dutiliser-wordpress-pour-developper-son-site-internet/</guid>
+      <description>
+
+&lt;h2 id=&#34;wordpress-est-un-framework:11e3ab83188059c79f6ab6b6ab29327a&#34;&gt;WordPress est un framework&lt;/h2&gt;
+
+&lt;p&gt;Lorsque vous voulez créer un site internet, que ce soit un blog personnel ou bien le site de votre entreprise, vous avez deux solutions. Vous pouvez programmer l&amp;rsquo;intégralité du code et du design en partant de zéro ou bien utiliser un &lt;a href=&#34;http://fr.wikipedia.org/wiki/Syst%C3%A8me_de_gestion_de_contenu&#34; title=&#34;CMS sur Wikipedia&#34; target=&#34;_blank&#34;&gt;CMS&lt;/a&gt;, un gestionnaire de contenu qui facilite la construction et l&amp;rsquo;utilisation de votre site en offrant un interface entre le code et vous.&lt;br /&gt;
+Bien sûr je vous conseille la seconde solution. Et parmi les différents CMS sur le marché je vous suggère le plus populaire : WordPress.&lt;br /&gt;
+Voici donc mes 5 raisons de vous laisser séduire par ce soft pour créer votre site internet.&lt;/p&gt;
+
+&lt;h2 id=&#34;wordpress-est-gratuit:11e3ab83188059c79f6ab6b6ab29327a&#34;&gt;WordPress est gratuit&lt;/h2&gt;
+
+&lt;p&gt;WordPress est développé en tant que logiciel &lt;a href=&#34;http://fr.wikipedia.org/wiki/Open_source&#34; title=&#34;Open Source sur Wikipedia&#34; target=&#34;_blank&#34;&gt;Open Source&lt;/a&gt;. Cela signifie qu’il peut être utilisé et modifier gratuitement. Vous allez donc pouvoir économiser de l’argent sur les licences.&lt;br /&gt;
+L’intérêt d’un logiciel gratuit pour créer votre site internet c’est que vous pouvez toujours changer d’avis sans regrets. Vous pouvez tester WordPress et si vous êtes déçu, cela ne vous aura rien couté.&lt;/p&gt;
+
+&lt;h2 id=&#34;wordpress-est-populaire:11e3ab83188059c79f6ab6b6ab29327a&#34;&gt;WordPress est populaire&lt;/h2&gt;
+
+&lt;p&gt;Un nombre incroyable de sites web possèdent WordPress comme squelette. Et l’on ne parle pas uniquement des blogs ici.&lt;br /&gt;
+Cela signifie que lorsqu’un produit est populaire, on trouve plein de ressources à son sujet. La communauté de programmeurs, designers et bloggeurs autour de WordPress est impressionnante.&lt;br /&gt;
+Il existe de nombreux site internet sur WordPress, comme celui-ci, et lorsque vous posez une question sur le forum officiel, vous êtes sûr d’avoir une réponse détaillée sans délais.&lt;/p&gt;
+
+&lt;h2 id=&#34;wordpress-est-facile-à-utiliser:11e3ab83188059c79f6ab6b6ab29327a&#34;&gt;WordPress est facile à utiliser&lt;/h2&gt;
+
+&lt;p&gt;Si vous êtes &lt;a href=&#34;http://www.bygga.fr/c/code-et-plugins/guide-debutant/&#34; title=&#34;Guide du débutant WordPress&#34; target=&#34;_blank&#34;&gt;débutant et amateur&lt;/a&gt; dans le développement de siteweb, ne vous inquiétez pas, WordPress est très facile à prendre en main.&lt;br /&gt;
+Vous pouvez facilement écrire un article, créer des formulaires de contact, une description de produit sans aucune nécessité d’écrire une seule ligne de code.&lt;br /&gt;
+Rédiger un article sous WordPress c’est comme rédiger un article sous Word.&lt;br /&gt;
+Mais même s’il est facile à utiliser il en reste pas moins très puissant. Un bon programmeur peut facilement modifier l’ensemble du code et ajouter des fonctions pour satisfaire les besoins de chaque entreprises.&lt;/p&gt;
+
+&lt;h2 id=&#34;wordpress-est-polyvalent:11e3ab83188059c79f6ab6b6ab29327a&#34;&gt;WordPress est polyvalent&lt;/h2&gt;
+
+&lt;p&gt;WordPress c’est une sorte de squelette. Le &lt;a href=&#34;http://www.bygga.fr/c/design/&#34; title=&#34;Website design&#34; target=&#34;_blank&#34;&gt;design de votre site&lt;/a&gt;, ses couleurs, son apparence est définie dans le thème que vous superposé au squelette. Puisque WordPress est si populaire il existe un &lt;a href=&#34;http://www.themeforest.com/?ref=bygga&#34; title=&#34;Thèmes WordPress&#34; target=&#34;_blank&#34;&gt;large choix de thèmes&lt;/a&gt; qui répondent à l’ensemble de vos désirs et attentes. Certain sont gratuits, d’autres disponibles pour environ 30€.&lt;br /&gt;
+Et toutes les catégories d’entreprises et site internet sont représentée. Trouvez des thèmes pour e-commerce, blogs, entreprises, portfolio, photographies, vidéos, etc…&lt;/p&gt;
+
+&lt;h2 id=&#34;wordpress-est-sûr:11e3ab83188059c79f6ab6b6ab29327a&#34;&gt;WordPress est sûr&lt;/h2&gt;
+
+&lt;p&gt;Cela fait une dizaine d’années que WordPress est sur le marché et s’améliore. Il n’existe donc quasiment aucun bug et aucune brèche de sécurité. Votre site devrait donc résister aux attaques des hackeurs. Même s’il est mis en ligne gratuitement, WordPress est développé par des professionnels et testé chaque jour par des millions d’utilisateurs qui reportent chaque petit problème. En cas de brèche de sécurité détectée, une mise à jour est mise à disposition dans les jours qui suivent.&lt;br /&gt;
+Vous pouvez aussi installer des plugins gratuits pour pousser encore un peu plus la sécurité sur votre site. (Limiter les tentatives de connexion à 3 essais par exemple).&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Différencier les commentaires de l’auteur de ceux des visiteurs sous WordPress</title>
+      <link>https://www.bygga.fr/differencier-les-commentaires-de-lauteur-de-ceux-des-visiteurs-sous-wordpress/</link>
+      <pubDate>Thu, 27 Sep 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.bygga.fr/differencier-les-commentaires-de-lauteur-de-ceux-des-visiteurs-sous-wordpress/</guid>
+      <description>
+
+&lt;h2 id=&#34;pourquoi-personnaliser-les-commentaires-de-l-auteur:d0623d004d8ccf29a58fd87b183ece2f&#34;&gt;Pourquoi personnaliser les commentaires de l&amp;rsquo;auteur&lt;/h2&gt;
+
+&lt;p&gt;Il est souvent intéressant pour les visiteurs de pouvoir faire la distinction entre les commentaires de l’auteur d’un article ou bien de l’admin d’un site, de ceux des visiteurs.&lt;/p&gt;
+
+&lt;p&gt;En mettant en valeur certain commentaire on améliore l’expérience des utilisateurs. &lt;strong&gt;Par exemple un visiteur donnera plus d’importance dans un débat aux remarques de l’auteur de l’article.&lt;/strong&gt; Le visiteur pourra également se rendre compte si le débat est vivant en notant rapidement le nombre d’intervention de l’auteur.&lt;/p&gt;
+
+&lt;p&gt;Il existe plusieurs manières de mettre en avant les commentaires d’un utilisateur. On peut :&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Donner une différente couleur aux commentaires de l’auteur&lt;/li&gt;
+&lt;li&gt;Ajouter une bordure aux commentaires de l’auteur&lt;/li&gt;
+&lt;li&gt;Ajouter un symbole à côté du nom de l’auteur&lt;/li&gt;
+&lt;li&gt;Ajouter un ruban au commentaire de l’auteur&lt;/li&gt;
+&lt;li&gt;…&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;modification-de-la-classe-du-commentaire:d0623d004d8ccf29a58fd87b183ece2f&#34;&gt;Modification de la classe du commentaire&lt;/h2&gt;
+
+&lt;p&gt;La première chose à faire, quelque soit le &lt;a href=&#34;http://www.bygga.fr/c/design/&#34; title=&#34;Design WordPress&#34; target=&#34;_blank&#34;&gt;design&lt;/a&gt; que vous voulez avoir pour le commentaire de l&amp;rsquo;auteur est d&amp;rsquo;indiquer qu&amp;rsquo;il s&amp;rsquo;agit du commentaire de l&amp;rsquo;auteur. Rien de bien surprenant jusque là ! Ce qui est surprenant c&amp;rsquo;est que c&amp;rsquo;est super simple depuis une mise à jour récente de WordPress. Pas besoin de nombreuses lignes de code PHP pour faire cela.&lt;br /&gt;
+Ouvrez votre fichier &lt;code&gt;comment.php&lt;/code&gt; et cherchez la ligne suivante :&lt;/p&gt;
+
+&lt;pre class=&#34;language-php&#34;&gt;
+&lt;code&gt;
+// dans votre fichier comment.php.
+&amp;lt;?php wp_list_comments(array(&#39;callback&#39; =&amp;gt; &#39;comment_callback&#39;)); ?&amp;gt;
+&lt;/code&gt;
+&lt;/pre&gt;
+
+&lt;p&gt;Identifiez le nom de la fonction après &amp;lsquo;callback&amp;rsquo;. Ici il s&amp;rsquo;agit de &amp;lsquo;&lt;a href=&#34;https://codex.wordpress.org/Function_Reference/wp_list_comments&#34; title=&#34;wp_list_comments&#34; target=&#34;_blank&#34;&gt;comment_callback&lt;/a&gt;&amp;lsquo;. Ca peut être différent pour vous.&lt;br /&gt;
+Rendez vous ensuite dans votre fichier &lt;code&gt;fonction.php&lt;/code&gt; et chercher la fonction comment_callback (ou bien le nom de la fonction identifiée précédemment).&lt;br /&gt;
+Dans cette fonction allez sur la première balise &lt;code&gt;&amp;lt;li&amp;gt;&lt;/code&gt; et ajoutez la fonction &lt;code&gt;comment_class()&lt;/code&gt; comme ceci :&lt;/p&gt;
+
+&lt;pre class=&#34;language-php&#34;&gt;
+&lt;code&gt;
+// dans votre fonction comment_callback
+function comment_callback( $comment, $args, $depth ) {
+?&amp;gt;
+    &amp;lt;li &amp;lt;?php comment_class(); ?&amp;gt; id=&#34;comment-&amp;lt;?php comment_ID(); ?&amp;gt;&#34;&amp;gt;
+        &amp;lt;div class=&#34;comment-wrapper clearfix&#34;&amp;gt;
+...
+&lt;/code&gt;
+&lt;/pre&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://codex.wordpress.org/Function_Reference/comment_class&#34; title=&#34;Fonction comment_class&#34; target=&#34;_blank&#34;&gt;comment_class()&lt;/a&gt; va automatiquement créer la classe class=&amp;nbsp;&amp;raquo;bypostauthor&amp;nbsp;&amp;raquo; si l&amp;rsquo;auteur du commentaire est aussi l&amp;rsquo;auteur de l&amp;rsquo;article. Exactement ce qu&amp;rsquo;il nous faut.&lt;/p&gt;
+
+&lt;h2 id=&#34;exemple-1-changer-la-couleur-du-commentaire-de-l-auteur:d0623d004d8ccf29a58fd87b183ece2f&#34;&gt;Exemple 1 : Changer la couleur du commentaire de l’auteur&lt;/h2&gt;
+
+&lt;p&gt;Pour cette exemple nous allons changer la couleur du background du commentaire. S’il s’agit d’un commentaire provenant d’un visiteur la couleur sera blanche. S’il s’agit d’un commentaire de l’auteur de l’article, la couleur de son commentaire sera grise.&lt;br /&gt;
+Une fois la modification faite dans votre fonction &amp;lsquo;callback&amp;rsquo; vous allez pouvoir modifier le style du commentaire dans le fichier de style de votre site, souvent appelé &lt;code&gt;style.css&lt;/code&gt;.&lt;br /&gt;
+Ajoutez le code suivant pour avoir un fond gris lorsque l&amp;rsquo;auteur commente.&lt;/p&gt;
+
+&lt;pre class=&#34;language-css&#34;&gt;
+&lt;code&gt;
+.bypostauthor{ 
+    background: #BDBDBD !important;
+}
+&lt;/code&gt;
+&lt;/pre&gt;
+
+&lt;h2 id=&#34;exemple-2-ajouter-une-bordure-au-commentaire:d0623d004d8ccf29a58fd87b183ece2f&#34;&gt;Exemple 2 : Ajouter une bordure au commentaire&lt;/h2&gt;
+
+&lt;p&gt;Cette fois on voudrait ajouter une bordure rouge aux commentaires de l&amp;rsquo;auteur de l&amp;rsquo;article. Pour ca ajouter le code suivant au fichier &lt;code&gt;style.css&lt;/code&gt;.&lt;/p&gt;
+
+&lt;pre class=&#34;language-css&#34;&gt;
+&lt;code&gt;
+.bypostauthor{ 
+    border:2px solid red !important;
+}
+&lt;/code&gt;
+&lt;/pre&gt;
+
+&lt;p&gt;Laissez votre imagination travailler pour styler les commentaires de l&amp;rsquo;auteur comme vous voulez. Laissez nous votre site en commentaire et on ira voir comment vous avez stylé vos commentaires !&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Comment faciliter la traduction de son thème WordPress</title>
+      <link>https://www.bygga.fr/comment-faciliter-la-traduction-de-son-theme-wordpress/</link>
+      <pubDate>Wed, 26 Sep 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.bygga.fr/comment-faciliter-la-traduction-de-son-theme-wordpress/</guid>
+      <description>
+
+&lt;h2 id=&#34;wordpress-l-rsquo-anglais-et-le-français:c83652d1631de9d477db1f881436549a&#34;&gt;WordPress, l&amp;rsquo;anglais et le français&lt;/h2&gt;
+
+&lt;p&gt;L&amp;rsquo;anglais est de loin la langue la plus utilisée dans &lt;a href=&#34;http://www.bygga.fr/c/design/selection-de-themes/&#34; title=&#34;Thème WordPress&#34;&gt;les thèmes WordPress&lt;/a&gt;. Il est très rare qu&amp;rsquo;un thème soit mis en vente sous une autre langue. Mais cela ne doit pas empêcher les utilisateurs d&amp;rsquo;avoir le thème sur un site en français ou en espagnol.&lt;/p&gt;
+
+&lt;p&gt;Il est donc important que le développeur du thème permette la &lt;a href=&#34;http://www.bygga.fr/comment-traduire-un-theme-wordpress-en-francais/&#34; title=&#34;Comment traduire un thème WordPress en francais&#34;&gt;traduction&lt;/a&gt; de son thème d&amp;rsquo;une manière aisée sans avoir à changer manuellement l&amp;rsquo;ensemble du texte.&lt;/p&gt;
+
+&lt;p&gt;Les développeurs de WordPress ont pensé à tout et mettent à la disposition des programmeurs, deux fonctions PHP pour permettre la traduction : &lt;code&gt;_e()&lt;/code&gt; et &lt;code&gt;__()&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;utilisation-de-e-et:c83652d1631de9d477db1f881436549a&#34;&gt;Utilisation de _e() et __()&lt;/h2&gt;
+
+&lt;p&gt;Lorsque vous ajoutez du texte au thème que vous développez, faites le passer en argument de la fonction &lt;code&gt;_e()&lt;/code&gt;.&lt;br /&gt;
+Example :
+&lt;pre class=&#34;language-php&#34;&gt;
+&lt;code&gt;
+_e(All rights reserved,&amp;lsquo;bygga&amp;rsquo;);
+&lt;/code&gt;
+&lt;/pre&gt;
+Le texte All rights reserved sera affiché, à moins qu&amp;rsquo;il n’existe un fichier de localisation en français, de nom &amp;lsquo;bygga&amp;rsquo; et une traduction française sera affichée à la place.&lt;br /&gt;
+L&amp;rsquo;avantage c&amp;rsquo;est que le futur utilisateur n&amp;rsquo;a pas besoin de parcourir l&amp;rsquo;ensemble de votre code pour trouver les textes à modifier.&lt;/p&gt;
+
+&lt;p&gt;Si vous ne souhaitez pas directement afficher le texte, mais l&amp;rsquo;utiliser en tant que variable, utiliser la fonction &lt;code&gt;__()&lt;/code&gt; à la place.&lt;br /&gt;
+&lt;code&gt;_e()&lt;/code&gt; est équivalent à &lt;code&gt;&amp;lt;?php echo __(); ?&amp;gt;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Si vous souhaitez plus d&amp;rsquo;information sur ces fonctions et leurs petites soeurs, vous pouvez consulter directement le &lt;a href=&#34;http://codex.wordpress.org/Translating_WordPress&#34; title=&#34;traduire WordPress&#34; target=&#34;_blank&#34;&gt;codex de WordPress&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;outil-de-traduction:c83652d1631de9d477db1f881436549a&#34;&gt;Outil de traduction&lt;/h2&gt;
+
+&lt;p&gt;L&amp;rsquo;utilisateur à la possibilité de traduire manuellement le texte que vous avez inséré grâce à ces deux fonctions en utilisant notamment le plugin &lt;a href=&#34;http://wordpress.org/extend/plugins/codestyling-localization/&#34; title=&#34;Codestyling Localization Plugin&#34; target=&#34;_blank&#34;&gt;Codestyling Localization&lt;/a&gt;&lt;br /&gt;
+Vous pouvez trouver un tuto sur ce plugin dans notre article sur la &lt;a href=&#34;http://www.bygga.fr/comment-traduire-un-theme-wordpress-en-francais/&#34; title=&#34;Comment traduire un thème WordPress en francais&#34; target=&#34;_blank&#34;&gt;traduction d&amp;rsquo;un thème en français&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Comment créer un barre de navigation fixe en bas d&#39;une page</title>
+      <link>https://www.bygga.fr/comment-creer-un-barre-de-navigation-fixe-en-bas-dune-page/</link>
+      <pubDate>Sat, 22 Sep 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.bygga.fr/comment-creer-un-barre-de-navigation-fixe-en-bas-dune-page/</guid>
+      <description>
+
+&lt;h2 id=&#34;exemple-d-une-barre-fixe-en-pied-de-page-de-wordpress:e78ab0274b1bdc4bb37918fb491f5e79&#34;&gt;Exemple d&amp;rsquo;une barre fixe en pied de page de WordPress&lt;/h2&gt;
+
+&lt;p&gt;Parce que des fois une image fonctionne mieux que des mots, voici ce que nous allons créer : La barre noire en bas de ce site.&lt;br /&gt;
+&lt;img src=&#34;http://www.bygga.fr/wp-content/uploads/2012/09/fixe-barre.png&#34; alt=&#34;Barre noire fixe en bas de la page&#34; title=&#34;fixe-barre&#34; width=&#34;500&#34; height=&#34;245&#34; class=&#34;aligncenter size-full wp-image-329&#34; /&gt;&lt;br /&gt;
+Il s’agit d’une barre personnalisable, qui reste fixe en bas de votre écran, même lorsque vous vous déplacez sur la page.&lt;br /&gt;
+Dans cette exemple, le contenu est un lien, mais on peut imaginer y trouver une image, une bannière publicitaire, un fil d’actualité, un menu de navigation.&lt;/p&gt;
+
+&lt;h2 id=&#34;quel-intérêt-de-créer-une-barre-fixe:e78ab0274b1bdc4bb37918fb491f5e79&#34;&gt;Quel intérêt de créer une barre fixe ?&lt;/h2&gt;
+
+&lt;p&gt;Hum… parce que le visiteur de votre site va toujours la voir ! Quel que soit le contenu qu’il voit et sa position sur la page, la barre sera là.&lt;/p&gt;
+
+&lt;p&gt;P&lt;strong&gt;ratique donc pour attirer son attention sur quelque chose : une publicité, un lien vers un article, une information importante, ou bien votre menu de navigation.&lt;/strong&gt; Soyez créatif avec son usage.&lt;/p&gt;
+
+&lt;h2 id=&#34;comment-ajouter-cette-barre-sur-mon-site:e78ab0274b1bdc4bb37918fb491f5e79&#34;&gt;Comment ajouter cette barre sur mon site&lt;/h2&gt;
+
+&lt;p&gt;Puisque ce site est spécialisé sur la plateforme WordPress, je vais vous donner l’exemple pour WordPress. A vous de l’adapté pour un site quelconque.&lt;/p&gt;
+
+&lt;p&gt;Rendez-vous dans votre fichier &lt;code&gt;footer.php&lt;/code&gt; et copiez le code HTML juste avant la balise &lt;code&gt;&amp;lt;/body&amp;gt;&lt;/code&gt;.&lt;br /&gt;
+Dans cette exemple, la barre va afficher un simple lien, statique.&lt;/p&gt;
+
+&lt;pre class=&#34;language-html&#34;&gt;
+&lt;code&gt;
+&amp;lt;div class=&#34;fixedBar&#34;&amp;gt;
+        &amp;lt;div class=&#34;boxfloat&#34;&amp;gt;
+               &amp;lt;ul id=&#34;tips&#34;&amp;gt;
+                       &amp;lt;li&amp;gt;&amp;lt;a href=&#34;http://www.bygga.fr/&#34;&amp;gt;Lien vers Bygga&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;                    
+               &amp;lt;/ul&amp;gt;
+        &amp;lt;/div&amp;gt;
+&amp;lt;/div&amp;gt;
+&lt;/code&gt;
+&lt;/pre&gt;
+
+&lt;p&gt;Insérez ensuite le code suivant dans votre fichier de style CSS. Il est souvent appelé &lt;code&gt;style.css&lt;/code&gt;.&lt;br /&gt;
+Il s’agit du code pour styler la barre. Dans ce cas elle sera noire et le texte blanc.&lt;/p&gt;
+
+&lt;pre class=&#34;language-css&#34;&gt;
+&lt;code&gt;
+/*Barre fixe dans le pied de page*/
+/*Pour changer la couleur du fond remplacez #000, pour la couleur du texte #fff. Taille de la police de caractère 16px*/ 
+.fixedBar{background: #000; bottom: 0px; color:#fff; font-family: Arial, Helvetica, sans-serif; left:0; padding: 0px 0; position:fixed; font-size:16px; width:100%; z-index:99999; float:left; vertical-align:middle; margin: 0px 0 0; opacity: 0.95; font-weight: bold;}
+ 
+.boxfloat{text-align:center; width:920px; margin:0 auto}
+ 
+#tips, #tips li{margin:0; padding:0; list-style:none}
+#tips{width:920px; font-size:20px; line-height:120%;}
+#tips li{padding: 15px 0; display:none}
+#tips li a{color: #fff;}
+#tips li a:hover{text-decoration: none;}
+&lt;/code&gt;
+&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Il est possible de modifier la couleur et la taille en modifiant le code CSS copié dans le fichier &lt;code&gt;style.css&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Si vous voulez afficher un lien dynamique, différent sur chaque page, vous pouvez ajouter du langage PHP ou Jquery au lien.&lt;/li&gt;
+&lt;li&gt;Pour ajouter une bannière copiez juste votre code (code Adsense par exemple) à la place de la balise &lt;code&gt;&amp;lt;a&amp;gt;&lt;/code&gt; dans le footer.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Cette astuce s’inspire d’un article paru sur &lt;a href=&#34;http://www.wpbeginner.com/wp-tutorials/how-to-create-a-sticky-floating-footer-bar-in-wordpress/&#34; title=&#34;barre navigation fixe&#34;&gt;WPBeginner.com&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Plugin WordPress pour citer vos sources en pied de page</title>
+      <link>https://www.bygga.fr/plugin-wordpress-pour-citer-vos-sources-en-pied-de-page/</link>
+      <pubDate>Sat, 22 Sep 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.bygga.fr/plugin-wordpress-pour-citer-vos-sources-en-pied-de-page/</guid>
+      <description>
+
+&lt;h2 id=&#34;intérêt-de-citer-vos-sources:9c1d699afec09612a972572568f73ac4&#34;&gt;Intérêt de citer vos sources&lt;/h2&gt;
+
+&lt;p&gt;Il y a trois intérêts majeurs de citer les sources utilisées pour écrire un de vos articles :&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Augmenter votre réputation&lt;/strong&gt; en rendant vos articles plus fiables et crédibles aux yeux de vos lecteurs&lt;/li&gt;
+&lt;li&gt;Rester honnête auprès de vos lecteurs et indiqué qu’un contenu ne provient pas de vous mais d’un autre site.&lt;/li&gt;
+&lt;li&gt;Ajouter une note à un commentaire sans avoir à faire une trop grande transgression dans votre argumentation.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;plugin-wordpress-simple-footnotes:9c1d699afec09612a972572568f73ac4&#34;&gt;Plugin WordPress : Simple FootNotes&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://www.bygga.fr/wp-content/uploads/2012/09/simple-footnotes.png&#34; alt=&#34;Plugin WordPress Simple Footnotes&#34; title=&#34;simple-footnotes&#34; width=&#34;574&#34; height=&#34;197&#34; class=&#34;aligncenter size-full wp-image-342&#34; /&gt;&lt;br /&gt;
+&lt;a href=&#34;http://wordpress.org/extend/plugins/simple-footnotes/&#34; title=&#34;simple footnotes&#34;&gt;Simple FootNotes&lt;/a&gt; permet de d’ajouter facilement des notes à la fin de vos articles pour citer vos sources ou bien apporter une précision sur l’une de vos remarques.&lt;br /&gt;
+J’aime ce plugin parce qu’il est très simple d’utilisation [ref]Je l&amp;rsquo;utilise sur mon site[/ref]. Il suffit uniquement d’utiliser le shortcode mis à disposition. Le &lt;a href=&#34;http://www.bygga.fr/c/code-et-plugins/plugins-wordpress/&#34; title=&#34;Plugin WordPress&#34;&gt;plugin&lt;/a&gt; se charge d’afficher votre citation en fin d’article.&lt;br /&gt;
+Pour utiliser écrire une note vous devez uniquement mettre votre citation entre le shortcode &amp;#91;ref&amp;#93;.&lt;br /&gt;
+Par exemple :&lt;/p&gt;
+
+&lt;pre&gt;Bygga est un super site. &amp;#91;ref&amp;#93;Un grand journal.&amp;#91;/ref&amp;#93;&lt;/pre&gt;
+
+&lt;p&gt;Le plugin va automatiquement assigné un chiffre à votre citation et faire un lien vers le bas de votre page avec votre note. Cela marche sur le même principe que les &lt;a href=&#34;http://fr.wikipedia.org/wiki/Aide:Note&#34; title=&#34;Notes sur Wikipedia&#34;&gt;notes sur Wikipedia&lt;/a&gt;.&lt;br /&gt;
+En parlant de Wikipedia, j&amp;rsquo;aimerais vous faire remarqué que depuis l&amp;rsquo;introduction des notes et citations, Wikipedia à vu son status passé de simple site internet, à une encyclopédie référence et crédible. Donc faites de même avec votre site en y ajoutant ce plugin.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Afficher le nombre de fans Facebook, Twitter, RSS dans WordPress</title>
+      <link>https://www.bygga.fr/afficher-le-nombre-de-fans-facebook-twitter-rss-dans-wordpress/</link>
+      <pubDate>Mon, 17 Sep 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.bygga.fr/afficher-le-nombre-de-fans-facebook-twitter-rss-dans-wordpress/</guid>
+      <description>
+
+&lt;p&gt;Voici une astuce rapide pour afficher votre nombre de personne qui se sont abonné à votre flux RSS, votre page Facebook ou bien votre compte Twitter.&lt;br /&gt;
+Ces données sont récupéré par PHP en utilisant les API des différents services. Voici le code que vous devez ajouter dans votre fichier function.php. Aucun plugin nécessaire.&lt;br /&gt;
+&lt;img src=&#34;http://www.bygga.fr/wp-content/uploads/2012/09/Fan-Facebook.png&#34; alt=&#34;Afficher Fan Facebook&#34; title=&#34;Fan-Facebook&#34; width=&#34;311&#34; height=&#34;125&#34; class=&#34;aligncenter size-full wp-image-250&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;afficher-le-nombre-de-fans-facebook:0b6842d3e19185db7708bb9ee7851813&#34;&gt;Afficher le nombre de fans Facebook&lt;/h2&gt;
+
+&lt;p&gt;Pour que cela fonctionne vous devez connaitre votre ID Facebook (un nombre à 15 chiffres) ou bien le nom de votre page (&lt;code&gt;&lt;a href=&#34;http://www.facebook.com/**nom**&#34;&gt;http://www.facebook.com/**nom**&lt;/a&gt;&lt;/code&gt;).&lt;br /&gt;
+N’oubliez pas de remplacer &amp;laquo;&amp;nbsp;votre-nom-ou-ID&amp;nbsp;&amp;raquo; par votre propre nom ou ID.&lt;br /&gt;
+Code à ajouter dans le fichier &lt;code&gt;function.php&lt;/code&gt;&lt;/p&gt;
+
+&lt;pre class=&#34;language-php&#34;&gt;
+&lt;code&gt;
+/*************************************************************
+Fans Facebook. Retourne et affiche le nombre de fans Facebook
+**************************************************************/
+bygga_afficher_fans_facebook(){
+   $facebook = json_decode(file_get_contents(&#39;http://graph.facebook.com/votre-nom-ou-ID&#39;), true);
+   echo $facebook_count = $facebook[&#39;likes&#39;]; 
+}
+&lt;/code&gt;
+&lt;/pre&gt;
+
+&lt;p&gt;Pour afficher le nombre de &lt;a href=&#34;http://www.bygga.fr/5-plugins-pour-avoir-plus-de-fans-facebook-avec-wordpress/&#34; title=&#34;5 plugins pour avoir plus de fans Facebook avec WordPress&#34;&gt;fans Facebook&lt;/a&gt;, insérez le code suivant dans votre thème, par exemple dans &lt;code&gt;single.php&lt;/code&gt;.&lt;/p&gt;
+
+&lt;pre class=&#34;language-php&#34;&gt;
+&lt;code&gt;
+&amp;lt;p&amp;gt;Nombre de fans Facebook : &amp;lt; ?php bygga_afficher_fans_facebook() ;?&amp;gt;&amp;lt;/p&amp;gt;
+&lt;/code&gt;
+&lt;/pre&gt;
+
+&lt;h2 id=&#34;afficher-le-nombre-d-abonnés-à-votre-compte-twitter:0b6842d3e19185db7708bb9ee7851813&#34;&gt;Afficher le nombre d’abonnés à votre compte Twitter&lt;/h2&gt;
+
+&lt;p&gt;Même démarche que pour Facebook. Récupérez votre nom sous Twitter (&lt;code&gt;&lt;a href=&#34;http://www.twitter.fr/**nom**&#34;&gt;http://www.twitter.fr/**nom**&lt;/a&gt;&lt;/code&gt;) et remplacez le dans le code ci-dessous.&lt;br /&gt;
+Code à ajouter dans le fichier &lt;code&gt;function.php&lt;/code&gt;&lt;/p&gt;
+
+&lt;pre class=&#34;language-php&#34;&gt;
+&lt;code&gt;
+/****************************************************************
+Abonnés Twitter. Retourne et affiche le nombre d’abonnés Twitter
+*****************************************************************/
+bygga_afficher_abonnes_twitter(){
+   $twitter = json_decode(file_get_contents(&#39;https://api.twitter.com/1/users/lookup.json?screen_name=votre-nom&#39;), true);
+   echo $twiter_count = $twitter[0][&#39;followers_count&#39;];
+}
+&lt;/code&gt;
+&lt;/pre&gt;
+
+&lt;p&gt;Pour afficher le nombre d’abonnés Twitter, insérez le code suivant dans votre thème, par exemple dans &lt;code&gt;single.php&lt;/code&gt;.&lt;/p&gt;
+
+&lt;pre class=&#34;language-php&#34;&gt;
+&lt;code&gt;
+&amp;lt;p&amp;gt;Nombre d’abonnés Twitter : &amp;lt; ?php bygga_afficher_abonnes_twitter () ;?&amp;gt;&amp;lt;/p&amp;gt;
+&lt;/code&gt;
+&lt;/pre&gt;
+
+&lt;h2 id=&#34;afficher-le-nombre-d-abonné-à-votre-flux-rss:0b6842d3e19185db7708bb9ee7851813&#34;&gt;Afficher le nombre d’abonné à votre flux RSS&lt;/h2&gt;
+
+&lt;p&gt;Pour que ce code fonctionne vous devez avoir un compte &lt;a href=&#34;http://feedburner.google.com/&#34; title=&#34;Feedburner&#34; target=&#34;_blank&#34;&gt;Feedburner&lt;/a&gt;, activé l’API Feedburner Awareness et l’url de votre flux RSS. Remplacez &amp;laquo;&amp;nbsp;&lt;a href=&#34;http://feeds.feedburner.com/votre-nom&amp;nbsp;&amp;raquo;&#34;&gt;http://feeds.feedburner.com/votre-nom&amp;nbsp;&amp;raquo;&lt;/a&gt; par l’url de votre flux dans le code suivant.&lt;br /&gt;
+Code à ajouter dans le fichier &lt;code&gt;function.php&lt;/code&gt;&lt;/p&gt;
+
+&lt;pre class=&#34;language-php&#34;&gt;
+&lt;code&gt;
+/*************************************************************
+Abonnés Flux RSS. Retourne et affiche le nombre d’abonnés RSS
+**************************************************************/
+bygga_afficher_abonnes_rss(){
+   $rss = file_get_contents(&#39;http://feedburner.google.com/api/awareness/1.0/GetFeedData?uri=http://feeds.feedburner.com/votre-nom?format=xml&#39;);
+   $xml = new SimpleXmlElement($rss);
+   echo $rss_count = $xml-&amp;gt;feed-&amp;gt;entry-&amp;gt;attributes()-&amp;gt;circulation;
+ 
+}
+&lt;/code&gt;
+&lt;/pre&gt;
+
+&lt;p&gt;Pour afficher le nombre d’abonnés au flux RSS, insérez le code suivant dans votre thème, par exemple dans &lt;code&gt;single.php&lt;/code&gt;.&lt;/p&gt;
+
+&lt;pre class=&#34;language-php&#34;&gt;
+&lt;code&gt;
+&amp;lt;p&amp;gt;Nombre d’abonnés au flux RSS : &amp;lt;?php bygga_afficher_abonnes_rss () ;?&amp;gt;&amp;lt;/p&amp;gt;
+&lt;/code&gt;
+&lt;/pre&gt;
+
+&lt;p&gt;Si vous ne voulez pas afficher ces données mais uniquement les utiliser dans une autre fonction vous pouvez faire cela en supprimant seulement le mot &amp;laquo;&amp;nbsp;echo&amp;nbsp;&amp;raquo; dans chacune des fonctions PHP.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Ajouter facilement un formulaire de contact sur son site WordPress</title>
+      <link>https://www.bygga.fr/ajouter-facilement-un-formulaire-de-contact-sur-son-site-wordpress/</link>
+      <pubDate>Mon, 17 Sep 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.bygga.fr/ajouter-facilement-un-formulaire-de-contact-sur-son-site-wordpress/</guid>
+      <description>
+
+&lt;h2 id=&#34;importance-du-formulaire-de-contact:dae83f501cb1ed95a5ee6b725a9819b5&#34;&gt;Importance du formulaire de contact&lt;/h2&gt;
+
+&lt;p&gt;Que vous soyez une grande ou petite entreprise ou bien un simple blogueur il est important que vos clients et lecteurs puissent vous joindre.&lt;/p&gt;
+
+&lt;p&gt;L&amp;rsquo;une des solutions pour vous joindre pourrait être de laisser votre adresse email. Cette solution à deux inconvénients majeurs :&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Vous publiez votre adresse email qui pourra donc être utilisé par les spammeurs facilement&lt;/li&gt;
+&lt;li&gt;Vous obligez le visiteur à vous écrire depuis sa boite mail et de vous communiqué leur email (non anonyme)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;À la place vous pouvez mettre un formulaire de contact en ligne. Vos visiteurs pourrons ainsi envoyer leurs remarques/questions directement depuis votre site internet, sans que vous ou bien eux-mêmes n&amp;rsquo;ai révélé leur email.&lt;/p&gt;
+
+&lt;h2 id=&#34;utiliser-le-plugin-wordpress-contact-form-7:dae83f501cb1ed95a5ee6b725a9819b5&#34;&gt;Utiliser le plugin WordPress Contact Form 7&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://wordpress.org/extend/plugins/contact-form-7/&#34; title=&#34;Contact Form 7 WordPress page&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;http://www.bygga.fr/wp-content/uploads/2012/09/Contact-form-7.png&#34; alt=&#34;Plugin Contact Form 7&#34; title=&#34;Contact-form-7&#34; width=&#34;497&#34; height=&#34;240&#34; class=&#34;aligncenter size-full wp-image-224&#34; /&gt;&lt;/a&gt;&lt;br /&gt;
+La méthode la plus facile pour ajouter un formulaire de contact personnalisée est d&amp;rsquo;utiliser le plugin gratuit : &lt;a href=&#34;http://wordpress.org/extend/plugins/contact-form-7/&#34; title=&#34;Contact Form 7&#34; target=&#34;_blank&#34;&gt;Contact Form 7&lt;/a&gt;&lt;br /&gt;
+Certes son apparence n&amp;rsquo;est pas des plus esthétique, mais les fonctionnalités et configurations sont impressionnantes&amp;#8230; et très faciles à prendre en mains.&lt;/p&gt;
+
+&lt;p&gt;Installer le plugin sur votre thème et rendez vous sur la page de configuration du plugin.&lt;br /&gt;
+Créez un nouveau formulaire et choisissez les champs qui seront proposés. Vous avez le choix entre un classique sujet/message, mais vous pouvez également ajouter d&amp;rsquo;autres champs comme la possibilité d&amp;rsquo;attacher un fichier.&lt;/p&gt;
+
+&lt;p&gt;L&amp;rsquo;avantage d&amp;rsquo;utiliser un plugin WordPress c&amp;rsquo;est que c&amp;rsquo;est plus sécurisé que si vous codiez le formulaire vous-même. Moins de risque de voir votre site hacké.&lt;/p&gt;
+
+&lt;p&gt;Une fois le formulaire de contact &amp;laquo;&amp;nbsp;construit&amp;nbsp;&amp;raquo;, vous devez insérer le bout de code entre crochets [exemple] dans votre thème. Vous pouvez par exemple créer une nouvelle page (menu de gauche : pages -&amp;gt; ajouter) et y coller le bout de code. Publiez la page et admirez le résultat.&lt;/p&gt;
+
+&lt;p&gt;Si vous voulez avoir une apparence différente, il va falloir que vous fassiez vos changements dans le fichier style.css de votre thème.&lt;/p&gt;
+
+&lt;h2 id=&#34;coder-directement-le-formulaire:dae83f501cb1ed95a5ee6b725a9819b5&#34;&gt;Coder directement le formulaire&lt;/h2&gt;
+
+&lt;p&gt;Si vous êtes à l&amp;rsquo;aise avec le HTML/PHP/CSS vous pouvez trouver sur internet des &lt;a href=&#34;http://slodive.com/web-development/20-superb-css3-web-forms-tutorials/&#34; title=&#34;Formulaire de contact CSS3&#34; target=&#34;_blank&#34;&gt;formulaires déjà tout codé&lt;/a&gt; et à insérer manuellement dans votre thème WordPress.&lt;/p&gt;
+
+&lt;h2 id=&#34;gravity-form:dae83f501cb1ed95a5ee6b725a9819b5&#34;&gt;Gravity Form&lt;/h2&gt;
+
+&lt;p&gt;Si tout cela vous semble toujours trop compliqué ou non adapté à vos besoins, allez faire un tour sur le site &lt;a href=&#34;http://www.gravityforms.com/&#34; title=&#34;GravityForms&#34; target=&#34;_blank&#34;&gt;GravityForms&lt;/a&gt;. Ils proposent des formulaires personnalisables ET esthétiques. En contre parti vous devrez payer pour ce service.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

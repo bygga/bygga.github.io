@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="fr-FR" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+<head >
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<title>Bygga</title>
+
+<meta name="description" content="Tirer les avantages d&#39;un barre fix en pied de page">
+<link rel="canonical" href="https://www.bygga.fr/comment-creer-un-barre-de-navigation-fixe-en-bas-dune-page/" />
+
+<link href="https://www.bygga.fr/feed.xml" type="application/atom+xml" rel="alternate" title="Bygga Feed">
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="https://www.bygga.fr/assets/css/style.css">
+<link rel="stylesheet" type="text/css" href="https://www.bygga.fr/assets/css/main.min.css">
+	
+
+
+<link rel="shortcut icon" href="https://www.bygga.fr/favicon.ico">
+
+<link rel="shortcut icon" href="https://www.bygga.fr/favicon.png">
+
+<link rel="apple-touch-icon-precomposed" href="https://www.bygga.fr/images/apple-touch-icon-precomposed.png">
+
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://www.bygga.fr/images/apple-touch-icon-72x72-precomposed.png">
+
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://www.bygga.fr/images/apple-touch-icon-114x114-precomposed.png">
+
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://www.bygga.fr/images/apple-touch-icon-144x144-precomposed.png">
+
+</head>
+<body>
+
+  
+  <nav class="navbar navbar-default stuck">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar-collapse-1" aria-expanded="false"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+        <a class="navbar-brand" href="https://www.bygga.fr/"><img class="logo-nav" alt="logo" src="img/logo-nav.png"><img class="logo-head" alt="logo" src="img/logo-head.png"></a> </div>
+      <div class="collapse navbar-collapse" id="bs-navbar-collapse-1">
+        <ul class="nav navbar-nav nav-left">
+          
+          
+            <li><a href="https://www.bygga.fr/article/">Articles</a></li>
+          
+            <li><a href="https://www.bygga.fr/outils-reussir-site-et-blog/">Outils pour réussir</a></li>
+          
+            <li><a href="https://www.bygga.fr/themes-wordpress/">Thèmes WordPress</a></li>
+          
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#"><i class="fa fa-sign-in"></i> Login</a></li>
+          <li><a href="#" class="btn">JOIN US</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+   
+
+
+
+
+
+<div class="single">
+    <main role="main">
+        <article>
+            <header class="section-spacing title-banner text-center">
+                <div class="container">
+                    <h1>Comment créer un barre de navigation fixe en bas d&#39;une page</h1>
+                </div>
+            </header>
+            <section class="container">
+                <div class="row">
+                    <div class="col-sm-2">
+                        <div class="post-meta">
+                            <div>22 Sep 2012</div>
+                                <div class="post-categories">
+                                    <a href="https://www.bygga.fr/categories/d%C3%A9veloppement-web">Développement Web</a>
+                                </div>
+                            </div>
+                        </div>
+                    <div class="col-sm-8 content">
+                        
+
+<h2 id="exemple-d-une-barre-fixe-en-pied-de-page-de-wordpress:e78ab0274b1bdc4bb37918fb491f5e79">Exemple d&rsquo;une barre fixe en pied de page de WordPress</h2>
+
+<p>Parce que des fois une image fonctionne mieux que des mots, voici ce que nous allons créer : La barre noire en bas de ce site.<br />
+<img src="http://www.bygga.fr/wp-content/uploads/2012/09/fixe-barre.png" alt="Barre noire fixe en bas de la page" title="fixe-barre" width="500" height="245" class="aligncenter size-full wp-image-329" /><br />
+Il s’agit d’une barre personnalisable, qui reste fixe en bas de votre écran, même lorsque vous vous déplacez sur la page.<br />
+Dans cette exemple, le contenu est un lien, mais on peut imaginer y trouver une image, une bannière publicitaire, un fil d’actualité, un menu de navigation.</p>
+
+<h2 id="quel-intérêt-de-créer-une-barre-fixe:e78ab0274b1bdc4bb37918fb491f5e79">Quel intérêt de créer une barre fixe ?</h2>
+
+<p>Hum… parce que le visiteur de votre site va toujours la voir ! Quel que soit le contenu qu’il voit et sa position sur la page, la barre sera là.</p>
+
+<p>P<strong>ratique donc pour attirer son attention sur quelque chose : une publicité, un lien vers un article, une information importante, ou bien votre menu de navigation.</strong> Soyez créatif avec son usage.</p>
+
+<h2 id="comment-ajouter-cette-barre-sur-mon-site:e78ab0274b1bdc4bb37918fb491f5e79">Comment ajouter cette barre sur mon site</h2>
+
+<p>Puisque ce site est spécialisé sur la plateforme WordPress, je vais vous donner l’exemple pour WordPress. A vous de l’adapté pour un site quelconque.</p>
+
+<p>Rendez-vous dans votre fichier <code>footer.php</code> et copiez le code HTML juste avant la balise <code>&lt;/body&gt;</code>.<br />
+Dans cette exemple, la barre va afficher un simple lien, statique.</p>
+
+<pre class="language-html">
+<code>
+&lt;div class="fixedBar"&gt;
+        &lt;div class="boxfloat"&gt;
+               &lt;ul id="tips"&gt;
+                       &lt;li&gt;&lt;a href="http://www.bygga.fr/"&gt;Lien vers Bygga&lt;/a&gt;&lt;/li&gt;                    
+               &lt;/ul&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+</code>
+</pre>
+
+<p>Insérez ensuite le code suivant dans votre fichier de style CSS. Il est souvent appelé <code>style.css</code>.<br />
+Il s’agit du code pour styler la barre. Dans ce cas elle sera noire et le texte blanc.</p>
+
+<pre class="language-css">
+<code>
+/*Barre fixe dans le pied de page*/
+/*Pour changer la couleur du fond remplacez #000, pour la couleur du texte #fff. Taille de la police de caractère 16px*/ 
+.fixedBar{background: #000; bottom: 0px; color:#fff; font-family: Arial, Helvetica, sans-serif; left:0; padding: 0px 0; position:fixed; font-size:16px; width:100%; z-index:99999; float:left; vertical-align:middle; margin: 0px 0 0; opacity: 0.95; font-weight: bold;}
+ 
+.boxfloat{text-align:center; width:920px; margin:0 auto}
+ 
+#tips, #tips li{margin:0; padding:0; list-style:none}
+#tips{width:920px; font-size:20px; line-height:120%;}
+#tips li{padding: 15px 0; display:none}
+#tips li a{color: #fff;}
+#tips li a:hover{text-decoration: none;}
+</code>
+</pre>
+
+<ul>
+<li>Il est possible de modifier la couleur et la taille en modifiant le code CSS copié dans le fichier <code>style.css</code>.</li>
+<li>Si vous voulez afficher un lien dynamique, différent sur chaque page, vous pouvez ajouter du langage PHP ou Jquery au lien.</li>
+<li>Pour ajouter une bannière copiez juste votre code (code Adsense par exemple) à la place de la balise <code>&lt;a&gt;</code> dans le footer.</li>
+</ul>
+
+<p>Cette astuce s’inspire d’un article paru sur <a href="http://www.wpbeginner.com/wp-tutorials/how-to-create-a-sticky-floating-footer-bar-in-wordpress/" title="barre navigation fixe">WPBeginner.com</a></p>
+
+                    </div>
+                </div>
+            </section>
+            <footer>
+                <section class="share container">
+    <div class="row">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-8 content">
+            <div id="share-large">   
+
+                <a href="https://twitter.com/share?text=Comment%20cr%c3%a9er%20un%20barre%20de%20navigation%20fixe%20en%20bas%20d%27une%20page&amp;url=https%3a%2f%2fwww.bygga.fr%2fcomment-creer-un-barre-de-navigation-fixe-en-bas-dune-page%2f" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" class="twitter"><svg class="icon-twitter"><use xlink:href="/assets/img/theme-icons.svg#icon-twitter"></use></svg></a>
+            
+                <a href="https://plus.google.com/share?url=https%3a%2f%2fwww.bygga.fr%2fcomment-creer-un-barre-de-navigation-fixe-en-bas-dune-page%2f" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;" class="google-plus"><svg class="icon-gplus"><use xlink:href="/assets/img/theme-icons.svg#icon-gplus"></use></svg></a>
+
+                <a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fwww.bygga.fr%2fcomment-creer-un-barre-de-navigation-fixe-en-bas-dune-page%2f" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" class="facebook"><svg class="icon-facebook"><use xlink:href="/assets/img/theme-icons.svg#icon-facebook"></use></svg></a>
+                            
+            </div>
+        </div>
+    </div>
+</section>   
+            </footer>
+        </article> 
+    </main> 
+    
+    <div class="related-post container">
+	<div class="row">
+		<div class="col-sm-2"></div>
+        <div class="col-sm-8 content">
+			<h5>Nos articles coup de coeur</h5>
+			<ul>
+				<li><a href="https://www.bygga.fr/outils-reussir-site-et-blog/">Outils indispensable pour votre site</a></li>
+				<li><a href="https://www.bygga.fr/ou-trouver-des-photos-gratuites-pour-votre-site-internet/">Où trouver des photos gratuites pour votre site web</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+</div>
+       
+
+
+<footer class="site-footer section-spacing text-center">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <p class="footer-links"><a href="">Terms of Use</a> <a href="">Privacy Policy</a></p>
+      </div>
+      <div class="col-md-4"> <small>2015 - Bygga.fr</small></div>
+      <div class="col-md-4"> 
+        
+        
+        <ul class="social">
+          <li><a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a></li>
+          <li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+          <li><a href="https://www.youtube.com/" target="_blank"><i class="fa fa-youtube-play"></i></a></li>
+        </ul>
+        
+         
+        
+      </div>
+    </div>
+  </div>
+</footer>
+ 
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script> 
+<script src="https://www.bygga.fr/assets/js/main.min.js"></script>
+
+</body>
+</html>

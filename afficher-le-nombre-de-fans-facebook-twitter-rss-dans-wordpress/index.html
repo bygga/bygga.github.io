@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="fr-FR" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+<head >
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<title>Bygga</title>
+
+<meta name="description" content="Voici comment facilement afficher le nombre de fans dans votre flux RSS">
+<link rel="canonical" href="https://www.bygga.fr/afficher-le-nombre-de-fans-facebook-twitter-rss-dans-wordpress/" />
+
+<link href="https://www.bygga.fr/feed.xml" type="application/atom+xml" rel="alternate" title="Bygga Feed">
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="https://www.bygga.fr/assets/css/style.css">
+<link rel="stylesheet" type="text/css" href="https://www.bygga.fr/assets/css/main.min.css">
+	
+
+
+<link rel="shortcut icon" href="https://www.bygga.fr/favicon.ico">
+
+<link rel="shortcut icon" href="https://www.bygga.fr/favicon.png">
+
+<link rel="apple-touch-icon-precomposed" href="https://www.bygga.fr/images/apple-touch-icon-precomposed.png">
+
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://www.bygga.fr/images/apple-touch-icon-72x72-precomposed.png">
+
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://www.bygga.fr/images/apple-touch-icon-114x114-precomposed.png">
+
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://www.bygga.fr/images/apple-touch-icon-144x144-precomposed.png">
+
+</head>
+<body>
+
+  
+  <nav class="navbar navbar-default stuck">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar-collapse-1" aria-expanded="false"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+        <a class="navbar-brand" href="https://www.bygga.fr/"><img class="logo-nav" alt="logo" src="img/logo-nav.png"><img class="logo-head" alt="logo" src="img/logo-head.png"></a> </div>
+      <div class="collapse navbar-collapse" id="bs-navbar-collapse-1">
+        <ul class="nav navbar-nav nav-left">
+          
+          
+            <li><a href="https://www.bygga.fr/article/">Articles</a></li>
+          
+            <li><a href="https://www.bygga.fr/outils-reussir-site-et-blog/">Outils pour réussir</a></li>
+          
+            <li><a href="https://www.bygga.fr/themes-wordpress/">Thèmes WordPress</a></li>
+          
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#"><i class="fa fa-sign-in"></i> Login</a></li>
+          <li><a href="#" class="btn">JOIN US</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+   
+
+
+
+
+
+<div class="single">
+    <main role="main">
+        <article>
+            <header class="section-spacing title-banner text-center">
+                <div class="container">
+                    <h1>Afficher le nombre de fans Facebook, Twitter, RSS dans WordPress</h1>
+                </div>
+            </header>
+            <section class="container">
+                <div class="row">
+                    <div class="col-sm-2">
+                        <div class="post-meta">
+                            <div>17 Sep 2012</div>
+                                <div class="post-categories">
+                                    <a href="https://www.bygga.fr/categories/d%C3%A9veloppement-web">Développement Web</a>
+                                </div>
+                            </div>
+                        </div>
+                    <div class="col-sm-8 content">
+                        
+
+<p>Voici une astuce rapide pour afficher votre nombre de personne qui se sont abonné à votre flux RSS, votre page Facebook ou bien votre compte Twitter.<br />
+Ces données sont récupéré par PHP en utilisant les API des différents services. Voici le code que vous devez ajouter dans votre fichier function.php. Aucun plugin nécessaire.<br />
+<img src="http://www.bygga.fr/wp-content/uploads/2012/09/Fan-Facebook.png" alt="Afficher Fan Facebook" title="Fan-Facebook" width="311" height="125" class="aligncenter size-full wp-image-250" /></p>
+
+<h2 id="afficher-le-nombre-de-fans-facebook:0b6842d3e19185db7708bb9ee7851813">Afficher le nombre de fans Facebook</h2>
+
+<p>Pour que cela fonctionne vous devez connaitre votre ID Facebook (un nombre à 15 chiffres) ou bien le nom de votre page (<code><a href="http://www.facebook.com/**nom**">http://www.facebook.com/**nom**</a></code>).<br />
+N’oubliez pas de remplacer &laquo;&nbsp;votre-nom-ou-ID&nbsp;&raquo; par votre propre nom ou ID.<br />
+Code à ajouter dans le fichier <code>function.php</code></p>
+
+<pre class="language-php">
+<code>
+/*************************************************************
+Fans Facebook. Retourne et affiche le nombre de fans Facebook
+**************************************************************/
+bygga_afficher_fans_facebook(){
+   $facebook = json_decode(file_get_contents('http://graph.facebook.com/votre-nom-ou-ID'), true);
+   echo $facebook_count = $facebook['likes']; 
+}
+</code>
+</pre>
+
+<p>Pour afficher le nombre de <a href="http://www.bygga.fr/5-plugins-pour-avoir-plus-de-fans-facebook-avec-wordpress/" title="5 plugins pour avoir plus de fans Facebook avec WordPress">fans Facebook</a>, insérez le code suivant dans votre thème, par exemple dans <code>single.php</code>.</p>
+
+<pre class="language-php">
+<code>
+&lt;p&gt;Nombre de fans Facebook : &lt; ?php bygga_afficher_fans_facebook() ;?&gt;&lt;/p&gt;
+</code>
+</pre>
+
+<h2 id="afficher-le-nombre-d-abonnés-à-votre-compte-twitter:0b6842d3e19185db7708bb9ee7851813">Afficher le nombre d’abonnés à votre compte Twitter</h2>
+
+<p>Même démarche que pour Facebook. Récupérez votre nom sous Twitter (<code><a href="http://www.twitter.fr/**nom**">http://www.twitter.fr/**nom**</a></code>) et remplacez le dans le code ci-dessous.<br />
+Code à ajouter dans le fichier <code>function.php</code></p>
+
+<pre class="language-php">
+<code>
+/****************************************************************
+Abonnés Twitter. Retourne et affiche le nombre d’abonnés Twitter
+*****************************************************************/
+bygga_afficher_abonnes_twitter(){
+   $twitter = json_decode(file_get_contents('https://api.twitter.com/1/users/lookup.json?screen_name=votre-nom'), true);
+   echo $twiter_count = $twitter[0]['followers_count'];
+}
+</code>
+</pre>
+
+<p>Pour afficher le nombre d’abonnés Twitter, insérez le code suivant dans votre thème, par exemple dans <code>single.php</code>.</p>
+
+<pre class="language-php">
+<code>
+&lt;p&gt;Nombre d’abonnés Twitter : &lt; ?php bygga_afficher_abonnes_twitter () ;?&gt;&lt;/p&gt;
+</code>
+</pre>
+
+<h2 id="afficher-le-nombre-d-abonné-à-votre-flux-rss:0b6842d3e19185db7708bb9ee7851813">Afficher le nombre d’abonné à votre flux RSS</h2>
+
+<p>Pour que ce code fonctionne vous devez avoir un compte <a href="http://feedburner.google.com/" title="Feedburner" target="_blank">Feedburner</a>, activé l’API Feedburner Awareness et l’url de votre flux RSS. Remplacez &laquo;&nbsp;<a href="http://feeds.feedburner.com/votre-nom&nbsp;&raquo;">http://feeds.feedburner.com/votre-nom&nbsp;&raquo;</a> par l’url de votre flux dans le code suivant.<br />
+Code à ajouter dans le fichier <code>function.php</code></p>
+
+<pre class="language-php">
+<code>
+/*************************************************************
+Abonnés Flux RSS. Retourne et affiche le nombre d’abonnés RSS
+**************************************************************/
+bygga_afficher_abonnes_rss(){
+   $rss = file_get_contents('http://feedburner.google.com/api/awareness/1.0/GetFeedData?uri=http://feeds.feedburner.com/votre-nom?format=xml');
+   $xml = new SimpleXmlElement($rss);
+   echo $rss_count = $xml-&gt;feed-&gt;entry-&gt;attributes()-&gt;circulation;
+ 
+}
+</code>
+</pre>
+
+<p>Pour afficher le nombre d’abonnés au flux RSS, insérez le code suivant dans votre thème, par exemple dans <code>single.php</code>.</p>
+
+<pre class="language-php">
+<code>
+&lt;p&gt;Nombre d’abonnés au flux RSS : &lt;?php bygga_afficher_abonnes_rss () ;?&gt;&lt;/p&gt;
+</code>
+</pre>
+
+<p>Si vous ne voulez pas afficher ces données mais uniquement les utiliser dans une autre fonction vous pouvez faire cela en supprimant seulement le mot &laquo;&nbsp;echo&nbsp;&raquo; dans chacune des fonctions PHP.</p>
+
+                    </div>
+                </div>
+            </section>
+            <footer>
+                <section class="share container">
+    <div class="row">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-8 content">
+            <div id="share-large">   
+
+                <a href="https://twitter.com/share?text=Afficher%20le%20nombre%20de%20fans%20Facebook%2c%20Twitter%2c%20RSS%20dans%20WordPress&amp;url=https%3a%2f%2fwww.bygga.fr%2fafficher-le-nombre-de-fans-facebook-twitter-rss-dans-wordpress%2f" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" class="twitter"><svg class="icon-twitter"><use xlink:href="/assets/img/theme-icons.svg#icon-twitter"></use></svg></a>
+            
+                <a href="https://plus.google.com/share?url=https%3a%2f%2fwww.bygga.fr%2fafficher-le-nombre-de-fans-facebook-twitter-rss-dans-wordpress%2f" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;" class="google-plus"><svg class="icon-gplus"><use xlink:href="/assets/img/theme-icons.svg#icon-gplus"></use></svg></a>
+
+                <a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fwww.bygga.fr%2fafficher-le-nombre-de-fans-facebook-twitter-rss-dans-wordpress%2f" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" class="facebook"><svg class="icon-facebook"><use xlink:href="/assets/img/theme-icons.svg#icon-facebook"></use></svg></a>
+                            
+            </div>
+        </div>
+    </div>
+</section>   
+            </footer>
+        </article> 
+    </main> 
+    
+    <div class="related-post container">
+	<div class="row">
+		<div class="col-sm-2"></div>
+        <div class="col-sm-8 content">
+			<h5>Nos articles coup de coeur</h5>
+			<ul>
+				<li><a href="https://www.bygga.fr/outils-reussir-site-et-blog/">Outils indispensable pour votre site</a></li>
+				<li><a href="https://www.bygga.fr/ou-trouver-des-photos-gratuites-pour-votre-site-internet/">Où trouver des photos gratuites pour votre site web</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+</div>
+       
+
+
+<footer class="site-footer section-spacing text-center">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <p class="footer-links"><a href="">Terms of Use</a> <a href="">Privacy Policy</a></p>
+      </div>
+      <div class="col-md-4"> <small>2015 - Bygga.fr</small></div>
+      <div class="col-md-4"> 
+        
+        
+        <ul class="social">
+          <li><a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a></li>
+          <li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+          <li><a href="https://www.youtube.com/" target="_blank"><i class="fa fa-youtube-play"></i></a></li>
+        </ul>
+        
+         
+        
+      </div>
+    </div>
+  </div>
+</footer>
+ 
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script> 
+<script src="https://www.bygga.fr/assets/js/main.min.js"></script>
+
+</body>
+</html>

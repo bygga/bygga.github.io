@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Référencement on Bygga</title>
+    <link>https://www.bygga.fr/categories/r%C3%A9f%C3%A9rencement/</link>
+    <description>Recent content in Référencement on Bygga</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-FR</language>
+    <lastBuildDate>Mon, 17 Sep 2012 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.bygga.fr/categories/r%C3%A9f%C3%A9rencement/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Yoast WordPress SEO vs All In One SEO : qui choisir ?</title>
+      <link>https://www.bygga.fr/yoast-wordpress-seo-vs-all-in-one-seo-qui-choisir/</link>
+      <pubDate>Mon, 17 Sep 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.bygga.fr/yoast-wordpress-seo-vs-all-in-one-seo-qui-choisir/</guid>
+      <description>
+
+&lt;h2 id=&#34;le-référencement-de-base-wordpress-n-est-pas-suffisent:226adc7c8a278222f93fd6995850f7f8&#34;&gt;Le référencement de base WordPress n&amp;rsquo;est pas suffisent&lt;/h2&gt;
+
+&lt;p&gt;Par défaut WordPress possède déjà une sélection d’options pour optimiser son positionnement sous Google. Pensez par exemple à la structure des liens modifiables pour y afficher le titre de l’article plutôt qu’un simple identifiant.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Pourtant il est possible de pousser cette optimisation (SEO) encore plus loin grâce à l’un des deux plugins gratuit suivant : Yoast WordPress SEO ou All In One SEO Pack.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Ces deux plugins WordPress remplissent le même rôle : optimiser la structure cachée de votre site, remplir certain champ obligatoires pour Google que vous ne pouvez pas remplir directement depuis l’éditeur d’article, etc… C&amp;rsquo;est-à-dire rendre votre site plus compréhensible par Google ou Bing pour qu’ils puissent le remonter dans leur classement.&lt;/p&gt;
+
+&lt;p&gt;Il n’existe pas un plugin qui est meilleur que l’autre à mon goût pour une utilisation basique. Pour les utilisateurs expérimentés, &lt;strong&gt;Yoast WordPress SEO devrait être le meilleur&lt;/strong&gt;, celui qui propose le plus d’options.&lt;br /&gt;
+Mais pour vous aider à choisir voici un petit comparatif entre Yoast WordPress SEO et All In One SEO Pack.&lt;/p&gt;
+
+&lt;h2 id=&#34;a-href-http-wordpress-org-extend-plugins-all-in-one-seo-pack-title-all-in-one-seo-pack-target-blank-all-in-one-seo-pack-a:226adc7c8a278222f93fd6995850f7f8&#34;&gt;&lt;a href=&#34;http://wordpress.org/extend/plugins/all-in-one-seo-pack/&#34; title=&#34;All In One SEO Pack&#34; target=&#34;_blank&#34;&gt;All in One SEO Pack&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://www.bygga.fr/wp-content/uploads/2012/09/All-in-One-SEO-Pack.png&#34; alt=&#34;All-in-One-SEO-Pack&#34; title=&#34;All-in-One-SEO-Pack&#34; width=&#34;472&#34; height=&#34;248&#34; class=&#34;aligncenter size-full wp-image-242&#34; /&gt;&lt;br /&gt;
+All In One SEO Pack est plus ancien que Yoast WordPress SEO et aussi plus populaire. Il propose les options d’optimisation pour moteurs de recherche suivantes :&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Optimisation du titre des articles et de la page d’accueil&lt;/li&gt;
+&lt;li&gt;Optimisation des mots clefs des articles et de la page d’accueil&lt;/li&gt;
+&lt;li&gt;Optimisation de la description des articles et de la page d’accueil&lt;/li&gt;
+&lt;li&gt;Choix de l’URL canonique (www.bygga.fr/exemple-de-url-optimisee/ plutôt que www.bygga.fr/?id=321)&lt;/li&gt;
+&lt;li&gt;Choix de titre pour les catégories, pages et mots clefs.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Chacune des options de configuration possède une courte description pour vous aider à choisir qu’elle est la meilleure configuration pour votre site.&lt;br /&gt;
+Pour l’optimisation des articles, de nouvelles options sont ajoutée sur la page d’écriture d’article. Vous pouvez y choisir le titre, description et mots clefs de l’article. Si vous ne remplissez pas ces champs, des valeurs par défaut sont utilisées.&lt;/p&gt;
+
+&lt;h2 id=&#34;a-href-http-wordpress-org-extend-plugins-wordpress-seo-title-yoast-wordpress-seo-target-blank-yoast-wordpress-seo-a:226adc7c8a278222f93fd6995850f7f8&#34;&gt;&lt;a href=&#34;http://wordpress.org/extend/plugins/wordpress-seo/&#34; title=&#34;Yoast WordPress SEO&#34; target=&#34;_blank&#34;&gt;Yoast WordPress SEO&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://www.bygga.fr/wp-content/uploads/2012/09/WordPress-SEO-by-Yoast.png&#34; alt=&#34;WordPress-SEO-by-Yoast&#34; title=&#34;WordPress-SEO-by-Yoast&#34; width=&#34;448&#34; height=&#34;250&#34; class=&#34;aligncenter size-full wp-image-243&#34; /&gt;&lt;br /&gt;
+Yoast WordPress SEO propose les mêmes options que All In One SEO, mais rajoute une flopée de nouvelles options pour améliorer votre SEO.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;XML sitemaps pour aider le moteur de recherche à comprendre la structure de votre site et les prévenir des nouveaux articles.&lt;/li&gt;
+&lt;li&gt;Outil d’analyse de votre SEO avant la publication de l’article. Vous montre aussi comment votre site va apparaître sous Google.&lt;/li&gt;
+&lt;li&gt;Optimisation de votre flux RSS&lt;/li&gt;
+&lt;li&gt;Modification depuis le plugin des fichiers robot.txt et .htaccess. (Pour les utilisateurs avancés)&lt;/li&gt;
+&lt;li&gt;Aide à l’intégration avec Facebook OpenGraph.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Au final Yoast WordPress SEO propose un nombre d’options et de paramètres modifiables impressionnants. &lt;strong&gt;À mon gout, c’est trop de choix pour un utilisateur qui ne veut qu’une optimisation basique (et sans doute suffisante).&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Heureusement, un outil d’aide vous guide pas à pas dans le processus de l’optimisation et vous explique le pourquoi du comment directement depuis l’écran d’admin.&lt;/p&gt;
+
+&lt;h2 id=&#34;conclusion:226adc7c8a278222f93fd6995850f7f8&#34;&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;Le gagnant est sûrement Yoast WordPress SEO. Bien plus d’options et une visite guidée qui vous explique comment utiliser le plugin.&lt;/p&gt;
+
+&lt;p&gt;Mais All In One SEO n’est pas mauvais non plus, loin de là. Les options basiques d’optimisation sont les mêmes dans les deux plugins et certaines options proposée en supplément par Yoast sont disponible en ajoutant d’autres plugins WordPress.&lt;/p&gt;
+
+&lt;p&gt;Les deux plugins ont chacun un forum officiel (en anglais) pour vous aider à choisir les meilleurs réglages si vous vous sentez perdu.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Si vous êtes donc débutant en SEO ou bien que vous ne voulez pas effrayer votre client avec une liste de 5 pages de configuration, choisissez All In One SEO. Pour les autres, installez Yoast WordPress SEO !&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
