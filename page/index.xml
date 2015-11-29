@@ -6,20 +6,514 @@
     <description>Recent content in Pages on Bygga</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-FR</language>
-    <lastBuildDate>Thu, 08 Oct 2015 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 04 Nov 2015 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://www.bygga.fr/page/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Guide pour les thèmes WordPress</title>
-      <link>https://www.bygga.fr/themes-wordpress/</link>
-      <pubDate>Thu, 08 Oct 2015 00:00:00 +0000</pubDate>
+      <title>Comment créer un blog en 30 minutes - guide pour débutant</title>
+      <link>https://www.bygga.fr/creer-blog-gratuitement/</link>
+      <pubDate>Wed, 04 Nov 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://www.bygga.fr/themes-wordpress/</guid>
+      <guid>https://www.bygga.fr/creer-blog-gratuitement/</guid>
       <description>
 
-&lt;h2 id=&#34;pourquoi-choisir-un-thème-pro:f3f032c0dff7859a14eb269057a3ba15&#34;&gt;Pourquoi choisir un thème pro&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Vous voulez créer un blog et rejoindre la blogosphère, mais vous ne savez pas par où commencer ?&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;Voici pourquoi il faut acheter un thème pro !&lt;/p&gt;
+&lt;p&gt;Quelle chance, vous arriver sur la bonne page et ce guide est fait pour vous.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.bygga.fr/assets/img/articles/creer-un-blog-pin.jpg&#34; class=&#34;alignright&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;Quand j&amp;rsquo;ai créer ce site, Bygga.fr, j&amp;rsquo;avais une idée en tête : Aider les débutants à commencer un blog en partant de zéro. Une sorte de guide pour les nuls sur comment créer un site internet en seulement quelques minutes et sans aucune connaissance&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;Avec ce guide, j&amp;rsquo;espère pouvoir partager mon expérience et vous expliquer comment j&amp;rsquo;ai réussi à lancer plusieurs blogs et sites à succès depuis 2005.&lt;/p&gt;
+
+&lt;p&gt;Cet article est long, puisque détaillé. N&amp;rsquo;hésitez pas à l&amp;rsquo;ajouter à vos favoris pour y revenir et l&amp;rsquo;approfondir. &lt;strong&gt;Si vous êtes coincé dans une des étapes, envoyez moi un email. Je vous aiderais volontier.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;1-partir-du-bon-pied-et-choisir-sa-plateforme-de-blog:c5c0b56a507d898943854fe9ac9f6ff3&#34;&gt;1: Partir du bon pied et choisir sa plateforme de blog&lt;/h2&gt;
+
+&lt;p&gt;La première étape est simple. Vous avez deux choix.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Vous partez de zéro et codé votre blog de A à Z en 10000 heures.&lt;/li&gt;
+&lt;li&gt;Vous choisissez une plateforme de blog et vous avez un blog clé en main en 5 min.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Pas facile comme choix&amp;hellip;. Non je rigole, bien sûr vous prenez l&amp;rsquo;option deux et vous choisissez une plateforme de blog.&lt;/p&gt;
+
+&lt;p&gt;Les plateformes sont nombreuses, mais trois se tirent du lot : &lt;a href=&#34;https://fr.wordpress.org/&#34;&gt;WordPress&lt;/a&gt;, &lt;a href=&#34;http://drupalfr.org/&#34;&gt;Drupal&lt;/a&gt; et &lt;a href=&#34;http://www.joomla.fr/&#34;&gt;Joomla&lt;/a&gt;.
+Vous pourriez lire des centaines d&amp;rsquo;articles sur qui de WordPress ou de Drupal est la meilleure plateforme, mais vous gaspilleriez juste votre temps.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Laissez la masse choisir pour vous. WordPress c&amp;rsquo;est plus de 140 millions de blog. 140 millions de personnes ne peuvent avoir tord.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.bygga.fr/assets/img/articles/wordpress.png&#34; class=&#34;aligncenter&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.bygga.fr/5-raisons-dutiliser-wordpress-pour-developper-son-site-internet/&#34;&gt;WordPress à plein d&amp;rsquo;avantages&lt;/a&gt; :&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;WordPress est gratuit&lt;/li&gt;
+&lt;li&gt;WordPress à plein d&amp;rsquo;extensions (pour ajouter les fonctions dont vous avez VRAIMENT besoin)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.bygga.fr/10-themes-wordpress-de-qualite-disponible-en-francais/&#34;&gt;WordPress possède des milliers de thèmes&lt;/a&gt; pour personnaliser l&amp;rsquo;apparence de votre site.&lt;/li&gt;
+&lt;li&gt;WordPress prend 5 minutes à installer&lt;/li&gt;
+&lt;li&gt;WordPress est sûr. (donc moins de risque de se faire hacker.)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Conclusion de l&amp;rsquo;étape 1 : Vous choisissez WordPress comme plateforme, parceque c&amp;rsquo;est ce qui se fait de mieux et que ca ne coût rien.&lt;/strong&gt; Vous remarquez qu&amp;rsquo;on a toujours rien télécharger, je vous explique pourquoi juste après.&lt;/p&gt;
+
+&lt;h3 id=&#34;petite-explication-pourquoi-blogger-ou-skyblog-sont-une-très-mauvaise-idée:c5c0b56a507d898943854fe9ac9f6ff3&#34;&gt;Petite explication pourquoi Blogger ou SkyBlog sont une très mauvaise idée&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Petite devinette : Quel blog célèbre à comme adresse URL : ********.blogger.com ?&lt;br /&gt;
+Réponse : Aucun.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;3 gros inconvénients des blogs clés en main :&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Vous allez avoir une URL difficile à lire et non professionnelle&lt;/li&gt;
+&lt;li&gt;Vous ne pouvez pas mettre de publicité sur votre blog. Beaucoup de plateformes l&amp;rsquo;interdise. Cela signifie 0 revenu !&lt;/li&gt;
+&lt;li&gt;Vous ne pouvez pas personnaliser votre blog comme vous le voulez.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Bref, pourquoi choisir Blogger ou Skyrock blog, quand on peu avoir 100 fois mieux avec WordPress.&lt;/p&gt;
+
+&lt;h2 id=&#34;2-choisir-son-nom-de-domaine-et-son-hébergeur:c5c0b56a507d898943854fe9ac9f6ff3&#34;&gt;2. Choisir son nom de domaine et son hébergeur.&lt;/h2&gt;
+
+&lt;p&gt;C&amp;rsquo;est maintenant que les choses sérieuses commencent. Vous avez choisi (je vous ai un peu forcé&amp;hellip;) d&amp;rsquo;utiliser WordPress, c&amp;rsquo;est un très bon choix !&lt;/p&gt;
+
+&lt;p&gt;Vous devez maintenant &lt;strong&gt;choisir le nom de votre blog/site et réserver ce nom&lt;/strong&gt;. Dans la foulée, vous devez aussi &lt;strong&gt;choisir un hébergeur (un serveur) pour y héberger votre blog pour qu&amp;rsquo;il soit visible à tous&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;comment-choisir-son-nom-de-domaine:c5c0b56a507d898943854fe9ac9f6ff3&#34;&gt;Comment choisir son nom de domaine ?&lt;/h3&gt;
+
+&lt;p&gt;Le nom de domaine n&amp;rsquo;est pas quelque chose à prendre à la légère. C&amp;rsquo;est la première chose que l&amp;rsquo;on voit et que l&amp;rsquo;on retient quand on veut visiter votre blog.&lt;/p&gt;
+
+&lt;p&gt;Prenez donc quelques minutes pour choisir un nom parfait. Pour vous aider, voici un article que j&amp;rsquo;ai écrit qui rentre dans les détails.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.bygga.fr/10-astuces-choisir-bon-nom-de-domaine-pour-site/&#34;&gt;10 astuces pour choisir le bon nom de domaine pour votre site&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;comment-choisir-son-hébergement-web:c5c0b56a507d898943854fe9ac9f6ff3&#34;&gt;Comment choisir son hébergement web ?&lt;/h3&gt;
+
+&lt;p&gt;L&amp;rsquo;hébergeur web, c&amp;rsquo;est l&amp;rsquo;entreprise qui met en ligne votre site et se charge de la rendre visible à tous vos visiteurs.&lt;/p&gt;
+
+&lt;p&gt;Vous voulez avoir au moins ces trois charactéristiques quand vous choisissez votre hébergeur :&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;L&amp;rsquo;hébergeur doit être rapide pour que vos visiteurs n&amp;rsquo;attendent pas 10 sec pour voir votre site.&lt;/li&gt;
+&lt;li&gt;L&amp;rsquo;hébergeur doit être sûr. C&amp;rsquo;est à dire qu&amp;rsquo;il doit fonctionner au moins 99.5% du temps. Sinon les visiteurs ne pourront pas voir votre blog.&lt;/li&gt;
+&lt;li&gt;L&amp;rsquo;hébergeur doit avoir un bon service après vente, pour qu&amp;rsquo;ils puissent vous aider si vous avez des problèmes avec votre hébergement ou votre nom de domaine.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;C&amp;rsquo;est la première et unique fois que vous devrez mettre la main au porte feuille : Les hébergeurs de qualité coûtent environ 2€ par mois. &lt;a href=&#34;http://courses.monoprix.fr/RIDE/Coquillettes-n-32-pates-alimentaires-152288&#34;&gt;Un paquet de 1kg de coquillettes quoi&lt;/a&gt;&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Je vous recommande d&amp;rsquo;utiliser &lt;a href=&#34;https://affiliation.lws-hosting.com/statistics/click/47/0&#34;&gt;lws.fr&lt;/a&gt; comme hébergeur. Ils sont pas cher et ont les trois points clés ci-dessus.&lt;/strong&gt; En plus c&amp;rsquo;est l&amp;rsquo;hébergeur qui héberge ce site, et après plusieurs années, je n&amp;rsquo;ai rien à leur reprocher !&lt;/p&gt;
+
+&lt;p&gt;Si vous hésitez entre les packs, le pack starter est fait pour les petits blogs (moins de 10000 visiteurs par mois). Pour les autres, choisissez le pack standard.&lt;br /&gt;
+&lt;strong&gt;Dans le doute, prenez le starter&lt;/strong&gt;, vous pourrez toujours agrandir l&amp;rsquo;offre par la suite.&lt;/p&gt;
+
+&lt;h2 id=&#34;3-commander-son-nom-de-domaine-chez-son-hébergeur:c5c0b56a507d898943854fe9ac9f6ff3&#34;&gt;3. Commander son nom de domaine chez son hébergeur&lt;/h2&gt;
+
+&lt;p&gt;Si vous n&amp;rsquo;avez pas de nom de domaine, ne vous inquitez pas. &lt;a href=&#34;https://affiliation.lws-hosting.com/statistics/click/47/0&#34;&gt;L&amp;rsquo;hébergeur français que je vous recommande (LWS.fr) vous offre un nom de domaine avec l&amp;rsquo;achat d&amp;rsquo;un pack d&amp;rsquo;hébergement&lt;/a&gt;. &lt;strong&gt;Boom ! D&amp;rsquo;une pierre deux coups !&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;rendez-vous-sur-lws-fr:c5c0b56a507d898943854fe9ac9f6ff3&#34;&gt;Rendez vous sur lws.fr&lt;/h3&gt;
+
+&lt;p&gt;Choisissez le pack qui convient à votre blog. Je vous recommande le pack starter si vous avez un petit blog et le pack standard si vous voulez un magazine ou un blog avec plusieurs milliers de visiteurs par mois.
+&lt;img src=&#34;https://www.bygga.fr/assets/img/articles/pack-starter.jpg&#34; class=&#34;aligncenter&#34;&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;choisissez-votre-nom-de-domaine:c5c0b56a507d898943854fe9ac9f6ff3&#34;&gt;Choisissez votre nom de domaine&lt;/h3&gt;
+
+&lt;p&gt;N&amp;rsquo;oubliez pas que votre nom de domaine doit être :&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Facile à retenir (Court et descriptif)&lt;/li&gt;
+&lt;li&gt;Professionel (pas de nombres et de tiret)&lt;/li&gt;
+&lt;li&gt;En .fr (pour améliorer votre classement Google). .com si vous pensez vendre des produits à l&amp;rsquo;international.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Pour découvrir plus de conseils pour choisir son nom de domaine, lisez mon article :&lt;br /&gt;
+&lt;a href=&#34;http://www.bygga.fr/10-astuces-choisir-bon-nom-de-domaine-pour-site/&#34;&gt;10 astuces pour choisir le bon nom de domaine pour votre site&lt;/a&gt;
+&lt;img src=&#34;https://www.bygga.fr/assets/img/articles/choisir-nom-de-domaine.jpg&#34; class=&#34;aligncenter&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;Choisissez ensuite votre nom de domaine et puis l&amp;rsquo;offre basic. L&amp;rsquo;autre offre est uniquement destiné à essayer de vous faire payer un service inutile.
+&lt;img src=&#34;https://www.bygga.fr/assets/img/articles/offre-basic.jpg&#34; class=&#34;aligncenter&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;Vous n&amp;rsquo;avez plus qu&amp;rsquo;a valider votre commande et rentrer vos informations personnelles.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.bygga.fr/assets/img/articles/valider-commande.jpg&#34; class=&#34;aligncenter&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;Quelques minutes plus tard, vous allez recevoir un email avec tous les détails pour continuer.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.bygga.fr/assets/img/articles/email-recapitulatif.jpg&#34; class=&#34;aligncenter&#34;&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;4-installer-wordpress-sur-lws-fr:c5c0b56a507d898943854fe9ac9f6ff3&#34;&gt;4. Installer WordPress sur LWS.fr&lt;/h2&gt;
+
+&lt;p&gt;L&amp;rsquo;intérêt d&amp;rsquo;avoir choisi un bon hébergeur, c&amp;rsquo;est que vous pouvez maintenant installer WordPress en seulement quelques clics.&lt;/p&gt;
+
+&lt;p&gt;Connectez vous sur votre espace client LWS en utilisant les identifiant et mot de passe que vous avez reçu dans l&amp;rsquo;email de confirmation.&lt;/p&gt;
+
+&lt;p&gt;Cliquez ensuite sur &amp;ldquo;Admin&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.bygga.fr/assets/img/articles/admin.jpg&#34; class=&#34;aligncenter&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;Puis sur WordPress dans l&amp;rsquo;onglet &amp;ldquo;Création de site&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.bygga.fr/assets/img/articles/installer-wordpress-lws.jpg&#34; class=&#34;aligncenter&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;Le script vous indique que vous n&amp;rsquo;avez pas de base de données. Ce qui est completement correct. Laissez vous donc guider et créer un base de donnée. Cette base de donnée est une partie du serveur qui sauvegarde tout vos articles et toutes vos options.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.bygga.fr/assets/img/articles/installer-base.jpg&#34; class=&#34;aligncenter&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;Suivez ensuite cette vidéo pour les étapes supplémentaires :&lt;/p&gt;
+
+&lt;div class=&#34;video&#34;&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/vJWN5taTL4k&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;5-configurer-et-personnaliser-votre-nouveau-blog:c5c0b56a507d898943854fe9ac9f6ff3&#34;&gt;5. Configurer et personnaliser votre nouveau blog&lt;/h2&gt;
+
+&lt;p&gt;Vous avez maintenant installé votre nouveau blog WordPress. L&amp;rsquo;étape suivante consiste à le personnalisé pour qu&amp;rsquo;il ne ressemble pas à l&amp;rsquo;un des millions d&amp;rsquo;autres blog WordPress qui existe. Vous méritez d&amp;rsquo;être unique.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.bygga.fr/assets/img/articles/theme-wordpress-twenty-fifteen.jpg&#34; class=&#34;aligncenter&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;Vous pouvez voir à quoi ressemble votre blog en vous rentrant l&amp;rsquo;url de votre site : www.votre-blog.fr&lt;/p&gt;
+
+&lt;p&gt;Pour faire les changements vous voulez aller sur la partie admin de votre site. Vous pouvez faire celà en vous connectant ici : www.votre-blog.fr/admin&lt;/p&gt;
+
+&lt;p&gt;Sur la partie admin de votre site vous allez pouvoir :&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Changer le thème par défault&lt;/li&gt;
+&lt;li&gt;Ajouter de nouvelles pages et de nouveaux articles.&lt;/li&gt;
+&lt;li&gt;Installer des plugins pour personnaliser et améliorer votre blog.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;comment-fonctionne-le-dashboard-de-wordpress:c5c0b56a507d898943854fe9ac9f6ff3&#34;&gt;Comment fonctionne le dashboard de WordPress ?&lt;/h3&gt;
+
+&lt;p&gt;N&amp;rsquo;ayez pas peur devant toutes les options que vous propose WordPress. Je vais vous montrer quels sont les menus les plus importants.&lt;/p&gt;
+
+&lt;h4 id=&#34;articles:c5c0b56a507d898943854fe9ac9f6ff3&#34;&gt;Articles&lt;/h4&gt;
+
+&lt;p&gt;Vous permet d&amp;rsquo;ajouter vos nouveaux articles et de voir la liste de tous les anciens. Vous pouvez aussi définir des catégories dans lesquel vous pourrez classer vos articles.&lt;br /&gt;
+Il est également possible de définir des étiquettes pour tagger vos articles WordPress.&lt;/p&gt;
+
+&lt;h4 id=&#34;média:c5c0b56a507d898943854fe9ac9f6ff3&#34;&gt;Média&lt;/h4&gt;
+
+&lt;p&gt;C&amp;rsquo;est ici que vous pouvez gérer vos images. Ce menu n&amp;rsquo;est que rarement utilisé puisque vous pouvez ajouter une image directement depuis la rédaction de l&amp;rsquo;article.&lt;/p&gt;
+
+&lt;h4 id=&#34;pages:c5c0b56a507d898943854fe9ac9f6ff3&#34;&gt;Pages&lt;/h4&gt;
+
+&lt;p&gt;Les pages sont similaires aux articles mais sont supposé être utilisées pour les pages fixes de votre site.
+Vous pouvez consulter cette article pour voir quels sont les pages indipensable à ajouter à votre site :
+&lt;a href=&#34;http://www.bygga.fr/11-pages-importantes-site-entreprise/&#34;&gt;11 pages importantes que tous les blogs doivent avoir&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;commentaires:c5c0b56a507d898943854fe9ac9f6ff3&#34;&gt;Commentaires&lt;/h4&gt;
+
+&lt;p&gt;C&amp;rsquo;est là que vous pouvez valider ou répondre aux commentaires laissé par vos visiteurs. Une des charactérisques des blogs à succès, c&amp;rsquo;est qu&amp;rsquo;ils laissent tous la place à la discussion par l&amp;rsquo;intermédiaire des commentaires.
+WordPress va filtrer automatiquement les commentaires indésirables. Un très bon atout, surtout si vous avez un blog avec beaucoup de traffic.&lt;/p&gt;
+
+&lt;h4 id=&#34;apparence:c5c0b56a507d898943854fe9ac9f6ff3&#34;&gt;Apparence&lt;/h4&gt;
+
+&lt;p&gt;C&amp;rsquo;est ici que vous allez pouvoir choisir le thème utilisé pour votre site WordPress. Vous pouvez trouver plus de détails plus loin dans l&amp;rsquo;article.&lt;/p&gt;
+
+&lt;h4 id=&#34;extensions:c5c0b56a507d898943854fe9ac9f6ff3&#34;&gt;Extensions&lt;/h4&gt;
+
+&lt;p&gt;Cette page vous permet de rechercher et d&amp;rsquo;installer des extensions (encore appelée plugin dans WordPress). Les extensions sont importantes puisque WordPress de base ne comporte pas toutes les fonctions avancées qu&amp;rsquo;un blog peut vouloir.&lt;/p&gt;
+
+&lt;h4 id=&#34;réglages:c5c0b56a507d898943854fe9ac9f6ff3&#34;&gt;Réglages&lt;/h4&gt;
+
+&lt;p&gt;Ce sont les différentes options que vous pouvez choisir pour votre blog. Cela comprend la structure de l&amp;rsquo;URL, mais aussi à la possibilité de choisir votre page d&amp;rsquo;accueil ou bien si vos visiteurs peuvent devenir membre de votre blog.&lt;/p&gt;
+
+&lt;h3 id=&#34;installer-un-nouveau-thème-wordpress:c5c0b56a507d898943854fe9ac9f6ff3&#34;&gt;Installer un nouveau thème WordPress&lt;/h3&gt;
+
+&lt;p&gt;WordPress c&amp;rsquo;est plusieurs milliers de thèmes gratuits (2107 en ce moment) pour venir changer l&amp;rsquo;apparence de votre page d&amp;rsquo;accueil et de vos articles.&lt;/p&gt;
+
+&lt;p&gt;Pour installer un thème, rendez-vous sur &lt;em&gt;Apparences - Thèmes - Ajouter&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.bygga.fr/assets/img/articles/ajouter-theme.jpg&#34; class=&#34;aligncenter&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;Vous pouvez les classé par popularité ou bien chercher avec des mots clefs. Si vous voulez des thèmes pro avec une qualité bien meilleure et plus d&amp;rsquo;options, vous pouvez vous rendre sur le marché numero 1 du thème WordPress : &lt;a href=&#34;http://themeforest.net/category/wordpress/blog-magazine?ref=bygga&#34;&gt;ThèmeForest&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Une fois que vous avez trouvé le thème qu&amp;rsquo;il vous faut, vous pouvez cliquer sur &lt;em&gt;Installer&lt;/em&gt; et ensuite &lt;em&gt;Activer&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Pour plus de choix voici une &lt;a href=&#34;http://www.bygga.fr/themes-wordpress-pour-ecrivains/&#34;&gt;liste de thèmes pro pour les blogs&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;installer-des-extensions-wordpress:c5c0b56a507d898943854fe9ac9f6ff3&#34;&gt;Installer des extensions WordPress&lt;/h3&gt;
+
+&lt;p&gt;Les extensions (plugin) sont des petits logiciels que vous pouvez installer pour donner encore plus de fonction à WordPress. Il existe plusieurs raisons d&amp;rsquo;installer des exentions :&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Pour améliorer votre référencement&lt;/li&gt;
+&lt;li&gt;Pour donner accès à des formulaires de contact&lt;/li&gt;
+&lt;li&gt;Pour améliorer la sécurité de WordPress&lt;/li&gt;
+&lt;li&gt;Pour réduire la vitesse d&amp;rsquo;affichage de votre site&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Pour installer un plugin, rendez-vous sur &lt;em&gt;Extensions - Ajouter&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.bygga.fr/assets/img/articles/installer-plugin.jpg&#34; class=&#34;aligncenter&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;Choisissez le plugin que vous souhaitez installer et n&amp;rsquo;oubliez pas de l&amp;rsquo;activer.&lt;/p&gt;
+
+&lt;h2 id=&#34;ajouter-du-contenu-et-des-articles-à-votre-blog:c5c0b56a507d898943854fe9ac9f6ff3&#34;&gt;Ajouter du contenu et des articles à votre blog&lt;/h2&gt;
+
+&lt;p&gt;Vous avez maintenant fini la création de votre nouveau blog. Il est temps d&amp;rsquo;y ajouter du contenu. Cette étape est importante. Peut importe à quel point votre blog est optimisé, si le contenu est médiocre et non mis à jour Google n&amp;rsquo;affichera jamais votre blog en tête de ses résultats de recherche.&lt;/p&gt;
+
+&lt;p&gt;Je vais donc vous montrer comment :&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Écrire un article sous WordPress&lt;/li&gt;
+&lt;li&gt;Comment ajouter un photo&lt;/li&gt;
+&lt;li&gt;Quelques conseils pour optimiser vos articles aux yeux de Google.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;ajouter-un-article-sous-wordpress:c5c0b56a507d898943854fe9ac9f6ff3&#34;&gt;Ajouter un article sous WordPress&lt;/h3&gt;
+
+&lt;p&gt;Il est temps de commencer à blogger ! Les parties techniques sont maintenant terminées avec la créaction de votre blog, il est temps de commencer la partie la plus drole : Écrire.&lt;/p&gt;
+
+&lt;p&gt;Pour ajouter un article sous WordPress cliquez sur &lt;em&gt;Articles - Ajouter&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.bygga.fr/assets/img/articles/ajouter-article.jpg&#34; class=&#34;aligncenter&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;Commencez par choisir un titre accrocheur qui donne envie aux visiteurs de lire votre article. Ne prennez pas un titre de plus de 60 caractères. Votre titre serai coupé dans le résultat de Google autrement.&lt;/p&gt;
+
+&lt;p&gt;Ajoute ensuite le texte de votre article. Vous pouvez ajouter des titres, des paragraphes, ou des listes en utilisant les boutons juste en dessous du titre.&lt;/p&gt;
+
+&lt;h3 id=&#34;ajouter-des-images-dans-wordpress:c5c0b56a507d898943854fe9ac9f6ff3&#34;&gt;Ajouter des images dans WordPress&lt;/h3&gt;
+
+&lt;p&gt;Ajouter une image pour illustrer votre contenu est une tâche facile dans WordPress. Commencez par cliquer sur &lt;em&gt;Ajouter un media&lt;/em&gt; juste sous le titre de l&amp;rsquo;article.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.bygga.fr/assets/img/articles/ajouter-image-1.jpg&#34; class=&#34;aligncenter&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;Cliquez ensuite sur &lt;em&gt;envoyer des fichiers&lt;/em&gt; et enfin * sélectionner des fichiers*&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.bygga.fr/assets/img/articles/ajouter-image-2.jpg&#34; class=&#34;aligncenter&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;Choisissez votre image et cliquez ensuite sur le bouton bleu &lt;em&gt;Insérer dans l&amp;rsquo;article&lt;/em&gt;. Voilà, vous avez inséré votre première image dans WordPress.&lt;/p&gt;
+
+&lt;p&gt;Vous pouvez aussi choisir une &amp;ldquo;Image à la Une&amp;rdquo;. Il s&amp;rsquo;agit de l&amp;rsquo;image qui sera utilisé sur votre page d&amp;rsquo;accueil ou dans la page d&amp;rsquo;archive pour cet article. Pour ajouter une image à la une, cliquez sur le lien dans la colonne de droite.&lt;/p&gt;
+
+&lt;h3 id=&#34;conseils-pour-écrire-des-articles-de-blog:c5c0b56a507d898943854fe9ac9f6ff3&#34;&gt;Conseils pour écrire des articles de blog&lt;/h3&gt;
+
+&lt;p&gt;Le contenu et la façon dont vous écrivez vos articles est très important si vous souhaitez bien figurer sur les pages de recherche. Voici mes astuces pour vous aider :&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Le titre est très important. Il doit être court (moins de 60 caractères) et accrocheur. Il doit aussi comporter les mots clés de votre article.&lt;/li&gt;
+&lt;li&gt;Gardez votre texte aéré. Séparez votre contenu avec des titres et des paragraphes. Utilisez des listes et du texte en gras pour varier l&amp;rsquo;apparence.&lt;/li&gt;
+&lt;li&gt;Utilisez des images pour attirer l&amp;rsquo;attention du lecteur. Beaucoup de personnes ne lisent que les titres et regardent les images. Choisissez les donc descriptives.&lt;/li&gt;
+&lt;li&gt;N&amp;rsquo;écrivez pas sur tout. Essayer de choisir un ou plusieurs thèmes pour votre blog et n&amp;rsquo;écrivez que sur ces thèmes. Vous ne pouvez pas être un expert dans tous les domaines et vos lecteurs ont sans doute envie de vous suivre parce que vous avez par exemple de très bonne recette.&lt;/li&gt;
+&lt;li&gt;Faites un tour sur les forums, Facebook, etc&amp;hellip; pour avoir des idées pour de nouveaux articles. Vous pouvez aussi demander à vos lecteurs ce qu&amp;rsquo;ils veulent lire sur votre blog et dans votre prochain article.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;et-maintenant-je-continue-comment:c5c0b56a507d898943854fe9ac9f6ff3&#34;&gt;Et maintenant je continue comment ?&lt;/h2&gt;
+
+&lt;p&gt;Ça y est, vous venez de créer votre propre blog et ajouter des articles. Je voudrais d&amp;rsquo;abord vous féliciter. C&amp;rsquo;était beaucoup de travail et je suis content de savoir que vous avez réussi et que vous pouvez maintenant être autonome pour ajouter du contenu.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Analyse gratuite de votre site web</title>
+      <link>https://www.bygga.fr/analyse-web/</link>
+      <pubDate>Sat, 31 Oct 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.bygga.fr/analyse-web/</guid>
+      <description>&lt;section class=&#34;row&#34;&gt;
+    &lt;div class=&#34;row offre_analyse&#34;&gt;
+        &lt;div class=&#34;container&#34;&gt;
+            &lt;div class=&#34;row&#34;&gt;
+                &lt;div class=&#34;col-sm-8&#34;&gt;
+                    &lt;h2&gt;Analyse gratuite de votre site web&lt;/h2&gt;
+                    &lt;p&gt;Demandez à nos expects de faire une analyse gratuite de votre site web. Après quelques heures vous recevez un rapport détaillé avec les points que vous devez améliorer pour optimiser au mieux votre site.&lt;/p&gt;
+                    &lt;ul class=&#34;nav&#34;&gt;
+                        &lt;li&gt;&lt;div class=&#34;icon-bullets&#34;&gt;&lt;svg class=&#34;icon-book-dowload-streamline&#34;&gt;&lt;use xlink:href=&#34;/assets/img/theme-icons.svg#icon-book-dowload-streamline&#34;&gt;&lt;/use&gt;&lt;/svg&gt;&lt;span&gt;Recevez un rapport détaillé.&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;div class=&#34;icon-bullets&#34;&gt;&lt;svg class=&#34;icon-settings-streamline&#34;&gt;&lt;use xlink:href=&#34;/assets/img/theme-icons.svg#icon-settings-streamline&#34;&gt;&lt;/use&gt;&lt;/svg&gt;Les solutions sont triées par difficulté et priorité.&lt;/div&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;div class=&#34;icon-bullets&#34;&gt;&lt;svg class=&#34;icon-arrow-streamline-target&#34;&gt;&lt;use xlink:href=&#34;/assets/img/theme-icons.svg#icon-arrow-streamline-target&#34;&gt;&lt;/use&gt;&lt;/svg&gt;Les explications sont claires et personnalisées.&lt;/div&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;div class=&#34;icon-bullets&#34;&gt;&lt;svg class=&#34;icon-bubble-love-streamline-talk&#34;&gt;&lt;use xlink:href=&#34;/assets/img/theme-icons.svg#icon-bubble-love-streamline-talk&#34;&gt;&lt;/use&gt;&lt;/svg&gt;L&#39;analyse de votre site est 100% gratuite.&lt;/div&gt;&lt;/li&gt;
+                    &lt;/ul&gt;
+                &lt;/div&gt;
+                &lt;div class=&#34;col-sm-4 hidden-xs&#34;&gt;
+                    &lt;img src=&#34;https://www.bygga.fr/assets/img/analyse-large.png&#34; &gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/section&gt;
+
+&lt;div class=&#34;formArea row m0&#34;&gt;
+    &lt;div class=&#34;container&#34;&gt;
+        &lt;h2&gt;Formulaire pour analyser votre site&lt;/h2&gt;
+        &lt;form action=&#34;//formspree.io/sbrunet3@gmail.com&#34; method=&#34;POST&#34; class=&#34;row m0 contact_form&#34; id=&#34;contactForm&#34;&gt;
+            &lt;div class=&#34;col-sm-12&#34;&gt;
+                &lt;div class=&#34;row m0&#34;&gt;
+                    &lt;label for=&#34;siteweb&#34;&gt;Votre site web&lt;/label&gt;
+                    &lt;input type=&#34;text&#34; class=&#34;form-control&#34; name=&#34;siteweb&#34; required&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class=&#34;col-sm-12&#34;&gt;
+                &lt;div class=&#34;row m0&#34;&gt;
+                    &lt;label for=&#34;email&#34;&gt;Votre email pour recevoir l&#39;analyse&lt;/label&gt;
+                    &lt;input type=&#34;text&#34; class=&#34;form-control&#34; name=&#34;email&#34; required&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;input type=&#34;hidden&#34; name=&#34;_next&#34; value=&#34;//site.io/thanks.html&#34; /&gt;
+            &lt;input type=&#34;text&#34; name=&#34;_gotcha&#34; style=&#34;display:none&#34; /&gt;
+            &lt;div class=&#34;col-sm-12 text-center&#34;&gt;
+                &lt;button class=&#34;borderred_link&#34; type=&#34;submit&#34;&gt;&lt;span&gt;Faire l&#39;analyse !&lt;/span&gt;&lt;/button&gt;
+            &lt;/div&gt;                            
+        &lt;/form&gt;   
+    &lt;/div&gt;                     
+&lt;/div&gt;
+
+&lt;div class=&#34;row&#34;&gt;
+    &lt;div class=&#34;container&#34;&gt;
+        &lt;h2&gt;Améliorez votre positionnement Google&lt;/h2&gt;
+        &lt;p&gt;Les sites qui sont en tête du classement Google ne se retrouvent pas là par surprise. Ils sont optimisés par des professionels.&lt;/p&gt;
+
+        &lt;p&gt;Ces professionels passent plusieurs milliers d&#39;heures pour optimiser ces sites dans les moindres détails et connaissent tous les secrets pour bien figurer dans les résultats des moteurs de recherche.&lt;/p&gt;
+
+        &lt;p&gt;Sur Bygga vous pouvez &lt;strong&gt;découvrir gratuitement quels sont les points clés que vous devez améliorer&lt;/strong&gt; pour avoir une chance de figurer parmi les premiers.&lt;/p&gt;
+        &lt;h2&gt;Analysez votre site web&lt;/h2&gt;
+        &lt;p&gt;Entrez l&#39;adresse URL de votre site web et laissez nous traivailler. Nous allons analyser votre site web pour y trouver les points les plus importants à améliorer et optimiser.&lt;/p&gt;
+
+        &lt;p&gt;Vous recevez ensuite une liste détaillée des suggestions que nous vous donnons pour améliorer la vitesse, les fonctions et la SEO de votre site.&lt;/p&gt;
+
+        &lt;p&gt;Cette liste décrit les étapes principales et les modifications que vous pouvez apporter pour améliorer votre site. &lt;/p&gt;
+
+        &lt;p&gt;&lt;strong&gt;L&#39;analyse est gratuite et sans frais cachés&lt;/strong&gt;. Nous sommes simplement généreux et le simple fait que vous partagez ce service avec vos amis nous rend heureux !&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Formulaire envoyé</title>
+      <link>https://www.bygga.fr/analyse-web-merci/</link>
+      <pubDate>Sat, 31 Oct 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.bygga.fr/analyse-web-merci/</guid>
+      <description>
+
+&lt;h2 id=&#34;dans-quelques-heures-votre-site-sera-encore-plus-performant:47ef71488adbbbd8d95f1283e328b451&#34;&gt;Dans quelques heures votre site sera encore plus performant &amp;hellip;&lt;/h2&gt;
+
+&lt;p&gt;Nous avons bien reçu votre demande d&amp;rsquo;analyse de votre site web. Dans quelques heures vous pourrez mettre en oeuvre tous nos conseils pour améliorer votre site web.&lt;/p&gt;
+
+&lt;p&gt;En attendant, vous pouvez parcourir notre blog pour découvrir d&amp;rsquo;autres astuces pour rendre votre site performant et attractif.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Thèmes WordPress par professions</title>
+      <link>https://www.bygga.fr/themes-wordpress-profession/</link>
+      <pubDate>Thu, 08 Oct 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.bygga.fr/themes-wordpress-profession/</guid>
+      <description>&lt;!--benefits--&gt;
+
+&lt;section class=&#34;theme-metier text-center&#34;&gt;
+  &lt;div class=&#34;container&#34;&gt;
+    &lt;header class=&#34;section-header&#34;&gt;
+      &lt;h2&gt;Thèmes WordPress par Professions&lt;/h2&gt;
+      &lt;div class=&#34;section-description&#34;&gt;Quelque soit votre secteur d&#39;activité, il existe un thème WordPress pour répondre à vos besoins. Découvrez une sélection des meilleurs thèmes WordPress pour votre entreprise class&amp;eacute;s par professions.&lt;/div&gt;
+    &lt;/header&gt;
+    &lt;div class=&#34;row&#34;&gt;
+      &lt;div class=&#34;col-sm-4&#34;&gt; 
+        &lt;ul&gt;
+          &lt;li&gt;
+            &lt;a href=&#34;https://www.bygga.fr/20-themes-plugins-restaurant-wordpress/&#34;&gt;
+              &lt;div class=&#34;svg-img&#34;&gt;
+                &lt;svg class=&#34;icon-chef-food-restaurant-streamline&#34;&gt;
+                  &lt;use xlink:href=&#34;/assets/img/theme-icons.svg#icon-chef-food-restaurant-streamline&#34;&gt;&lt;/use&gt;
+                &lt;/svg&gt;
+              &lt;/div&gt;
+              &lt;span&gt;Restaurant&lt;/span&gt;
+            &lt;/a&gt;
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;a href=&#34;https://www.bygga.fr/5-themes-wordpress-et-ressources-pour-coach-sportif-et-club-de-sport/&#34;&gt;
+              &lt;div class=&#34;svg-img&#34;&gt;
+                &lt;svg class=&#34;icon-arrow-streamline-target&#34;&gt;&lt;use xlink:href=&#34;/assets/img/theme-icons.svg#icon-arrow-streamline-target&#34;&gt;&lt;/use&gt;&lt;/svg&gt;
+              &lt;/div&gt;
+              &lt;span&gt;Sport&lt;/span&gt;
+            &lt;/a&gt;
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;a href=&#34;https://www.bygga.fr/themes-wordpress-artistes-creatifs/&#34;&gt;
+              &lt;div class=&#34;svg-img&#34;&gt;
+                &lt;svg class=&#34;icon-painting-pallet-streamline&#34;&gt;&lt;use xlink:href=&#34;/assets/img/theme-icons.svg#icon-painting-pallet-streamline&#34;&gt;&lt;/use&gt;&lt;/svg&gt;
+              &lt;/div&gt;
+              &lt;span&gt;Artiste et Créatif&lt;/span&gt;
+            &lt;/a&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;div class=&#34;col-sm-4&#34;&gt; 
+        &lt;ul&gt;
+          &lt;li&gt;
+            &lt;a href=&#34;https://www.bygga.fr/10-themes-wordpress-recents-pour-photographes/&#34;&gt;
+              &lt;div class=&#34;svg-img&#34;&gt;
+                &lt;svg class=&#34;icon-camera-photo-streamline&#34;&gt;&lt;use xlink:href=&#34;/assets/img/theme-icons.svg#icon-camera-photo-streamline&#34;&gt;&lt;/use&gt;&lt;/svg&gt;
+              &lt;/div&gt;
+              &lt;span&gt;Photographe&lt;span&gt;
+            &lt;/a&gt;
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;a href=&#34;https://www.bygga.fr/themes-magento-boutique-vetements/&#34;&gt;
+              &lt;div class=&#34;svg-img&#34;&gt;
+                &lt;svg class=&#34;icon-caddie-shopping-streamline&#34;&gt;&lt;use xlink:href=&#34;/assets/img/theme-icons.svg#icon-caddie-shopping-streamline&#34;&gt;&lt;/use&gt;&lt;/svg&gt;
+              &lt;/div&gt;
+              &lt;span&gt;E-commerce&lt;/span&gt;
+            &lt;/a&gt;
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;a href=&#34;https://www.bygga.fr/10-theme-wordpress-agence-communication/&#34;&gt;
+              &lt;div class=&#34;svg-img&#34;&gt;
+                &lt;svg class=&#34;icon-computer-network-streamline&#34;&gt;&lt;use xlink:href=&#34;/assets/img/theme-icons.svg#icon-computer-network-streamline&#34;&gt;&lt;/use&gt;&lt;/svg&gt;
+              &lt;/div&gt;
+              &lt;span&gt;Agence de communication&lt;/span&gt;
+            &lt;/a&gt;
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;a href=&#34;https://www.bygga.fr/5-themes-wordpress-pour-cours-de-yoga/&#34;&gt;
+              &lt;div class=&#34;svg-img&#34;&gt;
+                &lt;svg class=&#34;icon-happy-smiley-streamline&#34;&gt;&lt;use xlink:href=&#34;/assets/img/theme-icons.svg#icon-happy-smiley-streamline&#34;&gt;&lt;/use&gt;&lt;/svg&gt;
+              &lt;/div&gt;
+              &lt;span&gt;Spa, Yoga, Massage&lt;/span&gt;
+            &lt;/a&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;div class=&#34;col-sm-4&#34;&gt; 
+        &lt;ul&gt;
+          &lt;li&gt;
+            &lt;a href=&#34;https://www.bygga.fr/theme-wordpress-association/&#34;&gt;
+              &lt;div class=&#34;svg-img&#34;&gt;
+                &lt;svg class=&#34;icon-map-streamline-user&#34;&gt;&lt;use xlink:href=&#34;/assets/img/theme-icons.svg#icon-map-streamline-user&#34;&gt;&lt;/use&gt;&lt;/svg&gt;
+              &lt;/div&gt;
+              &lt;span&gt;Association&lt;/span&gt;
+            &lt;/a&gt;
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;a href=&#34;https://www.bygga.fr/9-themes-wordpress-ecoles-primaires-maternelles/&#34;&gt;
+              &lt;div class=&#34;svg-img&#34;&gt;
+                &lt;svg class=&#34;icon-design-pencil-rule-streamline&#34;&gt;&lt;use xlink:href=&#34;/assets/img/theme-icons.svg#icon-design-pencil-rule-streamline&#34;&gt;&lt;/use&gt;&lt;/svg&gt;
+              &lt;/div&gt;
+              &lt;span&gt;Education&lt;/span&gt;
+            &lt;/a&gt;
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;a href=&#34;https://www.bygga.fr/themes-wordpress-pour-ecrivains/&#34;&gt;
+              &lt;div class=&#34;svg-img&#34;&gt;
+                &lt;svg class=&#34;icon-pen-streamline-1&#34;&gt;&lt;use xlink:href=&#34;/assets/img/theme-icons.svg#icon-pen-streamline-1&#34;&gt;&lt;/use&gt;&lt;/svg&gt;
+              &lt;/div&gt;
+              &lt;span&gt;Ecrivain&lt;/span&gt;
+            &lt;/a&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/section&gt;
+
+&lt;!--benefits end--&gt; 
 </description>
     </item>
     
@@ -33,7 +527,7 @@
 
 &lt;h2 id=&#34;outils-et-services-que-j-utilise-et-recommande:b386a8173945ee4c6bb62da3cbc6a37a&#34;&gt;Outils et services que j&amp;rsquo;utilise et recommande&lt;/h2&gt;
 
-&lt;p&gt;Si vous êtes voulez vraiment créer un site internet ou un blog à succès, il faut vous en donner les moyens.&lt;/p&gt;
+&lt;p&gt;Si vous êtes voulez vraiment &lt;a href=&#34;https://www.bygga.fr/creer-blog-gratuitement/&#34;&gt;créer un site internet ou un blog&lt;/a&gt; à succès, il faut vous en donner les moyens.&lt;/p&gt;
 
 &lt;p&gt;Le succès n&amp;rsquo;arrive pas par hasard et pour mettre toutes les chances de votre coté, &lt;strong&gt;voici des outils et services que j&amp;rsquo;utilise personnellement ou bien pour mes clients.&lt;/strong&gt;&lt;/p&gt;
 
@@ -45,24 +539,24 @@
 
 &lt;p&gt;&lt;strong&gt;Importance : Indispensable pour les amateurs et les pros.&lt;/strong&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;outil-2-accélérez-le-dévelopement-de-votre-site-avec-wordpress:b386a8173945ee4c6bb62da3cbc6a37a&#34;&gt;Outil 2: Accélérez le dévelopement de votre site avec WordPress&lt;/h2&gt;
+&lt;h2 id=&#34;outil-2-économisez-1000h-de-développement-web-avec-wordpress:b386a8173945ee4c6bb62da3cbc6a37a&#34;&gt;Outil 2: Économisez 1000h de développement web avec WordPress&lt;/h2&gt;
 
 &lt;p&gt;WordPress est un très bon outil pour débuter un blog, un site de e-commerce ou bien un une plateforme avec plusieurs millier de pages.&lt;/p&gt;
 
-&lt;p&gt;L&amp;rsquo;installation prend moins de 5 minutes, et vous pouvez personnalisé l&amp;rsquo;apparence avec des thèmes variés et de qualités sans avoir aucune connaissance en programmation.&lt;/p&gt;
+&lt;p&gt;L&amp;rsquo;installation prend moins de 5 minutes, et vous pouvez personnalisé l&amp;rsquo;apparence avec des thèmes variés et de qualités sans avoir aucune connaissance en programmation. De quoi vous savez des milliers d&amp;rsquo;heures de développement.&lt;/p&gt;
 
-&lt;p&gt;C&amp;rsquo;est donc une aubaine pour les amateurs, et peut être très utile pour les pros qui cherchent à minimiser le budget developpement en utilisant une plateforme qui fait ses preuves (50% des sites internets utilisent WordPress).&lt;/p&gt;
+&lt;p&gt;C&amp;rsquo;est donc une aubaine pour les amateurs, et peut être très utile pour les pros qui cherchent à minimiser le budget developpement en utilisant une plateforme qui fait ses preuves (La majorité des sites web utilisent WordPress).&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Importance : Indispensable pour les amateurs, Optionnel pour les pros.&lt;/strong&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;accélérer-la-vitesse-de-son-site-avec-un-cdn:b386a8173945ee4c6bb62da3cbc6a37a&#34;&gt;Accélérer la vitesse de son site avec un CDN&lt;/h2&gt;
+&lt;h2 id=&#34;outil-3-un-temps-de-réponse-éclair-avec-un-cdn:b386a8173945ee4c6bb62da3cbc6a37a&#34;&gt;Outil 3: Un temps de réponse éclair avec un CDN&lt;/h2&gt;
 
 &lt;p&gt;Le temps de réponse de votre site dépend de la vitesse de votre serveur mais aussi de la distance des visiteurs à ce serveur.
-Même si votre hébergeur internet est rapide, si vos utilisateurs son loin des serveurs (il existe dans francophone partout dans le monde) votre site se chargera lentement.&lt;/p&gt;
+Même si votre hébergeur internet est rapide, si vos utilisateurs son loin des serveurs (il existe des francophones partout dans le monde) votre site se chargera lentement.&lt;/p&gt;
 
 &lt;p&gt;Heuresement les solutions existent : Les CDN, Content Delivery Network.&lt;/p&gt;
 
-&lt;p&gt;Le plus populaire et abordable s&amp;rsquo;appelle MaxCDN. Vous pouvez facilement gagner quelques secondes précieuses si vous l&amp;rsquo;utilisé pour délivrer vos images et vos scripts.&lt;/p&gt;
+&lt;p&gt;Le plus populaire et abordable s&amp;rsquo;appelle MaxCDN. Vous pouvez facilement gagner quelques secondes précieuses si vous l&amp;rsquo;utilisez pour délivrer vos images et vos scripts.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Importance : Optionnel pour les amateurs. Indispensable pour les pros.&lt;/strong&gt;&lt;/p&gt;
 </description>

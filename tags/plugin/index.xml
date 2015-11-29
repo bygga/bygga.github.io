@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Plugin on Bygga</title>
-    <link>https://www.bygga.fr/tags/plugin/</link>
+    <link>http://localhost:1313/tags/plugin/</link>
     <description>Recent content in Plugin on Bygga</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-FR</language>
     <lastBuildDate>Tue, 24 Jul 2012 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.bygga.fr/tags/plugin/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/plugin/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>5 plugins pour avoir plus de fans Facebook avec WordPress</title>
-      <link>https://www.bygga.fr/5-plugins-pour-avoir-plus-de-fans-facebook-avec-wordpress/</link>
+      <link>http://localhost:1313/5-plugins-pour-avoir-plus-de-fans-facebook-avec-wordpress/</link>
       <pubDate>Tue, 24 Jul 2012 00:00:00 +0000</pubDate>
       
-      <guid>https://www.bygga.fr/5-plugins-pour-avoir-plus-de-fans-facebook-avec-wordpress/</guid>
+      <guid>http://localhost:1313/5-plugins-pour-avoir-plus-de-fans-facebook-avec-wordpress/</guid>
       <description>
 
 &lt;p&gt;Si vous avez un site construit avec la plateforme WordPress et que vous avez de la peine à augmenter votre nombre de fans sur Facebook, alors j’ai une bonne nouvelle pour vous ! J’ai fait quelques recherches sur Google pour trouver quels étaient les meilleures solutions disponibles sous WordPress pour augmenter son nombre de fans sur Facebook. J’ai trouvé 5 plugins qui devraient aider !&lt;br /&gt;

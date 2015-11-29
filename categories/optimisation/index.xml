@@ -1,0 +1,599 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Optimisation on Bygga</title>
+    <link>https://www.bygga.fr/categories/optimisation/</link>
+    <description>Recent content in Optimisation on Bygga</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-FR</language>
+    <lastBuildDate>Sat, 14 Nov 2015 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.bygga.fr/categories/optimisation/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Optimiser WordPress pour de meilleures performances</title>
+      <link>https://www.bygga.fr/optimiser-wordpress-performances/</link>
+      <pubDate>Sat, 14 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.bygga.fr/optimiser-wordpress-performances/</guid>
+      <description>
+
+&lt;p&gt;&lt;img src=&#34;https://www.bygga.fr/assets/img/articles/optimiser-wordpress-performances.png&#34; class=&#34;aligncenter&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;wordpress-est-lent-quand-il-n-est-pas-optimisé:d1a3bf19b5c13faa163ce5472d225f14&#34;&gt;WordPress est lent quand il n&amp;rsquo;est pas optimisé&lt;/h2&gt;
+
+&lt;p&gt;WordPress est une plateforme incroyable qui propose un nombre incroyable d&amp;rsquo;options pour rendre possible toutes les créations de site web et pas seulement les blogs.&lt;/p&gt;
+
+&lt;p&gt;Le problème avec toutes ces options c&amp;rsquo;est qu&amp;rsquo;aucun type de sites n&amp;rsquo;est optimisé : &lt;strong&gt;Tous les sites sous WordPress sont lents si aucun effort n&amp;rsquo;est donné pour les optimiser.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Découvrez donc comment &lt;a href=&#34;https://www.bygga.fr/voila-5-facons-de-rendre-votre-site-plus-rapide-sous-wordpress/&#34;&gt;optimiser WordPress&lt;/a&gt; pour améliorer vos performances de votre site. La vitesse d&amp;rsquo;affichage est extremement importante comme le montre de nombreuses recherches. Quelques &lt;a href=&#34;http://reachcontent.com/blog/vitesse-affichage-page-experience-utilisateur-google&#34;&gt;millisecondes supplémentaires pour charger votre site&lt;/a&gt; signifie qu&amp;rsquo;un visiteur peut décider de quitter votre page avant même d&amp;rsquo;avoir eu le temps de lire votre contenu.&lt;/p&gt;
+
+&lt;h2 id=&#34;1-choisissez-un-hébergement-rapide-et-sûr:d1a3bf19b5c13faa163ce5472d225f14&#34;&gt;1. Choisissez un hébergement rapide et sûr&lt;/h2&gt;
+
+&lt;p&gt;L&amp;rsquo;hébergement que vous choisissez à une influence importante sur la vitesse de chargement de votre site.
+&lt;a href=&#34;https://developers.google.com/speed/docs/insights/Server&#34;&gt;Google considère qu&amp;rsquo;un temps de réponse supérieur à 200ms est lent&lt;/a&gt;. Durant ces 200ms rien ne se passe, aucun script ne peut être chargé, aucun texte affiché.&lt;/p&gt;
+
+&lt;p&gt;Il est donc extrêmement important de vérifié si votre serveur est suffisement rapide. Vous pouvez facilement le découvrir en utilisant &lt;a href=&#34;https://developers.google.com/speed/pagespeed/insights/&#34;&gt;Page Speed Insight de Google&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Si le temps de réponse est moins de 200ms, félicitation. Entre 200ms et 600ms, vous pouvez survivre si votre site n&amp;rsquo;est pas un site de commerce pour lesquels le temps de réponse est encore plus important.&lt;/p&gt;
+
+&lt;p&gt;Si le temps de réponse est suppérieur à 600ms, vous devez prendre les choses en main et changer d&amp;rsquo;hébergeur. LWS propose un pack &lt;a href=&#34;https://affiliation.lws-hosting.com/statistics/click/47/0&#34;&gt;LWS Performance Wordpress&lt;/a&gt;. Choisir cet hébergement va vous ammener sous la barre des 400ms.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.bygga.fr/assets/img/articles/LWS.jpg&#34; class=&#34;aligncenter&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Pour descendre sous la barre des 200ms, vous devez choisir un &lt;a href=&#34;https://affiliation.lws-hosting.com/statistics/click/47/0&#34;&gt;serveur dédié VPS&lt;/a&gt;. Ces serveurs sont bien plus chers, mais vous êtes le seul sur le serveur ce qui signifie que vous avez bien plus de puissance pour votre site. Un très bon investissement si votre site reçois beaucoup de traffic.&lt;/p&gt;
+
+&lt;h2 id=&#34;2-utilisez-un-thème-wordpress-optimisé-pour-la-vitesse:d1a3bf19b5c13faa163ce5472d225f14&#34;&gt;2. Utilisez un thème WordPress optimisé pour la vitesse.&lt;/h2&gt;
+
+&lt;p&gt;Faites &lt;a href=&#34;https://www.bygga.fr/voila-pourquoi-il-faut-acheter-un-theme-payant-plutot-que-gratuit/&#34;&gt;attention aux thèmes gratuits&lt;/a&gt;. Ils sont souvent moins bien optimisés que les thèmes payants. Les thèmes payants comme ceux publiés sur &lt;a href=&#34;http://themeforest.net/category/wordpress?ref=bygga&#34;&gt;ThèmeForest&lt;/a&gt; doivent passer plusieurs inspections par les développeurs de ThemeForest avant d&amp;rsquo;être autorisé à la vente.&lt;/p&gt;
+
+&lt;p&gt;Parmi les thèmes WordPress payant, vous pouvez aussi choisir ceux qui sont les plus simples. Ne prenez pas un thème avec pleins d&amp;rsquo;images, de slider et d&amp;rsquo;effets de style. Certes c&amp;rsquo;est joli, mais ça prend également plus de temps à charger. Trouvez donc un bon compromis.&lt;/p&gt;
+
+&lt;p&gt;NewsMag est un bon exemple d&amp;rsquo;un thème optimisé et qui convient parfaitement aux magazines. Même si ce thème est complexe et propose beaucoup de contenu, il à un scrore de &lt;strong&gt;&lt;sup&gt;90&lt;/sup&gt;&amp;frasl;&lt;sub&gt;100&lt;/sub&gt;&lt;/strong&gt; sous &lt;em&gt;Page Speed&lt;/em&gt;.
+&lt;a href=&#34;http://themeforest.net/item/newsmag-news-magazine-newspaper/9512331?ref=bygga&#34;&gt;&lt;img src=&#34;https://www.bygga.fr/assets/img/articles/newsmag.jpg&#34; class=&#34;aligncenter&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;3-utilisez-un-plugin-de-cache:d1a3bf19b5c13faa163ce5472d225f14&#34;&gt;3. Utilisez un plugin de cache&lt;/h2&gt;
+
+&lt;p&gt;Vous avez un serveur rapide, un thème optimisé. La prochaine étape consiste à réduire le nombre d&amp;rsquo;appels à votre base de donnée en utilisant une technique de &lt;em&gt;cache&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Je ne vais pas rentrer dans les détails pour ne pas perdre tout le monde, mais il existe une solution extra simple pour réduire le temps de réponse de votre site WordPress. Vous pouvez utiliser un plugin de cache. Je vous recommande d&amp;rsquo;utiliser &lt;a href=&#34;http://wordpress.org/extend/plugins/w3-total-cache/&#34;&gt;W3 Total Cache&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.bygga.fr/assets/img/articles/w3-total-cache.jpg&#34; class=&#34;aligncenter&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Ce plugin est facile à prendre en main. Si vous voulez découvrir comment le configurer dans les détails suivez ce &lt;a href=&#34;http://www.wppourlesnuls.com/comment-installer-et-configurer-w3-total-cache-pour-debutants/&#34;&gt;guide&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;4-utiliser-un-content-delivery-network-cdn:d1a3bf19b5c13faa163ce5472d225f14&#34;&gt;4. Utiliser un Content Delivery Network (CDN)&lt;/h2&gt;
+
+&lt;p&gt;L&amp;rsquo;idée d&amp;rsquo;un Content Delivery Network (CDN) c&amp;rsquo;est de réduire la charge sur votre serveur. Même si votre serveur est puissant, tout le contenu de votre site est téléchargé depuis un seul et unique serveur. Ca peut créer des bouchons.&lt;/p&gt;
+
+&lt;p&gt;Un CDN ce sont des dizaines de serveurs qui vont délivrer une partie de votre contenu static (vos images, HTML, script&amp;hellip;) directement aux visiteurs.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.bygga.fr/assets/img/articles/maxcdn.jpg&#34; class=&#34;aligncenter&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;L&amp;rsquo;autre gros avantages des CDN c&amp;rsquo;est que les serveurs sont aux quatre coins du monde. Vos visiteurs vont donc pouvoir télécharger votre site depuis le serveur le plus proche de chez eux.&lt;/p&gt;
+
+&lt;p&gt;Il existe deux gros acteurs dans les CDN : &lt;a href=&#34;https://www.cloudflare.com/&#34;&gt;CloudFlare&lt;/a&gt; qui est gratuit ou &lt;a href=&#34;https://www.maxcdn.com/&#34;&gt;MaxCDN&lt;/a&gt; qui est payant mais avec plus d&amp;rsquo;options.&lt;/p&gt;
+
+&lt;h2 id=&#34;5-optimiser-vos-images:d1a3bf19b5c13faa163ce5472d225f14&#34;&gt;5. Optimiser vos images&lt;/h2&gt;
+
+&lt;p&gt;Une images avec un million de pixel c&amp;rsquo;est joli. Mais c&amp;rsquo;est loin d&amp;rsquo;être utilise sur votre site. (Sauf si vous êtes photographe bien sûr.)&lt;/p&gt;
+
+&lt;p&gt;Sous WordPress c&amp;rsquo;est extremement facile d&amp;rsquo;optimiser vos images. Il existe bien sûr des plugins qui vous peuvent faire tout cela automatiquement. Le plus populaire est &lt;a href=&#34;https://wordpress.org/plugins/ewww-image-optimizer/&#34;&gt;EWWW Image Optimizer&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.bygga.fr/assets/wp-content/uploads/2015/07/EWWW-Image-Optimizer-620x199.jpg&#34; class=&#34;aligncenter&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Même si son nom à loin d&amp;rsquo;être sérieux, ce plugin propose une mine d&amp;rsquo;or d&amp;rsquo;optimisations. Que vos images soit des JPG ou bien des PNG, il existe plusieurs algorithmes qui peuvent réduire la taille des images en conservant plus ou moins la qualité de celle-ci. EWWW Image Optimizer permet de passer toutes vos images à la moulinette pour les optimiser et réduire la taille en un seul clic.&lt;/p&gt;
+
+&lt;p&gt;Découvrez d&amp;rsquo;autres plugins et d&amp;rsquo;autres conseils pour réduire la taille de vos images dans ce guide :&lt;br /&gt;
+&lt;a href=&#34;https://www.bygga.fr/comment-optimiser-vos-images-sous-wordpress/&#34;&gt;Comment optimiser vos images sous WordPress&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;6-optimiser-la-base-de-donnée-wordpress:d1a3bf19b5c13faa163ce5472d225f14&#34;&gt;6. Optimiser la base de donnée WordPress&lt;/h2&gt;
+
+&lt;p&gt;Chaque options, chaque catégorie, chaque commentaire et chaque version de vos articles sont sauvegardé dans la base de donnée de WordPress sur votre serveur.&lt;/p&gt;
+
+&lt;p&gt;Cela représente un nombre colossale d&amp;rsquo;information. Le problème c&amp;rsquo;est que lorsque vous voulez afficher votre article numero 20, vous devez chercher parmi toutes ces données pour trouver la bonne. Il est bien plus facile de trouver l&amp;rsquo;information parmi 200 plutôt que parmi 2000.&lt;/p&gt;
+
+&lt;p&gt;Il est donc important que vous supprimiez les données inutiles de votre base de donnée de temps en temps. Vous n&amp;rsquo;avez sans doute pas besoin de garder un historique de toutes les révisions de vos articles.&lt;/p&gt;
+
+&lt;p&gt;Vous pouvez utiliser le plugin WordPress &lt;a href=&#34;https://sv.wordpress.org/plugins/wp-sweep/&#34;&gt;WP-Sweep&lt;/a&gt; qui se charge de supprimé les entrées inutiles de votre base de donnée. Cette extension est simple à utiliser, mais n&amp;rsquo;oubliez pas de faire une sauvegarde de votre base de donnée avant de la nettoyer. Ce plugin à une très bonne réputation, mais on n&amp;rsquo;est jamais trop prudent.&lt;/p&gt;
+
+&lt;h2 id=&#34;7-afficher-vos-images-au-fur-et-à-mesure:d1a3bf19b5c13faa163ce5472d225f14&#34;&gt;7. Afficher vos images au fur et à mesure&lt;/h2&gt;
+
+&lt;p&gt;Cette technique d&amp;rsquo;optimisation pour réduire le temps de chargement initial de votre site web est très à la mode. Il s&amp;rsquo;agit de télécharger vos fichier images (et donc de les afficher) uniquement si le visiteur s&amp;rsquo;en rapproche.&lt;/p&gt;
+
+&lt;p&gt;Vous conviendrez qu&amp;rsquo;il est inutile de télécharger les images en bas de votre page si le visiteur se trouve tout en haut. En mettant un délais pour le téléchargement de ces images, vous diminuez la demande sur votre serveur, ce qui permet d&amp;rsquo;afficher le texte et les premières images bien plus rapidement et ainsi &lt;a href=&#34;https://www.bygga.fr/taux-de-rebond-10-conseils-pour-lameliorer-significativement/&#34;&gt;diminuer le taux de rebond&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Au fur et à mesure que le visiteur descend vers le bas de votre page, les images sont téléchargées puis affichées. C&amp;rsquo;est complètement transparant pour l&amp;rsquo;utilisateur.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.bygga.fr/assets/img/articles/unveil-lazy-load.jpg&#34; class=&#34;aligncenter&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Un plugin qui fonctionne très bien pour utiliser cette méthode sous WordPress c&amp;rsquo;est &lt;a href=&#34;https://wordpress.org/plugins/unveil-lazy-load/&#34;&gt;Unveil Lazy Load&lt;/a&gt;. Il suffit d&amp;rsquo;activer le plugin et tout se fait automatiquement, parfait pour les débutants qui veulent optimiser leur blog.&lt;/p&gt;
+
+&lt;h2 id=&#34;8-remplacez-une-partie-du-php-par-du-html:d1a3bf19b5c13faa163ce5472d225f14&#34;&gt;8. Remplacez une partie du PHP par du HTML&lt;/h2&gt;
+
+&lt;p&gt;Cette astuce demande de modifier votre thème. Si vous ne vous en sentez pas capable vous pouvez sauter cette étape. Pour les autres, vous pouvez économiser quelques requète à votre base de donnée en utilisant directement du language HTML plutôt que du PHP.&lt;/p&gt;
+
+&lt;p&gt;Voici par exemple quelques partie de votre thème que vous pouvez transformer en HTML. Regardez dans votre fichier &lt;em&gt;header.php&lt;/em&gt;.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-php&#34;&gt;&amp;lt;title&amp;gt;&amp;lt;?php bloginfo(&#39;name&#39;); ?&amp;gt; &amp;lt;?php bloginfo(&#39;description&#39;);?&amp;gt;&amp;lt;/title&amp;gt;
+&amp;lt;link rel=&amp;quot;shorcut icon&amp;quot; type=&amp;quot;image/x-ico&amp;quot; href=&amp;quot;&amp;lt;php bloginfo(&#39;template_url&#39;); ?&amp;gt;/favicon.jpg&amp;quot; /&amp;gt;
+&amp;lt;link rel=&amp;quot;stylesheet&amp;quot; type=&amp;quot;text/css&amp;quot; media=&amp;quot;screen&amp;quot; href=&amp;quot;&amp;lt;?php bloginfo(&#39;stylesheet_url&#39;); ?&amp;gt;&amp;quot;/&amp;gt;
+&amp;lt;link rel=&amp;quot;stylesheet&amp;quot; type=&amp;quot;text/css&amp;quot; media=&amp;quot;print&amp;quot; href=&amp;quot;&amp;lt;?php bloginfo(&#39;template_url&#39;); ?&amp;gt;/print.css&amp;quot; /&amp;gt;
+&amp;lt;link rel=&amp;quot;alternate&amp;quot; type=&amp;quot;application/rss+xml&amp;quot; title=&amp;quot;RSS .92&amp;quot; href=&amp;quot;&amp;lt;?php bloginfo(&#39;rss_url&#39;); ?&amp;gt;&amp;quot; /&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Vous pouvez sans doute remplacer chacune des fonctions ci-dessus par son équivalent HTML. Celà va sauver 5 requête pour chaque page que le visiteur affiche.&lt;/p&gt;
+
+&lt;p&gt;Pourquoi est-ce que ce n&amp;rsquo;est pas fait par défaut? C&amp;rsquo;est uniquement parce qu&amp;rsquo;un thème n&amp;rsquo;est pas optimiser pour un seul utilisateur. Les thèmes doivent être flexibles pour que tout le monde puisse avoir son propre titre, son propre emplacement des fichers CSS, etc&amp;hellip;&lt;/p&gt;
+
+&lt;h2 id=&#34;9-réduire-la-taille-de-votre-css:d1a3bf19b5c13faa163ce5472d225f14&#34;&gt;9. Réduire la taille de votre CSS&lt;/h2&gt;
+
+&lt;p&gt;Si vous avez acheté un &lt;a href=&#34;https://www.bygga.fr/themes-wordpress-profession/&#34;&gt;thème WordPress&lt;/a&gt;, il y a des chances que vous n&amp;rsquo;utilisiez que 20% de sa puissance.&lt;/p&gt;
+
+&lt;p&gt;Pour vendre leur thème les développeurs ajoutent des centaines de shortcode, de typographie, de pages spéciales, etc&amp;hellip; Certe à fait vendre, mais ça alourdie énormément votre fichier de style CSS.&lt;/p&gt;
+
+&lt;p&gt;Faites donc un petit tour sur ce fichier (surement sous le nom de style.css) et regardez si vous ne pouvez pas en enlever quelques partie. C&amp;rsquo;est plutôt réservé à ceux qui comprennent le CSS, mais il y a un énorme potentiel pour sauver des kilobites de codes.&lt;/p&gt;
+
+&lt;p&gt;On peut souvent passer d&amp;rsquo;un ficher style à 300kB et le réduire à 50kB. Ce sont 250kB qui sont économisés !&lt;/p&gt;
+
+&lt;h2 id=&#34;10-ne-chargez-pas-systématiquement-vos-fichiers-jquery:d1a3bf19b5c13faa163ce5472d225f14&#34;&gt;10. Ne chargez pas systématiquement vos fichiers jQuery&lt;/h2&gt;
+
+&lt;p&gt;Si vous regardez le code source de votre site, vous allez voir qu&amp;rsquo;il y a sans doute une dizaines de script qui sont téléchargés sur chaque page. C&amp;rsquo;est beaucoup trop !&lt;/p&gt;
+
+&lt;p&gt;Souvent les développeurs de thèmes et de plugins se simplifient la vie et chargent leur script sur chaque page de votre site. Quel intérêt ? Aucun !&lt;/p&gt;
+
+&lt;p&gt;Si vous avez un slider qui n&amp;rsquo;apparait que sur votre page d&amp;rsquo;acceuil, n&amp;rsquo;allez pas charger le script sur toutes vos autres pages.&lt;/p&gt;
+
+&lt;p&gt;Allez donc faire un tour sur votre fichier &lt;code&gt;function.php&lt;/code&gt; et regardez si vous ne pouvez utiliser un &lt;code&gt;if&lt;/code&gt; pour ne charger vos scripts que sous certaines conditions.&lt;/p&gt;
+
+&lt;p&gt;Voici un exemple pour vous inspirer :&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-php&#34;&gt;&amp;lt;?php 
+add_action( &#39;wp_enqueue_scripts&#39;, &#39;bygga_charger_scripts&#39; );
+   function bygga_charger_scripts(){
+      /* remplacer /js/slider-accueil.js par votre propre fichier */
+      wp_register_script( &#39;slider-accueil&#39;, get_template_directory_uri().&#39;/js/slider-accueil.js&#39;);
+      if ( is_front_page() ) {
+         wp_enqueue_script(&#39;slider-accueil&#39;);
+      }
+   }
+?&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;11-supprimez-les-extensions-trop-lentes:d1a3bf19b5c13faa163ce5472d225f14&#34;&gt;11. Supprimez les extensions trop lentes&lt;/h2&gt;
+
+&lt;p&gt;Tous les plugins ne sont pas optimisés. Loin de là&amp;hellip;
+Il est donc important que vous ayez une idée de l&amp;rsquo;impact de chaque extension sur le temps total de chargement de votre site. Certain plugins peuvent utiliser une seconde pour se charger. Une seconde c&amp;rsquo;est énorme et vous devez vous poser la question si ce plugin est vraiment nécessaire.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.bygga.fr/assets/img/articles/p3-profiler.jpg&#34; class=&#34;aligncenter&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Pour savoir quel est l&amp;rsquo;impact de chaque plugin sur le temps de chargement de votre site, vous pouvez installer le plugin &lt;a href=&#34;http://wordpress.org/plugins/p3-profiler/&#34;&gt;P3 Profiler&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Cette extension va passer votre site à la moulinette et vous donner un rapport détaillé de l&amp;rsquo;impact de chaque extension sur le temps de chargement de vos pages. Vous allez vite pouvoir vous rendre compte des plugins qui &amp;ldquo;volent&amp;rdquo; les ressources de votre serveur.&lt;/p&gt;
+
+&lt;p&gt;Profitez-en aussi pour supprimer tous les plugins que vous n&amp;rsquo;utilisez pas.&lt;/p&gt;
+
+&lt;h2 id=&#34;12-supprimez-les-commentaires-indésirables:d1a3bf19b5c13faa163ce5472d225f14&#34;&gt;12. Supprimez les commentaires indésirables&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.bygga.fr/assets/img/articles/supprimer-commentaires.jpg&#34; class=&#34;aligncenter&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Si vous suivez l&amp;rsquo;astuce 6 sur l&amp;rsquo;optimisation de votre base de donnée, vous êtes déjà couvert. Sinon souvenez vous bien de supprimer les commentaires indésirables qu&amp;rsquo;Akismet découvre. Si votre site est populaire comme le mien, vous pouvez recevoir une centaine de commentaires indésirables par jour qui viennent uniquement prendre de la place dans votre base de donnée.&lt;/p&gt;
+
+&lt;p&gt;Vous pouvez trouver plus d&amp;rsquo;information en lisant cet article, ma foi très bon. &lt;a href=&#34;https://bulledev.com/optimiser-wordpress/&#34;&gt;Le guide complet pour accélérer et optimiser WordPress&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Comment optimiser vos images sous WordPress</title>
+      <link>https://www.bygga.fr/comment-optimiser-vos-images-sous-wordpress/</link>
+      <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.bygga.fr/comment-optimiser-vos-images-sous-wordpress/</guid>
+      <description>
+
+&lt;h2 id=&#34;la-taille-des-images-est-importante:db81e4755bbfee8081c46892250ef958&#34;&gt;La taille des images est importante&lt;/h2&gt;
+
+&lt;p&gt;La taille de vos images est un élément important pour votre site internet. Pourquoi ? Tout simplement parce qu&amp;rsquo;une image de grosse taille (supérieure à 200kB) va prendre beaucoup (trop ?) de temps à se charger sur votre site et il y a des risques que le visiteur n&amp;rsquo;attentent même pas la fin du téléchargement et quite votre site. C&amp;rsquo;est dommage !&lt;/p&gt;
+
+&lt;p&gt;200kB cela ne semble pas beaucoup, mais n&amp;rsquo;oubliez pas que beaucoup de vos visiteurs utilisent leur téléphone portable pour naviguer votre site. La puissance des téléphones est souvent moindre qu&amp;rsquo;un ordinateur et cela consomme également des données de leur abonnements.&lt;/p&gt;
+
+&lt;p&gt;Google lui même propose des conseils au webmaster pour &lt;a href=&#34;https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/image-optimization&#34; target=&#34;_blank&#34;&gt;optimiser leur images&lt;/a&gt; (information en anglais).&lt;/p&gt;
+
+&lt;p&gt;Je vous conseille de regarder leur page pour comprendre quels sont les dernières techniques modernes pour optimiser vos photos et réduire leur taille.&lt;/p&gt;
+
+&lt;h2 id=&#34;plugin-wordpress-pour-optimiser-vos-images:db81e4755bbfee8081c46892250ef958&#34;&gt;Plugin WordPress pour optimiser vos images&lt;/h2&gt;
+
+&lt;p&gt;Dans cet article je vais me concentrer sur les solutions offertes par WordPress. Comme d&amp;rsquo;habitude, la communauté propose de nombreux plugin qui viennent ajouter chacun une touche d&amp;rsquo;optimisation pour vos photos. Voici une sélection des meilleurs.&lt;/p&gt;
+
+&lt;h3 id=&#34;ewww-image-optimizer:db81e4755bbfee8081c46892250ef958&#34;&gt;EWWW Image Optimizer&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://wordpress.org/plugins/ewww-image-optimizer/&#34;&gt;&lt;img src=&#34;http://www.bygga.fr/wp-content/uploads/2015/07/EWWW-Image-Optimizer-620x199.jpg&#34; alt=&#34;EWWW Image Optimizer&#34; width=&#34;620&#34; height=&#34;199&#34; class=&#34;aligncenter size-large wp-image-1102&#34; /&gt;&lt;/a&gt;&lt;br /&gt;
+Même si son nom ne fait pas des plus sérieux (?), le plugin WordPress EWWW Image Optimizer est l&amp;rsquo;un des meilleurs disponible pour optimiser vos images. L&amp;rsquo;optimisation est peut être choisie comme destructive ce qui signifie que vos photos seront plus floues et moins nettes. Mais vous pouvez toujours choisir si vous souhaiter favoriser la taille de l&amp;rsquo;image ou bien sa qualité. L&amp;rsquo;oeil humain n&amp;rsquo;est pas parfait et la différence n&amp;rsquo;est souvent pas si flagrante.&lt;/p&gt;
+
+&lt;p&gt;Vous pouvez aussi convertir les images qui ne font pas partie de votre librairie. Pratique par exemple si vous utilisez NextGEN galerie.&lt;/p&gt;
+
+&lt;h3 id=&#34;wp-smush:db81e4755bbfee8081c46892250ef958&#34;&gt;WP Smush&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://wordpress.org/plugins/wp-smushit/&#34;&gt;&lt;img src=&#34;http://www.bygga.fr/wp-content/uploads/2015/07/WP-Smush-620x202.jpg&#34; alt=&#34;WP Smush&#34; width=&#34;620&#34; height=&#34;202&#34; class=&#34;aligncenter size-large wp-image-1101&#34; /&gt;&lt;/a&gt;&lt;br /&gt;
+Wp Smush est facile à utiliser. Une fois le plugin installé, vous pouvez optimiser en un click toutes vos photos. Le plugin ne détériore pas la qualité de vos photos, il enlève uniquement certain éléments cachés qui ne sont pas utiles aux visiteurs. Le gain est donc limité.&lt;/p&gt;
+
+&lt;h3 id=&#34;bj-lazy-load:db81e4755bbfee8081c46892250ef958&#34;&gt;BJ Lazy Load&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://wordpress.org/plugins/bj-lazy-load/&#34;&gt;&lt;img src=&#34;http://www.bygga.fr/wp-content/uploads/2015/07/BJ-Lazy-Load-620x199.jpg&#34; alt=&#34;BJ Lazy Load&#34; width=&#34;620&#34; height=&#34;199&#34; class=&#34;aligncenter size-large wp-image-1103&#34; /&gt;&lt;/a&gt;&lt;br /&gt;
+Maintenant que vous avez optimisé vos images avec l&amp;rsquo;un des deux plugins ci-dessus, vous pouvez utiliser BJ Lazy Load sur votre blog WordPress. Ce plugin remplace toutes vos images par un rectangle lorsque votre page est chargé. Ce n&amp;rsquo;est que lorsque le visiteur fait défiler la page et arrive au niveau de l&amp;rsquo;image que le plugin télécharge l&amp;rsquo;image depuis votre serveur et remplace le rectangle.&lt;br /&gt;
+L&amp;rsquo;intérêt c&amp;rsquo;est que votre site s&amp;rsquo;affiche plus rapidement puisque vous n&amp;rsquo;avez que du texte à télécharger au départ. Cela ne sert à rien de télécharger toutes les images si le visiteurs n&amp;rsquo;a pas l&amp;rsquo;intention de faire défiler tout votre site.&lt;/p&gt;
+
+&lt;h2 id=&#34;règles-générales-pour-optimisez-vos-images:db81e4755bbfee8081c46892250ef958&#34;&gt;Règles générales pour optimisez vos images&lt;/h2&gt;
+
+&lt;p&gt;Les plugins WordPress si-dessus sont très bien pour optimiser vos images, mais si vous ne faites pas quelques efforts vous mêmes, ils ne pourront pas tout faire tout seul. Suivez-donc ces conseils pour bien optimiser vos images avant même de les mettre sous WordPress.&lt;/p&gt;
+
+&lt;h3 id=&#34;jpeg-png-or-gif:db81e4755bbfee8081c46892250ef958&#34;&gt;JPEG, PNG or GIF ?&lt;/h3&gt;
+
+&lt;p&gt;Vous avez souvent le choix entre trois formats pour les images et photos. Il en existe d&amp;rsquo;autre, mais JPEG, PNG et GIF sont les plus populaires.&lt;/p&gt;
+
+&lt;p&gt;Chacun à ses avantages et il est donc important de bien choisir. Voici de quoi vous aider.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;GIF&lt;/strong&gt;: Si votre image est une animation. Si c&amp;rsquo;est une photo statique, ne pas utiliser.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;PNG&lt;/strong&gt;: Si votre image à besoin d&amp;rsquo;être transparente (souvent le fond) ou bien n&amp;rsquo;est composée que de quelques couleurs (donc pas une photo, mais plutôt un logo).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;JPEG&lt;/strong&gt;: Pour tous les autres cas. C&amp;rsquo;est souvent dans ce format là que votre image prendra le moins de place.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Google propose une description plus détaillée, en anglais, de &lt;a href=&#34;https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/image-optimization?#selecting-the-right-image-format&#34;&gt;comment choisir le format idéal pour ses photos&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;choisir-la-bonne-taille:db81e4755bbfee8081c46892250ef958&#34;&gt;Choisir la bonne taille&lt;/h3&gt;
+
+&lt;p&gt;Si votre site internet à une largeur de 690px pour le contenu, cela ne sert à rien d&amp;rsquo;afficher des images de taille plus grande. Vous gaspillez des pixels.&lt;/p&gt;
+
+&lt;p&gt;Dans WordPress, lorsque vous mettez en ligne une image vous pouvez sélectionner la taille que vous voulez ajouter.&lt;br /&gt;
+&lt;img src=&#34;http://www.bygga.fr/wp-content/uploads/2015/07/taille-image.png&#34; alt=&#34;taille-image&#34; width=&#34;283&#34; height=&#34;191&#34; class=&#34;aligncenter size-full wp-image-1105&#34; /&gt;&lt;br /&gt;
+Ne choisissez pas &amp;laquo;&amp;nbsp;Taille originale&amp;nbsp;&amp;raquo;, mais choisissez une taille plus petite qui correspond à la largeur de votre contenu ou plus petit.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>11 pages importantes que chaque site d&#39;entreprise devrait avoir</title>
+      <link>https://www.bygga.fr/11-pages-importantes-site-entreprise/</link>
+      <pubDate>Tue, 26 Feb 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.bygga.fr/11-pages-importantes-site-entreprise/</guid>
+      <description>
+
+&lt;h2 id=&#34;une-construction-standard:3355991d6e0eea48d24d7583293382d9&#34;&gt;Une construction standard&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://www.bygga.fr/wp-content/uploads/2013/02/mindmap-300x190.jpg&#34; alt=&#34;mindmap&#34; width=&#34;300&#34; height=&#34;190&#34; class=&#34;alignleft size-medium wp-image-757&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Peu importe si vous êtes une &lt;a href=&#34;http://www.bygga.fr/10-raisons-pourquoi-wordpress-parfait-petites-entreprises-pme/&#34; title=&#34;10 raisons pourquoi WordPress est parfait pour les petites entreprises&#34;&gt;petite, moyenne ou grande entreprise&lt;/a&gt;, le contenu de votre site internet sera plus ou moins le même. Chaque visiteur s&amp;rsquo;attend à trouver un certain nombre d&amp;rsquo;informations par défaut sur chaque site web qu&amp;rsquo;il visite.&lt;/p&gt;
+
+&lt;p&gt;J&amp;rsquo;ai donc visité les sites internet de plusieurs entreprises et noté quelles étaient les pages qui reviennent en permanence. Les pages qui font que votre site est une bonne vitrine pour votre commerce ou entreprise.&lt;/p&gt;
+
+&lt;p&gt;Bien sûr peut être que l&amp;rsquo;une de ces pages ne sera pas du tout en accord avec votre site, mais je pense que vous devriez tout de même essayer de créer la majorité d&amp;rsquo;entre elles.&lt;/p&gt;
+
+&lt;p&gt;Posez vous donc les bonnes questions pour chacune de ces pages. notamment en ce qui concerne le label ou nom de la page. Les nom de que je propose sont génériques, mais peut être que pour votre entreprise, il vaut mieux renommer la page &amp;laquo;&amp;nbsp;contact&amp;nbsp;&amp;raquo; par &amp;laquo;&amp;nbsp;comment nous joindre&amp;nbsp;&amp;raquo;.&lt;/p&gt;
+
+&lt;p&gt;Voici donc sans plus attendre mes recommandations.&lt;/p&gt;
+
+&lt;h2 id=&#34;les-dix-pages-importante-d-rsquo-un-site-d-rsquo-entreprise:3355991d6e0eea48d24d7583293382d9&#34;&gt;Les dix pages importante d&amp;rsquo;un site d&amp;rsquo;entreprise&lt;/h2&gt;
+
+&lt;h3 id=&#34;accueil:3355991d6e0eea48d24d7583293382d9&#34;&gt;Accueil&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://www.bygga.fr/wp-content/uploads/2013/02/microsoft.jpg&#34; alt=&#34;Page d&amp;#039;accueil de Microsoft&#34; width=&#34;600&#34; height=&#34;298&#34; class=&#34;size-full wp-image-755&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;C&amp;rsquo;est la page sur laquelle les visiteurs vont arriver s&amp;rsquo;il rentre l&amp;rsquo;url de votre site. Elle doit être la plus attractive possible pour garder le visiteur et l&amp;rsquo;amener à naviguer vers votre page produit/service.&lt;/p&gt;
+
+&lt;p&gt;La page d&amp;rsquo;accueil doit permettre de rapidement voir quel est le secteur de votre entreprise, qu&amp;rsquo;est-ce que vous faites, vendez et doit contenir un menu vers les autres pages stratégiques de votre site.&lt;/p&gt;
+
+&lt;p&gt;Soyez court et simple. Ne mettez pas trop de contenu et utilisez des images, graphiques, schémas pour attirer l&amp;rsquo;oeil des visiteurs.&lt;/p&gt;
+
+&lt;h3 id=&#34;contact:3355991d6e0eea48d24d7583293382d9&#34;&gt;Contact&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://www.bygga.fr/wp-content/uploads/2013/02/edf.jpg&#34; alt=&#34;Contacter EDF&#34; width=&#34;600&#34; height=&#34;313&#34; class=&#34;size-full wp-image-744&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;C&amp;rsquo;est sur cette page que vous donnerez toutes les informations indispensables pour vous joindre, rentrez en contact avec vous ou vos locaux.&lt;br /&gt;
+Indiquez au minimum votre adresse, numero de téléphone, nom du responsable.&lt;br /&gt;
+Vous pouvez ensuite au choix donner votre adresse email du style &amp;laquo;&amp;nbsp;contact@votredomaine.com&amp;nbsp;&amp;raquo; ou bien proposer un &lt;a href=&#34;http://www.bygga.fr/generateur-de-bouton-formulaire-icone-ruban-css-html/&#34; title=&#34;Générateur formulaire&#34;&gt;formulaire de contact&lt;/a&gt; sur cette page. Je recommande la seconde solution est qui est plus agréable et simple pour le visiteur.&lt;br /&gt;
+Si cela apporte quelque chose, mettez une carte Google Map pour afficher l&amp;rsquo;emplacement de votre bureau, commerce ainsi que les horaires d&amp;rsquo;ouverture.&lt;/p&gt;
+
+&lt;h3 id=&#34;actu:3355991d6e0eea48d24d7583293382d9&#34;&gt;Actu&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://www.bygga.fr/wp-content/uploads/2013/02/Ebay.jpg&#34; alt=&#34;L&amp;#039;actualité d&amp;#039;eBay&#34; width=&#34;600&#34; height=&#34;324&#34; class=&#34;size-full wp-image-750&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Appelez cela news, blog, actu, etc&amp;#8230; C&amp;rsquo;est sur cette page que vous tiendrez vos visiteurs et clients informés des dernières actualités et changements dans votre entreprise.&lt;/p&gt;
+
+&lt;p&gt;Vous pouvez y publier vos nouveaux produits, séminaires, recrutements, etc&amp;#8230;&lt;/p&gt;
+
+&lt;p&gt;De nombreux clients apprécient d&amp;rsquo;être aux courants de ce qui se passe dans votre entreprise, surtout si vous êtes une start-up ou PME.&lt;/p&gt;
+
+&lt;h3 id=&#34;présentation-qui-sommes-nous:3355991d6e0eea48d24d7583293382d9&#34;&gt;Présentation / Qui sommes nous ?&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://www.bygga.fr/wp-content/uploads/2013/02/qui-sommes-nous.jpg&#34; alt=&#34;Page &amp;quot;Qui sommes nous?&amp;quot; de L&amp;#039;Internaute&#34; width=&#34;600&#34; height=&#34;384&#34; class=&#34;size-full wp-image-741&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;C&amp;rsquo;est sur cette page que vous allez présenter en détail votre entreprise. Vous pouvez parler de son histoire (date de création, acquisition, changement de direction, etc&amp;#8230;), de votre secteur d&amp;rsquo;activité, de vos produits et services. Indiquez en quoi vous êtes différents et meilleur que vos concurrents.&lt;/p&gt;
+
+&lt;p&gt;Vous pouvez aussi y inclure votre équipe (photo, nom, poste) si vous êtes peu nombreux. Cela permettra au visiteur de se sentir plus proche de vous ce qui est très important surtout si vous proposez des services.&lt;/p&gt;
+
+&lt;h3 id=&#34;faq:3355991d6e0eea48d24d7583293382d9&#34;&gt;FAQ&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://www.bygga.fr/wp-content/uploads/2013/02/FAQ-apple.jpg&#34; alt=&#34;Page FAQ d&amp;#039;Apple&#34; width=&#34;600&#34; height=&#34;310&#34; class=&#34;size-full wp-image-753&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;C&amp;rsquo;est sur une page FAQ (Foire Aux Questions) que vos visiteurs vont pouvoir trouver les réponses aux principales questions qu&amp;rsquo;ils ont a propos de vos produits et services. C&amp;rsquo;est une section importante de votre site web puisque cela vous permet d&amp;rsquo;économiser du temps et de l&amp;rsquo;argent sur les questions récurrentes que vous client vous envoie par le formulaire de contact.&lt;/p&gt;
+
+&lt;p&gt;Au début, il sera peut être difficile de créer une FAQ comme vous ne saurez pas forcement quelles questions les visiteurs vont vous poser. Attendez donc peut être un ou deux mois et les emails qu&amp;rsquo;ils vous envoie. Si vous pensez que la question posée peut aider plusieurs clients, mettez la dans la FAQ.&lt;/p&gt;
+
+&lt;h3 id=&#34;mentions-légales:3355991d6e0eea48d24d7583293382d9&#34;&gt;Mentions légales&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://www.bygga.fr/wp-content/uploads/2013/02/carrefour.jpg&#34; alt=&#34;Mentions Légales sur le site Carrefour&#34; width=&#34;600&#34; height=&#34;301&#34; class=&#34;size-full wp-image-742&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;C&amp;rsquo;est une section importante de votre site pour vous protéger juridiquement. Mon conseil c&amp;rsquo;est de la créer avec l&amp;rsquo;aide d&amp;rsquo;un professionnel du droit des entreprises. Si vous n&amp;rsquo;avez pas le budget pour cela vous pouvez toujours vous inspirer des &lt;a href=&#34;http://www.subdelirium.com/generateur-de-mentions-legales/&#34; title=&#34;Générateur de mentions légales&#34; target=&#34;_blank&#34;&gt;mentions légales&lt;/a&gt; mise en ligne par d&amp;rsquo;autres grandes entreprises.&lt;/p&gt;
+
+&lt;p&gt;Indiquez au minimum le nom légal de votre entreprise, un contact. Vous devez aussi indiquer comment les informations entrées par le visiteur seront utilisée et si elles seront partagées ou bien interne à l&amp;rsquo;entreprise afin de protéger sa vie privée.&lt;/p&gt;
+
+&lt;p&gt;Il est maintenant également &lt;a href=&#34;http://www.journaldunet.com/ebusiness/publicite/loi-cookies-france/les-cookies-concernes.shtml&#34; title=&#34;Loi cookies&#34; target=&#34;_blank&#34;&gt;obligatoire &lt;/a&gt;pour tout site internet d&amp;rsquo;indiquer s&amp;rsquo;il utilise ou non des &amp;laquo;&amp;nbsp;Cookies&amp;nbsp;&amp;raquo; et si oui dans quel but. Indiquez également la procédure pour les désactiver.&lt;/p&gt;
+
+&lt;h3 id=&#34;services-produits:3355991d6e0eea48d24d7583293382d9&#34;&gt;Services/Produits&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://www.bygga.fr/wp-content/uploads/2013/02/Schneider-Electric.jpg&#34; alt=&#34;La page produits et services de Schneider Electric&#34; width=&#34;600&#34; height=&#34;300&#34; class=&#34;size-full wp-image-749&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Dans cette page vous indiquerez plus précisément et avec l&amp;rsquo;idée de faire vendre, l&amp;rsquo;ensemble des services et produits que vous proposer. Donnez une description attractive et expliquez pourquoi votre visiteur devrait choisir votre produit plutôt que celui de la concurrence. Indiquez également quel bénéfice le client va avoir en achetant vos produits.&lt;/p&gt;
+
+&lt;h3 id=&#34;plan-du-site:3355991d6e0eea48d24d7583293382d9&#34;&gt;Plan du site&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://www.bygga.fr/wp-content/uploads/2013/02/Renault.jpg&#34; alt=&#34;Plan du site de Renault&#34; width=&#34;600&#34; height=&#34;251&#34; class=&#34;size-full wp-image-752&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;La plan du site est une sorte de sommaire de votre site. Il permet en un clin d&amp;rsquo;oeil de voir l&amp;rsquo;ensemble des pages disponibles. Indiquez le titre des pages, les catégories et sous catégories. Chacune des pages doit avoir un lien vers la page qui lui correspond. C&amp;rsquo;est une page d&amp;rsquo;importance moyenne mais qui peut aider certain visiteur perdu dans vos menus et navigation et qui cherche une page précise.&lt;/p&gt;
+
+&lt;h3 id=&#34;espace-presse:3355991d6e0eea48d24d7583293382d9&#34;&gt;Espace Presse&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://www.bygga.fr/wp-content/uploads/2013/02/la-halle-aux-chaussures.jpg&#34; alt=&#34;Espace Presse de la Halle o  Chaussures&#34; width=&#34;600&#34; height=&#34;279&#34; class=&#34;size-full wp-image-748&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Une page très importante pour aider les journalistes qui souhaiterait parler de votre entreprise. Dans cette page vous devez y mettre les communiqués de presse que vous éditez, une présentation simple de votre entreprise et produit. Vous pouvez aussi y inclure un fichier image avec une sélection de logos et photos officiels que vous souhaitez voir utilisés dans les articles de journaux.&lt;/p&gt;
+
+&lt;h3 id=&#34;carrières:3355991d6e0eea48d24d7583293382d9&#34;&gt;Carrières&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://www.bygga.fr/wp-content/uploads/2013/02/canalplus.jpg&#34; alt=&#34;Page de recrutement du groupe Canal Plus&#34; width=&#34;600&#34; height=&#34;421&#34; class=&#34;size-full wp-image-746&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;La page carrière permet de donner votre politique de recrutement aux chercheurs d&amp;rsquo;emploi qui souhaitent postuler pour une place dans votre entreprise. Vous pouvez y indiquer votre politique sur les candidatures spontanées et y afficher l&amp;rsquo;ensemble de vos offres d&amp;rsquo;emploi disponible et comment y postuler.&lt;br /&gt;
+Indiquez également quels sont les avantages à travailler dans votre équipe.&lt;/p&gt;
+
+&lt;h3 id=&#34;erreur-404:3355991d6e0eea48d24d7583293382d9&#34;&gt;Erreur 404&lt;/h3&gt;
+
+&lt;p&gt;Il faut être préparé aux erreurs. La page 404 est la page qui sera affichée si l&amp;rsquo;une de vos pages n&amp;rsquo;est pas accessible. Cela peut être de votre faute (vous avez supprimé ou changé l&amp;rsquo;adresse de la page en question) ou bien de la faute du visiteur qui a mal tapé l&amp;rsquo;url de votre site.&lt;/p&gt;
+
+&lt;p&gt;Dans les deux cas la page erreur 404 permet d&amp;rsquo;expliquer ce qui se passe au visiteur et d&amp;rsquo;essayer de l&amp;rsquo;aiguillé vers une autre page qui est susceptible de l&amp;rsquo;intéresser.&lt;/p&gt;
+
+&lt;p&gt;Vous devez inclure au minimum un message décrivant l&amp;rsquo;erreur et la raison possible, un lien vers votre page d&amp;rsquo;accueil, un formulaire de recherche.&lt;/p&gt;
+
+&lt;p&gt;Il existe deux politiques pour ce type de page. &lt;a href=&#34;http://www.linternaute.com/homme/loisirs/erreurs-404-pages-droles/&#34; title=&#34;Page 404 avec de l&#39;humour&#34; target=&#34;_blank&#34;&gt;Certain sites comme l&amp;rsquo;Équipe misent sur l&amp;rsquo;humour&lt;/a&gt;, d&amp;rsquo;autres restent professionnels. A vous de choisir votre camp.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Taux de Rebond - 10 conseils pour l’améliorer significativement</title>
+      <link>https://www.bygga.fr/taux-de-rebond-10-conseils-pour-lameliorer-significativement/</link>
+      <pubDate>Sat, 26 Jan 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.bygga.fr/taux-de-rebond-10-conseils-pour-lameliorer-significativement/</guid>
+      <description>
+
+&lt;h2 id=&#34;le-taux-de-rebond-c-est-quoi:2750199f2c4cc93c756d787c292bab0e&#34;&gt;Le taux de rebond c’est quoi ?&lt;/h2&gt;
+
+&lt;p&gt;Le &lt;a href=&#34;http://fr.wikipedia.org/wiki/Taux_de_rebond&#34; title=&#34;Wikipedia&#34; target=&#34;_blank&#34;&gt;taux de rebond&lt;/a&gt; correspond au pourcentage des visiteurs d’un site internet qui quittent le site en ayant vu qu’une seule page. Ils peuvent la quitter de plusieurs manières :&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Cliquer sur un lien externe&lt;/li&gt;
+&lt;li&gt;Cliquer sur précédent et quitter le site&lt;/li&gt;
+&lt;li&gt;Fermer l’onglet&lt;/li&gt;
+&lt;li&gt;Entrer une nouvelle url&lt;/li&gt;
+&lt;li&gt;…&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Selon le type d’information que donne votre site, un taux de rebond élevé peut être un bon ou mauvais résultat.&lt;/strong&gt;&lt;br /&gt;
+Si votre site donne des informations franches, comme une recette, un horaire, une définition, avoir un taux de rebond élevé est une bonne chose. Cela signifie que votre visiteur a trouvé ce qu’il cherchait.&lt;br /&gt;
+Si au contraire vous avez un magazine ou journal en ligne, un blog, un forum, vous voulez de l’interaction avec votre visiteur. Un taux bas est donc primordiale.&lt;/p&gt;
+
+&lt;p&gt;Il y a donc deux raisons pour lesquelles vous avez un taux de rebond élevé :&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;votre page est adaptée au trafic qu’elle reçoit et donne le bon type d’information&lt;/li&gt;
+&lt;li&gt;votre page n’est pas adaptée . Les visiteurs ne trouvent pas ce qu’ils recherchent&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Voici donc quelques conseils simples à mettre en œuvre, mais efficaces pour diminuer le taux de rebond sur une page de votre site web.&lt;/p&gt;
+
+&lt;h2 id=&#34;conseils-pour-diminuer-le-taux-de-rebond:2750199f2c4cc93c756d787c292bab0e&#34;&gt;Conseils pour diminuer le taux de rebond&lt;/h2&gt;
+
+&lt;h3 id=&#34;n-utilisez-pas-de-pop-up:2750199f2c4cc93c756d787c292bab0e&#34;&gt;N’utilisez pas de pop-up&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://www.bygga.fr/wp-content/uploads/2013/01/pop-up.jpg&#34; alt=&#34;Pop-up qui dérange&#34; width=&#34;600&#34; height=&#34;425&#34; class=&#34;size-full wp-image-556&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Les &lt;a href=&#34;http://codecanyon.net/item/facebook-traffic-pop/142429?ref=bygga&#34; title=&#34;Fenetre Popup&#34; target=&#34;_blank&#34;&gt;fenêtres pop-up&lt;/a&gt; reviennent à la mode en ce moment, sous la forme de fenêtre qui vient se mettre au-dessus du contenu de votre site, mais toujours dans la même fenêtre et donc non bloquées par les navigateurs.&lt;br /&gt;
+Beaucoup de sites les utilisent pour augmenter la conversion de leur newsletter, fans Facebook et Twitter. C’est efficace mais ça peut en rebuter plus d’un. Si le contenu de la fenêtre n’apporte rien au visiteur il va être ennuyé et quitter directement votre page, sans même avoir eu le temps de lire votre contenu.&lt;/p&gt;
+
+&lt;h3 id=&#34;liens-externes-dans-une-nouvelle-fenêtre:2750199f2c4cc93c756d787c292bab0e&#34;&gt;Liens externes dans une nouvelle fenêtre&lt;/h3&gt;
+
+&lt;p&gt;Si vous pointez vers d’autres site internet dans vos articles (et vous devriez le faire), assurez-vous que le contenu externe s’affiche dans une nouvelle fenêtre, onglet. C’est basique comme idée, mais ça permet tout simplement de réduire le taux de rebond puisque vos visiteurs ont la possibilité de revenir à votre site internet une fois l’autre contenu lu. Ne faites pas cela pour vos liens internes…&lt;br /&gt;
+C’est très simple à réaliser, et voici le code pour le faire :&lt;/p&gt;
+
+&lt;pre class=&#34;language-html&#34;&gt;
+&lt;code&gt;// ouvre le lien externe dans la même fenêtre (donc mauvais)
+&amp;lt;a href=&amp;quot;http//www.test.fr&amp;quot;&amp;gt;test&amp;lt;/a&amp;gt;
+// ouvre le lien externe dans une nouvelle fenêtre (donc meilleur)
+&amp;lt;a href=&amp;quot;http//www.test.fr&amp;quot; target=&amp;quot;_blank&amp;quot; &amp;gt;test&amp;lt;/a&amp;gt;&lt;/code&gt;
+&lt;/pre&gt;
+
+&lt;h3 id=&#34;navigation-claire:2750199f2c4cc93c756d787c292bab0e&#34;&gt;Navigation claire&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://www.bygga.fr/wp-content/uploads/2013/01/Menu-WordPress.jpg&#34; alt=&#34;Menu de WordPress&#34; width=&#34;600&#34; height=&#34;325&#34; class=&#34;size-full wp-image-557&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Une fois que le visiteur a fini de lire l’article il doit pouvoir naviguer à l’intérieur de votre site sans avoir à chercher pendant plusieurs secondes comment se rendre où il veut aller.&lt;br /&gt;
+Votre menu de navigation doit donc être conçu de façon logique et placé là où le visiteur le cherche : en haut de votre page, dans une barre distinctive.&lt;/p&gt;
+
+&lt;h3 id=&#34;limitez-les-publicités:2750199f2c4cc93c756d787c292bab0e&#34;&gt;Limitez les publicités&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://www.bygga.fr/wp-content/uploads/2013/01/publicite.jpg&#34; alt=&#34;Trop de publicité&#34; width=&#34;600&#34; height=&#34;298&#34; class=&#34;size-full wp-image-559&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Si j’ai horreur d’une chose, c’est de rentrer sur un site qui est couvert de publicité. Dans ma tête je vois un gros panneau rouge qui met dit : « Attention, le contenu n’est pas de qualité, je cherche juste à ce que tu cliques sur une publicité. »&lt;br /&gt;
+Donc s’il vous plait, limitez le nombre de publicité. Je suis d’accord qu’il en faut, mais n’en mettez pas plus d’une visible à la fois. Mettez en une dans l’en tête, une sur la droite et une en bas de l’article : c’est tout.&lt;/p&gt;
+
+&lt;h3 id=&#34;un-design-accrocheur:2750199f2c4cc93c756d787c292bab0e&#34;&gt;Un design accrocheur&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://www.bygga.fr/wp-content/uploads/2013/01/design.jpg&#34; alt=&#34;Mauvais design&#34; width=&#34;600&#34; height=&#34;431&#34; class=&#34;size-full wp-image-560&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;S’en est fini des années 2000 là où la connexion internet était lente et le design devait donc être minimal. Maintenant avec les nouvelles capacités offerte par CSS3, vous pouvez avoir un design attractif qui permettra de garder votre visiteur.&lt;/p&gt;
+
+&lt;p&gt;Oubliez le texte qui clignote, les cliparts pixélisés et les background de PowerPoint 97. Vous pouvez maintenant avoir des thèmes WordPress (par exemple) avec un design attractif qui permet au visiteur de voir tout de suite ce qui est important et de le garder.&lt;/p&gt;
+
+&lt;h3 id=&#34;contenu-et-article-similaire:2750199f2c4cc93c756d787c292bab0e&#34;&gt;Contenu et article similaire&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://www.bygga.fr/wp-content/uploads/2013/01/article-similaire.jpg&#34; alt=&#34;Article Simlaire&#34; width=&#34;600&#34; height=&#34;298&#34; class=&#34;size-full wp-image-561&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://codecanyon.net/item/better-related-posts-widget/427853?ref=bygga&#34; title=&#34;Contenu similaire WordPress&#34; target=&#34;_blank&#34;&gt;Aidez vos lecteurs à trouver du contenu similaire&lt;/a&gt; sur votre site pour qu’ils puissent continuer leur lecture sur votre site web.&lt;br /&gt;
+Offrir du contenu dynamique, qui s’adapte au contenu qui est lu est très efficace pour diminuer votre taux de rebond. Si votre visiteur lit un article sur les bienfaits du thé, aiguillez-le vers d’autres de vos articles sur les bienfaits du café, ou la nourriture bio.&lt;br /&gt;
+Utilisez des images descriptives aussi pour lier vers d’autres articles. L’œil humain est bien plus réceptif aux images qu’il ne l’est aux mots.&lt;/p&gt;
+
+&lt;h3 id=&#34;temps-de-chargement:2750199f2c4cc93c756d787c292bab0e&#34;&gt;Temps de chargement&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://www.bygga.fr/wp-content/uploads/2013/01/PageSpeed-Insights.jpg&#34; alt=&#34;PageSpeed Insights&#34; width=&#34;600&#34; height=&#34;284&#34; class=&#34;size-full wp-image-562&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Combien de temps êtes-vous prêt à attendre pour voir le contenu d’une page internet ? Personnellement si une page ne se charge pas en moins de 2 à 3sec, je clique directement sur précédent.&lt;br /&gt;
+Et je ne suis pas le seul comme le montre &lt;a href=&#34;http://www.akamai.com/html/about/press/releases/2006/press_110606.html&#34; title=&#34;4 secondes&#34; target=&#34;_blank&#34;&gt;cette étude&lt;/a&gt; qui en 2006 à identifier un maximum de 4 seconde. Au-delà de 10 secondes, vous n’avez même pas une chance de garder un visiteur. (Sauf s’il se croit toujours en 1997).&lt;br /&gt;
+Vous devez donc optimiser le temps de chargement de votre page et descendre sous la barre des 3 secondes. Vous pouvez tester votre page et voir quelques conseils en utilisant par exemple l’outil mis à disposition par &lt;a href=&#34;https://developers.google.com/speed/pagespeed/insights?hl=fr&#34; title=&#34;PageSpeed Insights&#34; target=&#34;_blank&#34;&gt;Google PageSpeed Insights&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;peaufiner-votre-introduction-et-titres:2750199f2c4cc93c756d787c292bab0e&#34;&gt;Peaufiner votre introduction et titres&lt;/h3&gt;
+
+&lt;p&gt;En lisant les deux ou trois premières phrase de votre article, page, le visiteur doit savoir si le contenu de votre site est ce qu’il recherche. Si le visiteur n’a toujours pas la moindre idée du contenu de l’article après avoir lu l’introduction il va inévitablement retourner sur Google et chercher fortune ailleurs.&lt;br /&gt;
+Outre l’introduction, les titres de l’article doivent eux aussi donner une idée du contenu et avoir une logique.&lt;br /&gt;
+Faites le test vous-même et lisez uniquement vos titres et l’introduction. Est-ce qu’ils reflètent le message que vous voulez transmettre ?&lt;/p&gt;
+
+&lt;h3 id=&#34;n-oubliez-pas-les-téléphones-et-tablettes:2750199f2c4cc93c756d787c292bab0e&#34;&gt;N’oubliez pas les téléphones et tablettes&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://www.bygga.fr/wp-content/uploads/2013/01/telephone-et-tablette.jpg&#34; alt=&#34;Téléphone et tablette&#34; width=&#34;600&#34; height=&#34;363&#34; class=&#34;aligncenter size-full wp-image-563&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;La proportion de personnes qui accèdent à un site internet depuis leur téléphone portable ou tablette ne cesse d’augmenter. (8.5% début 2012 selon &lt;a href=&#34;http://www.journaldugeek.com/2012/02/08/8-5-pourcent-dinternet-est-mobile/&#34; title=&#34;Pourcentage mobile&#34; target=&#34;_blank&#34;&gt;StatCounter&lt;/a&gt;)&lt;br /&gt;
+Ne les oubliez donc pas ! Si votre site internet ne s’adapte pas à la taille de leur écran (responsive en anglais), vous allez surement les perdre. Si lire le contenu de votre page demande trop de zoom, défilements, ils ne vont pas se casser la tête et trouver un autre site optimisé pour les petits écrans.&lt;/p&gt;
+
+&lt;h3 id=&#34;outil-de-recherche-interne:2750199f2c4cc93c756d787c292bab0e&#34;&gt;Outil de recherche interne&lt;/h3&gt;
+
+&lt;p&gt;Maintenant, avec Google et Bing, tout le monde est habituer à utiliser un outil de recherche pour trouver une information. Mettez donc en place une tel outil sur votre site et mettez-le en avant.&lt;br /&gt;
+Si vous êtes par exemple un vendeur de vêtement en ligne, en plus de la navigation par menu, vous devez offrir la possibilité au visiteur de chercher un produit avec un champ de recherche.&lt;br /&gt;
+WordPress possède de base un tel outil de recherche et il n’y a donc aucune excuse de ne pas le mettre en avant et l’utiliser si votre site est développé sous WordPress.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Rendre son site attractif sur un téléphone portable sous WordPress</title>
+      <link>https://www.bygga.fr/rendre-son-site-attractif-sur-un-telephone-portable-sous-wordpress/</link>
+      <pubDate>Mon, 17 Sep 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.bygga.fr/rendre-son-site-attractif-sur-un-telephone-portable-sous-wordpress/</guid>
+      <description>
+
+&lt;h2 id=&#34;les-visiteurs-utilisent-leur-téléphone-portable:90292355772ec3a20def5b7d1a8effb5&#34;&gt;Les visiteurs utilisent leur téléphone portable&lt;/h2&gt;
+
+&lt;p&gt;De plus en plus d&amp;rsquo;utilisateurs utilisent leur téléphone portable ou tablette pour se connecter sur internet. Vu que ce nombre va continuer d&amp;rsquo;augmenter il serait dommage de perdre des visiteurs parce que votre site n&amp;rsquo;est pas optimisé pour les téléphones mobile.&lt;br /&gt;
+Qu&amp;rsquo;est-ce qu&amp;rsquo;un site optimisé pour les téléphones portables ?&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;un site sans &lt;a href=&#34;https://www.bygga.fr/voila-5-facons-de-rendre-votre-site-plus-rapide-sous-wordpress/&#34;&gt;grosses images et animation&lt;/a&gt; qui vont ralentir l&amp;rsquo;affichage&lt;/li&gt;
+&lt;li&gt;un site qui ne prend pas trop de place en largeur afin que l&amp;rsquo;utilisateur voit l&amp;rsquo;intégralité du contenu sur « une colonne »&lt;/li&gt;
+&lt;li&gt;une optimisation de l&amp;rsquo;espace d&amp;rsquo;affichage et position des publicités&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Il existe 2 facons de rendre votre site internet compatible avec les téléphones portables sous WordPress : utiliser un plugin qui s&amp;rsquo;occupe de la conversion pour vous ou bien utiliser un &lt;a href=&#34;http://themeforest.net/search?utf8=%E2%9C%93&amp;#038;term=responsive&amp;#038;categories=wordpress&amp;#038;sidebar_redirect=true&amp;#038;ref=bygga&#34; title=&#34;Responsive Theme&#34; target=&#34;_blank&#34;&gt;thème WordPress&lt;/a&gt; qui s&amp;rsquo;adapte automatiquement à la taille de l&amp;rsquo;écran (responsive theme en anglais).&lt;/p&gt;
+
+&lt;p&gt;Voici donc ma sélection de 3 plugins WordPress, gratuits, qui vont vous aider à optimiser votre site pour les téléphones portable.&lt;/p&gt;
+
+&lt;h2 id=&#34;wp-mobile-detector-1:90292355772ec3a20def5b7d1a8effb5&#34;&gt;&lt;a href=&#34;http://wordpress.org/extend/plugins/wp-mobile-detector/&#34; title=&#34;WP Mobile Detector&#34;&gt;WP Mobile Detector&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://www.bygga.fr/wp-content/uploads/2012/09/WP-Mobile-Detector.jpeg&#34; alt=&#34;WP Mobile Detector&#34; title=&#34;WP-Mobile-Detector&#34; width=&#34;175&#34; height=&#34;332&#34; class=&#34;alignleft size-full wp-image-234&#34; /&gt;&lt;br /&gt;
+Développé par &lt;a href=&#34;http://websitez.com/wordpress-mobile/&#34; title=&#34;Websitez.com&#34;&gt;Websitez.com&lt;/a&gt;, ce plugin est relativement simple d&amp;rsquo;utilisation et donne de très bon résultat.&lt;br /&gt;
+WP Mobile Dectector va détecter plus de 5000 téléphones et tablette et va automatiquement modifier les images de votre site pour qu&amp;rsquo;elles s&amp;rsquo;adaptent à la taille de l&amp;rsquo;écran du visiteur.&lt;br /&gt;
+9 thèmes pour téléphones sont inclus dans ce plugin.&lt;br /&gt;
+Un compte rendu de statistiques récoltées par le plugin est aussi disponible pour vous aider à analyser le trafic en provenance de téléphones portables et tablette.&lt;br /&gt;
+En plus de la version gratuite disponible sur WordPress.org, il est possible de passer pro pour environ $50 et obtenir davantage d&amp;rsquo;optimisations.&lt;/p&gt;
+
+&lt;div style=&#34;clear:both;&#34;&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;a-href-http-wordpress-org-extend-plugins-wptouch-title-wptouch-target-blank-wptouch-a:90292355772ec3a20def5b7d1a8effb5&#34;&gt;&lt;a href=&#34;http://wordpress.org/extend/plugins/wptouch/&#34; title=&#34;WPTouch&#34; target=&#34;_blank&#34;&gt;WPtouch&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://www.bygga.fr/wp-content/uploads/2012/09/WPTouch.jpeg&#34; alt=&#34;WPTouch&#34; title=&#34;WPTouch&#34; width=&#34;220&#34; height=&#34;428&#34; class=&#34;alignleft size-full wp-image-235&#34; /&gt;&lt;br /&gt;
+Un bon plugin, souvent mis à jour. C&amp;rsquo;est sans doutes celui qui possède la plus belle interface. Il est très facile à configuré et très puissant. Il est possible d&amp;rsquo;avoir des traductions en français ce qui est toujours intéressant pour nous autres francophones.&lt;br /&gt;
+L&amp;rsquo;IPad possède un thème spécial disponible en &lt;a href=&#34;http://www.bravenewcode.com/wptouch-pro&#34; title=&#34;WPTouch Pro&#34; target=&#34;_blank&#34;&gt;version pro&lt;/a&gt;.&lt;/p&gt;
+
+&lt;div style=&#34;clear:both;&#34;&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;a-href-http-wordpress-org-extend-plugins-wordpress-mobile-pack-title-wordpress-mobile-pack-target-blank-wordpress-mobile-pack-a:90292355772ec3a20def5b7d1a8effb5&#34;&gt;&lt;a href=&#34;http://wordpress.org/extend/plugins/wordpress-mobile-pack/&#34; title=&#34;WordPress Mobile Pack&#34; target=&#34;_blank&#34;&gt;WordPress Mobile Pack&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://www.bygga.fr/wp-content/uploads/2012/09/WordPress-Mobile-Pack.png&#34; alt=&#34;WordPress Mobile Pack&#34; title=&#34;WordPress-Mobile-Pack&#34; width=&#34;530&#34; height=&#34;443&#34; class=&#34;alignleft size-full wp-image-236&#34; /&gt;&lt;/p&gt;
+
+&lt;div style=&#34;clear:both;&#34;&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Ce plugin possède un thème qui se décline en plusieurs couleurs. Il est entièrement compatible avec WordPress 3.0.&lt;br /&gt;
+L&amp;rsquo;un de ses bons point est qu&amp;rsquo;il permet à l&amp;rsquo;utilisateur qui accède à votre site depuis un appareil mobile de choisir s&amp;rsquo;il voir le site normal ou bien optimisé pour mobile.&lt;br /&gt;
+Un interface pour l&amp;rsquo;admin est aussi prévu en version mobile. On peux y retrouver notamment des statistiques sur l&amp;rsquo;usage de votre thème mobile.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Voilà 5 façons de rendre votre site plus rapide sous WordPress</title>
+      <link>https://www.bygga.fr/voila-5-facons-de-rendre-votre-site-plus-rapide-sous-wordpress/</link>
+      <pubDate>Sat, 15 Sep 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.bygga.fr/voila-5-facons-de-rendre-votre-site-plus-rapide-sous-wordpress/</guid>
+      <description>
+
+&lt;h2 id=&#34;optimisez-la-vitesse-de-votre-site-pour-une-meilleure-expérience:e830c09f8fcaef1d1664ed937bdb8d77&#34;&gt;Optimisez la vitesse de votre site pour une meilleure expérience&lt;/h2&gt;
+
+&lt;p&gt;Le temps que met votre site internet est très important aux yeux de vos visiteurs mais aussi à ceux des robots de Google.&lt;/p&gt;
+
+&lt;p&gt;Il parait évident que de nos jours, si un site internet ne s&amp;rsquo;affiche pas en moins de cinq secondes, vous allez perdre un visiteur potentiel. Google a mis à jour son algorithme pour également prendre en compte ce délai dans le classement de ses résultats.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Conclusion : Un site rapide = plus de visiteurs !&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Voilà donc comment augmenter la vitesse de chargement de votre site internet sous WordPress.&lt;/p&gt;
+
+&lt;h2 id=&#34;utilisez-un-plugin-de-cache:e830c09f8fcaef1d1664ed937bdb8d77&#34;&gt;Utilisez un plugin de cache&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://wordpress.org/extend/plugins/w3-total-cache/&#34; title=&#34;W3 Total Cache&#34; target=&#34;_blank&#34;&gt;W3 Total Cache&lt;/a&gt; permet de d&amp;rsquo;augmenter la vitesse d&amp;rsquo;affichage en évitant de retélécharger certaines parties du site sur chaque page. L&amp;rsquo;une des solutions les plus efficaces.&lt;/p&gt;
+
+&lt;h2 id=&#34;réduisez-la-taille-de-vos-images:e830c09f8fcaef1d1664ed937bdb8d77&#34;&gt;Réduisez la taille de vos images&lt;/h2&gt;
+
+&lt;p&gt;Pas la peine d&amp;rsquo;avoir de grosses images si vous n&amp;rsquo;allez qu&amp;rsquo;afficher des miniatures. Faites donc attention à la taille des images que vous utilisez et utilisez Photoshop, The Gimp ou bien tout autre programme de votre choix pour réduire la taille des photos à celle qui correspond à leur affichage.&lt;br /&gt;
+Si votre image sera affiché au format 200x300px, arrangez-vous pour qu&amp;rsquo;elle fasse 200x300px au moment où vous l’envoyez sur votre site.&lt;/p&gt;
+
+&lt;h2 id=&#34;chargez-vos-images-au-fur-et-à-mesure:e830c09f8fcaef1d1664ed937bdb8d77&#34;&gt;Chargez vos images au fur et à mesure&lt;/h2&gt;
+
+&lt;p&gt;Si votre site utilise beaucoup d&amp;rsquo;images vous allez voir une grande différence de vitesse en utilisant le plugin &lt;a href=&#34;http://wordpress.org/extend/plugins/bj-lazy-load/&#34; title=&#34;BJ Lazy Load&#34; target=&#34;_blank&#34;&gt;BJ Lazy Load&lt;/a&gt;.&lt;br /&gt;
+Grace à lui, seules les images visibles à l&amp;rsquo;écran du visiteur sont chargés. Le reste des images va s&amp;rsquo;afficher lorsque le visiteur va faire défiler l&amp;rsquo;article, et donc lorsque la page aura déjà fini de se charger.&lt;/p&gt;
+
+&lt;h2 id=&#34;compressez-vos-fichiers:e830c09f8fcaef1d1664ed937bdb8d77&#34;&gt;Compressez vos fichiers&lt;/h2&gt;
+
+&lt;p&gt;Si vous avez de gros fichiers Javascript ou CSS, vous pouvez les optimiser en les regroupant et les compressant. Vous pouvez faire cela en utilisant par exemple le plugin &lt;a href=&#34;http://wordpress.org/extend/plugins/wp-minify/&#34; title=&#34;WP Minify&#34; target=&#34;_blank&#34;&gt;WP Minify&lt;/a&gt;.&lt;br /&gt;
+Vous pouvez aussi compresser vos images en utilisant le plugin &lt;a href=&#34;http://dialect.ca/code/wp-smushit/&#34; title=&#34;WP Smushit&#34; target=&#34;_blank&#34;&gt;WP Smush.it&lt;/a&gt;. A chaque fois que vous ajoutez une image à la librairie de votre site, Smush.it va la compresser et gagner quelques % de taille.&lt;/p&gt;
+
+&lt;h2 id=&#34;ne-chargez-que-les-fichiers-dont-vous-avez-besoin:e830c09f8fcaef1d1664ed937bdb8d77&#34;&gt;Ne chargez que les fichiers dont vous avez besoin&lt;/h2&gt;
+
+&lt;p&gt;Si vous utilisez un slider sur votre page d&amp;rsquo;accueil, il est inutile de charger les fichiers Javascript et CSS sur l&amp;rsquo;ensemble des pages de votre site. Faites le uniquement sur la page d&amp;rsquo;accueil en utilisant le code suivant à la place de votre code d&amp;rsquo;appel actuel.&lt;br /&gt;
+Insérez le dans le fichier &lt;code&gt;function.php&lt;/code&gt;&lt;/p&gt;
+
+&lt;pre&gt;
+&lt;code class=&#34;language-php&#34;&gt;
+&amp;lt;?php 
+add_action( &#39;wp_enqueue_scripts&#39;, &#39;bygga_charger_scripts&#39; );
+   function bygga_charger_scripts(){
+      /* remplacer /js/slider-accueil.js par votre propre fichier */
+      wp_register_script( &#39;slider-accueil&#39;, get_template_directory_uri().&#39;/js/slider-accueil.js&#39;);
+      if ( is_front_page() ) {
+         wp_enqueue_script(&#39;slider-accueil&#39;);
+      }
+   }
+?&amp;gt;
+&lt;/code&gt;
+&lt;/pre&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
