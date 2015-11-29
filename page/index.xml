@@ -6,8 +6,39 @@
     <description>Recent content in Pages on Bygga</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-FR</language>
-    <lastBuildDate>Wed, 04 Nov 2015 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 29 Nov 2015 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://www.bygga.fr/page/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Nous contacter</title>
+      <link>https://www.bygga.fr/contact/</link>
+      <pubDate>Sun, 29 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.bygga.fr/contact/</guid>
+      <description>&lt;p&gt;Vous pouvez contacter bygga.fr en utilisant le formulaire ci-dessous.
+&lt;form action=&#34;//formspree.io/sbrunet3@gmail.com&#34; method=&#34;POST&#34; class=&#34;row m0 contact_form&#34; id=&#34;contactForm&#34;&gt;
+    &lt;div class=&#34;col-sm-12&#34;&gt;
+        &lt;div class=&#34;row m0&#34;&gt;
+            &lt;label for=&#34;siteweb&#34;&gt;Votre message&lt;/label&gt;
+            &lt;textarea name=&#34;message&#34; class=&#34;form-control&#34; required&gt;&lt;/textarea&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;col-sm-12&#34;&gt;
+        &lt;div class=&#34;row m0&#34;&gt;
+            &lt;label for=&#34;email&#34;&gt;Votre email pour la réponse&lt;/label&gt;
+            &lt;input type=&#34;text&#34; class=&#34;form-control&#34; name=&#34;email&#34; required&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;input type=&#34;hidden&#34; name=&#34;_next&#34; value=&#34;//site.io/thanks.html&#34; /&gt;
+    &lt;input type=&#34;text&#34; name=&#34;_gotcha&#34; style=&#34;display:none&#34; /&gt;
+    &lt;div class=&#34;col-sm-12 text-center&#34;&gt;
+        &lt;button class=&#34;borderred_link&#34; type=&#34;submit&#34;&gt;&lt;span&gt;Envoyer&lt;/span&gt;&lt;/button&gt;
+    &lt;/div&gt;&lt;br /&gt;
+&lt;/form&gt;&lt;/p&gt;
+
+&lt;p&gt;Vous pouvez nous contacter si vous avez des questions a propos de ce site ou bien si vous souhaitez mettre en place un partenariat.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Comment créer un blog en 30 minutes - guide pour débutant</title>

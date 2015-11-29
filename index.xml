@@ -310,6 +310,37 @@ Wikipedia le fait : Ils utilisent des donations comme moyen de gagner de l&amp;r
     </item>
     
     <item>
+      <title>Nous contacter</title>
+      <link>https://www.bygga.fr/contact/</link>
+      <pubDate>Sun, 29 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.bygga.fr/contact/</guid>
+      <description>&lt;p&gt;Vous pouvez contacter bygga.fr en utilisant le formulaire ci-dessous.
+&lt;form action=&#34;//formspree.io/sbrunet3@gmail.com&#34; method=&#34;POST&#34; class=&#34;row m0 contact_form&#34; id=&#34;contactForm&#34;&gt;
+    &lt;div class=&#34;col-sm-12&#34;&gt;
+        &lt;div class=&#34;row m0&#34;&gt;
+            &lt;label for=&#34;siteweb&#34;&gt;Votre message&lt;/label&gt;
+            &lt;textarea name=&#34;message&#34; class=&#34;form-control&#34; required&gt;&lt;/textarea&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;col-sm-12&#34;&gt;
+        &lt;div class=&#34;row m0&#34;&gt;
+            &lt;label for=&#34;email&#34;&gt;Votre email pour la réponse&lt;/label&gt;
+            &lt;input type=&#34;text&#34; class=&#34;form-control&#34; name=&#34;email&#34; required&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;input type=&#34;hidden&#34; name=&#34;_next&#34; value=&#34;//site.io/thanks.html&#34; /&gt;
+    &lt;input type=&#34;text&#34; name=&#34;_gotcha&#34; style=&#34;display:none&#34; /&gt;
+    &lt;div class=&#34;col-sm-12 text-center&#34;&gt;
+        &lt;button class=&#34;borderred_link&#34; type=&#34;submit&#34;&gt;&lt;span&gt;Envoyer&lt;/span&gt;&lt;/button&gt;
+    &lt;/div&gt;&lt;br /&gt;
+&lt;/form&gt;&lt;/p&gt;
+
+&lt;p&gt;Vous pouvez nous contacter si vous avez des questions a propos de ce site ou bien si vous souhaitez mettre en place un partenariat.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>5 Raisons de Commencer Un Blog</title>
       <link>https://www.bygga.fr/raisons-commencer-blog/</link>
       <pubDate>Sat, 14 Nov 2015 00:00:00 +0000</pubDate>
@@ -356,7 +387,7 @@ Voici cinq raisons que je donne pour vous montrer que c&amp;rsquo;est aussi gran
 
 &lt;p&gt;S&amp;rsquo;ils viennent sur votre blog, c&amp;rsquo;est parce qu&amp;rsquo;ils sont intéressés par l&amp;rsquo;article et il y a donc de grandes chances qu&amp;rsquo;ils soient intéressés par vos produits ou services.&lt;/p&gt;
 
-&lt;h2 id=&#34;5-les-blogs-comme-centre-d-un-communauté:2cf5a1efeac7d8d78f75fe44583df912&#34;&gt;5. Les blogs comme centre d&amp;rsquo;un communauté&lt;/h2&gt;
+&lt;h2 id=&#34;5-les-blogs-comme-centre-d-une-communauté:2cf5a1efeac7d8d78f75fe44583df912&#34;&gt;5. Les blogs comme centre d&amp;rsquo;une communauté&lt;/h2&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://www.bygga.fr/assets/img/services-reseaux-sociaux.png&#34; class=&#34;alignright&#34; /&gt;
 Vous pouvez facilement construire une communauté autour d&amp;rsquo;un blog. De nombreuses personnes s&amp;rsquo;inscrivent au flux RSS des blogs pour être au courant des nouveaux articles et ne pas manquer une miette sur vos voyages, nouvelles expériences ou bien vos conseils.&lt;/p&gt;
@@ -847,6 +878,22 @@ WordPress va filtrer automatiquement les commentaires indésirables. Un très bo
     </item>
     
     <item>
+      <title>Formulaire envoyé</title>
+      <link>https://www.bygga.fr/analyse-web-merci/</link>
+      <pubDate>Sat, 31 Oct 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.bygga.fr/analyse-web-merci/</guid>
+      <description>
+
+&lt;h2 id=&#34;dans-quelques-heures-votre-site-sera-encore-plus-performant:47ef71488adbbbd8d95f1283e328b451&#34;&gt;Dans quelques heures votre site sera encore plus performant &amp;hellip;&lt;/h2&gt;
+
+&lt;p&gt;Nous avons bien reçu votre demande d&amp;rsquo;analyse de votre site web. Dans quelques heures vous pourrez mettre en oeuvre tous nos conseils pour améliorer votre site web.&lt;/p&gt;
+
+&lt;p&gt;En attendant, vous pouvez parcourir notre blog pour découvrir d&amp;rsquo;autres astuces pour rendre votre site performant et attractif.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Analyse gratuite de votre site web</title>
       <link>https://www.bygga.fr/analyse-web/</link>
       <pubDate>Sat, 31 Oct 2015 00:00:00 +0000</pubDate>
@@ -917,22 +964,6 @@ WordPress va filtrer automatiquement les commentaires indésirables. Un très bo
         &lt;p&gt;&lt;strong&gt;L&#39;analyse est gratuite et sans frais cachés&lt;/strong&gt;. Nous sommes simplement généreux et le simple fait que vous partagez ce service avec vos amis nous rend heureux !&lt;/p&gt;
     &lt;/div&gt;
 &lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Formulaire envoyé</title>
-      <link>https://www.bygga.fr/analyse-web-merci/</link>
-      <pubDate>Sat, 31 Oct 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.bygga.fr/analyse-web-merci/</guid>
-      <description>
-
-&lt;h2 id=&#34;dans-quelques-heures-votre-site-sera-encore-plus-performant:47ef71488adbbbd8d95f1283e328b451&#34;&gt;Dans quelques heures votre site sera encore plus performant &amp;hellip;&lt;/h2&gt;
-
-&lt;p&gt;Nous avons bien reçu votre demande d&amp;rsquo;analyse de votre site web. Dans quelques heures vous pourrez mettre en oeuvre tous nos conseils pour améliorer votre site web.&lt;/p&gt;
-
-&lt;p&gt;En attendant, vous pouvez parcourir notre blog pour découvrir d&amp;rsquo;autres astuces pour rendre votre site performant et attractif.&lt;/p&gt;
 </description>
     </item>
     
@@ -1525,66 +1556,6 @@ Vous pouvez simplement vérifier cela en utilisant &lt;a href=&#34;http://www.na
 &lt;p&gt;&lt;img src=&#34;http://www.bygga.fr/wp-content/uploads/2013/02/bygga-nomdedomaine.jpg&#34; alt=&#34;Disponibilité de Bygga sur NameChecklist&#34; width=&#34;600&#34; height=&#34;418&#34; class=&#34;size-full wp-image-698&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Source : Pour l&amp;rsquo;écriture de cet article, je me suis inspiré d&amp;rsquo;un &lt;a href=&#34;http://www.seomoz.org/blog/how-to-choose-the-right-domain-name&#34; title=&#34;Choisir le bon nom de domaine&#34; target=&#34;_blank&#34;&gt;très bon article&lt;/a&gt; en anglais.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>10 thèmes Ghost de qualité pour cet automne 2014</title>
-      <link>https://www.bygga.fr/10-themes-de-qualite-pour-ghost-cet-automne-2014/</link>
-      <pubDate>Sun, 19 Oct 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.bygga.fr/10-themes-de-qualite-pour-ghost-cet-automne-2014/</guid>
-      <description>
-
-&lt;h2 id=&#34;ghost-la-nouvelle-plateforme-pour-les-blogs:a1402fca1d76f85340c2f7346924e656&#34;&gt;Ghost, la nouvelle plateforme pour les blogs&lt;/h2&gt;
-
-&lt;p&gt;Si vous visitez cette page c&amp;rsquo;est que vous connaissez déjà tout sur &lt;a href=&#34;https://ghost.org/&#34; title=&#34;Site officiel de Ghost&#34; target=&#34;_blank&#34;&gt;Ghost&lt;/a&gt;, la nouvelle plateforme qui ne cesse de grossir et qui pourrait poser des problèmes pour WordPress surtout en ce qui concerne les blogs et les sites dédiés à &lt;a href=&#34;https://www.bygga.fr/themes-wordpress-pour-ecrivains/&#34;&gt;l&amp;rsquo;écriture et la narration&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Pour vous aidez à donner à votre blog sous Ghost un look différent voici une sélection de ce que je considère comme les meilleurs thèmes disponibles pour cet automne 2014.&lt;/p&gt;
-
-&lt;p&gt;Tous sont payants mais de qualité. Rien n&amp;rsquo;est gratuit dans la vie et si vous voulez être sûr que votre thème répond aux derniers critères HTML5 et CSS3, vous n&amp;rsquo;avez guère le choix. Bref, voici ces fameux thèmes. Choisissez celui qui vous fait le plus plaisir et n&amp;rsquo;oubliez pas que vous pouvez toujours les personnaliser, surtout si vous êtes bon en javascript et en CSS.&lt;/p&gt;
-
-&lt;h2 id=&#34;thèmes-pour-ghost:a1402fca1d76f85340c2f7346924e656&#34;&gt;Thèmes pour Ghost&lt;/h2&gt;
-
-&lt;h3 id=&#34;night-light:a1402fca1d76f85340c2f7346924e656&#34;&gt;Night Light&lt;/h3&gt;
-
-&lt;p&gt;Un thème avec un slider en guise d&amp;rsquo;entête et viennent ensuite les articles qui sont disponible sous forme de vignettes (massonery). Le menu à gauche est attractif et les couleurs sont vraiment modernes.&lt;br /&gt;
-&lt;a href=&#34;http://themeforest.net/item/nightlight-responsive-multipurpose-ghost-theme/9083597?ref=bygga&#34;&gt;&lt;img src=&#34;http://www.bygga.fr/wp-content/uploads/2014/10/night-light.jpg&#34; alt=&#34;Thème Ghost Night-Light&#34; width=&#34;600&#34; height=&#34;289&#34; class=&#34;aligncenter size-full wp-image-1039&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;sticky:a1402fca1d76f85340c2f7346924e656&#34;&gt;Sticky&lt;/h3&gt;
-
-&lt;p&gt;Sticky est une thème Ghost tout ce qu&amp;rsquo;il y a de plus minimal. Rien n&amp;rsquo;est de trop et l&amp;rsquo;accent, comme le veux la plateforme, est directement mis sur le texte, le contenu. Simple mais efficace.&lt;br /&gt;
-&lt;a href=&#34;http://themeforest.net/item/stiky-responsive-clean-ghost-theme/8771520?ref=bygga&#34;&gt;&lt;img src=&#34;http://www.bygga.fr/wp-content/uploads/2014/10/stiky.jpg&#34; alt=&#34;Thème Sticky&#34; width=&#34;590&#34; height=&#34;300&#34; class=&#34;aligncenter size-full wp-image-1041&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;jrny:a1402fca1d76f85340c2f7346924e656&#34;&gt;JRNY&lt;/h3&gt;
-
-&lt;p&gt;L&amp;rsquo;un de mes thèmes préféré. Il utilise une mise en page peut commune. Tous les articles sont disponible sur la page d&amp;rsquo;accueil sous forme d&amp;rsquo;une image full-width. Le titre, gros et gras, vient au dessus de la photo.&lt;br /&gt;
-&lt;a href=&#34;http://themeforest.net/item/jrny-a-gorgeous-responsive-ghost-blog-theme/8597109?ref=bygga&#34;&gt;&lt;img src=&#34;http://www.bygga.fr/wp-content/uploads/2014/10/jrny.jpg&#34; alt=&#34;JRNY&#34; width=&#34;590&#34; height=&#34;300&#34; class=&#34;aligncenter size-full wp-image-1042&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;readable:a1402fca1d76f85340c2f7346924e656&#34;&gt;Readable&lt;/h3&gt;
-
-&lt;p&gt;Une thème pour Ghost responsive dans lequel les articles sont sous forme de liste avec l&amp;rsquo;image principale sur la gauche, le titre et le texte sur la droite. La typography est claire et simple ce qui permet de lire facilement les articles que vous soyez sur un grand écran ou bien sur votre téléphone.&lt;br /&gt;
-&lt;a href=&#34;http://themeforest.net/item/readable-responsive-theme-focusing-on-readability/8284254?ref=bygga&#34;&gt;&lt;img src=&#34;http://www.bygga.fr/wp-content/uploads/2014/10/Readable.jpg&#34; alt=&#34;Readable&#34; width=&#34;590&#34; height=&#34;300&#34; class=&#34;aligncenter size-full wp-image-1044&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;boceto:a1402fca1d76f85340c2f7346924e656&#34;&gt;Boceto&lt;/h3&gt;
-
-&lt;p&gt;Boceto fonctionne sans doute beaucoup mieux pour les photographes que pour les écrivains. Mais pour ceux qui veulent mettre en avant leur photo Boceto devrait faire l&amp;rsquo;affaire avec sa grande grille d&amp;rsquo;image en guise de page d&amp;rsquo;accueil.&lt;br /&gt;
-&lt;a href=&#34;http://themeforest.net/item/boceto-responsive-masonry-blog-for-ghost/8427791?ref=bygga&#34;&gt;&lt;img src=&#34;http://www.bygga.fr/wp-content/uploads/2014/10/Boceto.jpg&#34; alt=&#34;Boceto pour Ghost&#34; width=&#34;590&#34; height=&#34;300&#34; class=&#34;aligncenter size-full wp-image-1046&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;yathra:a1402fca1d76f85340c2f7346924e656&#34;&gt;Yathra&lt;/h3&gt;
-
-&lt;p&gt;Une image en guise de background, une liste d&amp;rsquo;article avec photo en guise de page d&amp;rsquo;accueil, Yathra est un thème pour Ghost vraiment séduisant.&lt;br /&gt;
-&lt;a href=&#34;http://themeforest.net/item/yathra-responsive-multipurpose-ghost-theme/8405433?ref=bygga&#34;&gt;&lt;img src=&#34;http://www.bygga.fr/wp-content/uploads/2014/10/Yathra.jpg&#34; alt=&#34;Template Yathra&#34; width=&#34;590&#34; height=&#34;300&#34; class=&#34;aligncenter size-full wp-image-1047&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;summer:a1402fca1d76f85340c2f7346924e656&#34;&gt;Summer&lt;/h3&gt;
-
-&lt;p&gt;Construit avec le framework Fondation 5 et Font Awesome, Summer est un thème tout simple qui inclue également le système de commentaire Disqus.&lt;br /&gt;
-&lt;a href=&#34;http://themeforest.net/item/summer-simple-and-clean-ghost-theme/8181353?ref=bygga&#34;&gt;&lt;img src=&#34;http://www.bygga.fr/wp-content/uploads/2014/10/Summer.png&#34; alt=&#34;Summer&#34; width=&#34;590&#34; height=&#34;300&#34; class=&#34;aligncenter size-full wp-image-1048&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;wharton:a1402fca1d76f85340c2f7346924e656&#34;&gt;Wharton&lt;/h3&gt;
-
-&lt;p&gt;Avec son entête accrocheur, un super gros titre qui reste lisible quelque soit la taille de votre écran, Wharton met la barre très haute. Ce thème respecte son slogan : &amp;laquo;&amp;nbsp;Big &amp;#038; Bold&amp;nbsp;&amp;raquo;. Tout est large et lisible tout en étant minimalisme et moderne. Un vrai coup de coeur sur Bygga.&lt;br /&gt;
-&lt;a href=&#34;http://themeforest.net/item/-wharton-a-big-bold-ghost-blog-theme/7789814?ref=bygga&#34;&gt;&lt;img src=&#34;http://www.bygga.fr/wp-content/uploads/2014/10/Wharton.jpg&#34; alt=&#34;Wharton&#34; width=&#34;590&#34; height=&#34;300&#34; class=&#34;aligncenter size-full wp-image-1049&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
