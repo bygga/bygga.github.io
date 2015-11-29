@@ -18,12 +18,17 @@
   </url>
   
   <url>
-    <loc>https://www.bygga.fr/raisons-commencer-blog/</loc>
-    <lastmod>2015-11-14T00:00:00+00:00</lastmod>
+    <loc>https://www.bygga.fr/contact-merci/</loc>
+    <lastmod>2015-11-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.bygga.fr/optimiser-wordpress-performances/</loc>
+    <lastmod>2015-11-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.bygga.fr/raisons-commencer-blog/</loc>
     <lastmod>2015-11-14T00:00:00+00:00</lastmod>
   </url>
   
@@ -303,17 +308,17 @@
   </url>
   
   <url>
-    <loc>https://www.bygga.fr/ajouter-facilement-un-formulaire-de-contact-sur-son-site-wordpress/</loc>
-    <lastmod>2012-09-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.bygga.fr/rendre-son-site-attractif-sur-un-telephone-portable-sous-wordpress/</loc>
     <lastmod>2012-09-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.bygga.fr/afficher-le-nombre-de-fans-facebook-twitter-rss-dans-wordpress/</loc>
+    <lastmod>2012-09-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.bygga.fr/ajouter-facilement-un-formulaire-de-contact-sur-son-site-wordpress/</loc>
     <lastmod>2012-09-17T00:00:00+00:00</lastmod>
   </url>
   
@@ -343,7 +348,12 @@
   </url>
   
   <url>
-    <loc>https://www.bygga.fr/comment-traduire-un-theme-wordpress-en-francais/</loc>
+    <loc>https://www.bygga.fr/voila-pourquoi-il-faut-acheter-un-theme-payant-plutot-que-gratuit/</loc>
+    <lastmod>2012-07-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.bygga.fr/20-themes-plugins-restaurant-wordpress/</loc>
     <lastmod>2012-07-24T00:00:00+00:00</lastmod>
   </url>
   
@@ -353,12 +363,7 @@
   </url>
   
   <url>
-    <loc>https://www.bygga.fr/voila-pourquoi-il-faut-acheter-un-theme-payant-plutot-que-gratuit/</loc>
-    <lastmod>2012-07-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.bygga.fr/20-themes-plugins-restaurant-wordpress/</loc>
+    <loc>https://www.bygga.fr/comment-traduire-un-theme-wordpress-en-francais/</loc>
     <lastmod>2012-07-24T00:00:00+00:00</lastmod>
   </url>
   

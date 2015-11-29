@@ -10,6 +10,19 @@
     <atom:link href="https://www.bygga.fr/page/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Email envoyé</title>
+      <link>https://www.bygga.fr/contact-merci/</link>
+      <pubDate>Sun, 29 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.bygga.fr/contact-merci/</guid>
+      <description>&lt;p&gt;Merci pour votre message.
+Nous allons y répondre sans plus tarder.&lt;/p&gt;
+
+&lt;p&gt;En attendant vous pouvez visiter notre site pour découvrir comment améliorer votre site internet.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Nous contacter</title>
       <link>https://www.bygga.fr/contact/</link>
       <pubDate>Sun, 29 Nov 2015 00:00:00 +0000</pubDate>
@@ -29,7 +42,7 @@
             &lt;input type=&#34;text&#34; class=&#34;form-control&#34; name=&#34;email&#34; required&gt;
         &lt;/div&gt;
     &lt;/div&gt;
-    &lt;input type=&#34;hidden&#34; name=&#34;_next&#34; value=&#34;//site.io/thanks.html&#34; /&gt;
+    &lt;input type=&#34;hidden&#34; name=&#34;_next&#34; value=&#34;/contact-merci/&#34; /&gt;
     &lt;input type=&#34;text&#34; name=&#34;_gotcha&#34; style=&#34;display:none&#34; /&gt;
     &lt;div class=&#34;col-sm-12 text-center&#34;&gt;
         &lt;button class=&#34;borderred_link&#34; type=&#34;submit&#34;&gt;&lt;span&gt;Envoyer&lt;/span&gt;&lt;/button&gt;
@@ -385,7 +398,7 @@ WordPress va filtrer automatiquement les commentaires indésirables. Un très bo
                     &lt;input type=&#34;text&#34; class=&#34;form-control&#34; name=&#34;email&#34; required&gt;
                 &lt;/div&gt;
             &lt;/div&gt;
-            &lt;input type=&#34;hidden&#34; name=&#34;_next&#34; value=&#34;//site.io/thanks.html&#34; /&gt;
+            &lt;input type=&#34;hidden&#34; name=&#34;_next&#34; value=&#34;/analyse-web-merci/&#34; /&gt;
             &lt;input type=&#34;text&#34; name=&#34;_gotcha&#34; style=&#34;display:none&#34; /&gt;
             &lt;div class=&#34;col-sm-12 text-center&#34;&gt;
                 &lt;button class=&#34;borderred_link&#34; type=&#34;submit&#34;&gt;&lt;span&gt;Faire l&#39;analyse !&lt;/span&gt;&lt;/button&gt;
