@@ -6,8 +6,88 @@
     <description>Recent content on Bygga</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-FR</language>
-    <lastBuildDate>Mon, 30 Nov 2015 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 15 Dec 2015 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://www.bygga.fr/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Comment afficher les sous-catégories dans WordPress</title>
+      <link>https://www.bygga.fr/afficher-sous-categorie-wordpress/</link>
+      <pubDate>Tue, 15 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.bygga.fr/afficher-sous-categorie-wordpress/</guid>
+      <description>
+
+&lt;p&gt;&lt;img src=&#34;https://www.bygga.fr/assets/img/articles/afficher-sous-categories-wordpress.png&#34; class=&#34;aligncenter&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;la-différence-entre-catégorie-et-mots-clef:f38be2ab6b1ea4046ab4824db79894f3&#34;&gt;La différence entre catégorie et mots-clef&lt;/h2&gt;
+
+&lt;p&gt;Il y a deux façons sous WordPress de d&amp;rsquo;organiser vos articles. Vous pouvez dire qu&amp;rsquo;ils appartiennent à une catégorie ou bien qu&amp;rsquo;ils ont des mots-clef.&lt;/p&gt;
+
+&lt;p&gt;Il est important de bien &lt;a href=&#34;http://wpformation.com/anatomie-articlepage-wordpress/&#34;&gt;comprendre la différence&lt;/a&gt; entre les deux pour pouvoir en tirer le meilleur.&lt;/p&gt;
+
+&lt;p&gt;La différence principale entre catégorie et mots-clé c&amp;rsquo;est que les catégories peuvent avoir des enfants, des sous catégories. Les mots clé, eux, ont tous le même niveau d&amp;rsquo;organisation.&lt;/p&gt;
+
+&lt;p&gt;Souvent un article possède une seule catégorie et/ou sous-catégorie et plusieurs mot-clés.&lt;/p&gt;
+
+&lt;h2 id=&#34;comment-donner-une-catégorie-et-sous-catégorie-à-vos-articles:f38be2ab6b1ea4046ab4824db79894f3&#34;&gt;Comment donner une catégorie et sous-catégorie à vos articles ?&lt;/h2&gt;
+
+&lt;p&gt;Quand vous rédigez vos articles, vous pouvez choisir une catégorie existante en la sélectionnant directement dans l&amp;rsquo;interface sur la droite de votre écran comme le montre la photo ci-dessous.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.bygga.fr/assets/img/articles/selectionner-categorie.jpg&#34; class=&#34;aligncenter&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Les sous-catégories s&amp;rsquo;affichent avec un alinéa sous la catégorie mère. A noté que vous n&amp;rsquo;êtes pas obligé de sélectionner la catégorie mère quand vous choisissez un sous-catégorie.&lt;/p&gt;
+
+&lt;p&gt;Si vous ne le faite pas, votre article apparaitra uniquement sur la page d&amp;rsquo;archive de la sous-catégorie.&lt;/p&gt;
+
+&lt;h2 id=&#34;créer-une-sous-catégorie:f38be2ab6b1ea4046ab4824db79894f3&#34;&gt;Créer une sous-catégorie&lt;/h2&gt;
+
+&lt;p&gt;Pour créer une catégorie ou sous-catégorie, vous pouvez cliquer sur &lt;em&gt;+Ajouter un nouvelle catégorie&lt;/em&gt;.
+Vous pouvez ensuite entrer le nom de la nouvelle catégorie et si c&amp;rsquo;est le cas, le nom de la catégorie parente.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.bygga.fr/assets/img/articles/ajouter-categorie.jpg&#34; class=&#34;aligncenter&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Dans ce cas, &lt;em&gt;Cérémonie&lt;/em&gt; est une sous-catégorie de &lt;em&gt;Mariage&lt;/em&gt;, au même titre que &lt;em&gt;Préparatifs&lt;/em&gt; qui existait déjà.
+Vous pouvez aussi continuer votre segmentatio en ajoutant une sous-sous-catégorie et ainsi de suite.&lt;/p&gt;
+
+&lt;h2 id=&#34;afficher-les-catégories-avec-un-widget-dans-votre-sidebar:f38be2ab6b1ea4046ab4824db79894f3&#34;&gt;Afficher les catégories avec un Widget dans votre sidebar&lt;/h2&gt;
+
+&lt;p&gt;La manière la plus simple pour les débutants &lt;a href=&#34;https://www.bygga.fr/tags/wordpress/&#34;&gt;WordPress&lt;/a&gt; d&amp;rsquo;afficher une sous-catégorie c&amp;rsquo;est d&amp;rsquo;utiliser les Widgets.
+Vous pouvez les trouver dans le menu de gauche sous la catégorie &amp;ldquo;Apparence&amp;rdquo;.
+Tout les thèmes et toutes les installations WordPress ont par défaut ce Widgets. Vous n&amp;rsquo;avez donc pas besoin d&amp;rsquo;installer une extension supplémentaire.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.bygga.fr/assets/img/articles/afficher-categorie.jpg&#34; class=&#34;aligncenter&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Faitez glisser le widget &lt;em&gt;Catégorie&lt;/em&gt; dans votre sidebar. Vous pouvez ensuite ajouter un titre et sélectionner parmi 3 options.
+La première vous permet de choisir si vous voulez afficher vos catégories comme une liste dans un menu déroulant ou bien sans. L&amp;rsquo;option menu-déroulant est un bon choix si vous avez beaucoup de catégorie. Pensez à vos pauvres utilisateurs sur leur téléphone.&lt;/p&gt;
+
+&lt;p&gt;La seconde option vous permet d&amp;rsquo;afficher le nombre d&amp;rsquo;articles attachés à une catégorie. Je ne vois pas forcement un grand intérêt, mais certaines personne l&amp;rsquo;utilise.&lt;/p&gt;
+
+&lt;p&gt;La troisièment option est celle qui nous intéresse. &lt;em&gt;Afficher la hiérarchie&lt;/em&gt; permet d&amp;rsquo;afficher les catégories et leur sous-catégories.&lt;/p&gt;
+
+&lt;h2 id=&#34;afficher-les-articles-d-une-catégories-dans-un-article-ou-une-page:f38be2ab6b1ea4046ab4824db79894f3&#34;&gt;Afficher les articles d&amp;rsquo;une catégories dans un article ou une page&lt;/h2&gt;
+
+&lt;p&gt;Si vous voulez afficher une liste de tout vos articles dans une certaine catégorie au sein même de vos pages ou de vos articles, vous pouvez le faire grâce à un très bon plugin.&lt;/p&gt;
+
+&lt;p&gt;Je vous conseille le plugin &lt;a href=&#34;https://fr.wordpress.org/plugins/list-category-posts/&#34;&gt;List category posts&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.bygga.fr/assets/img/articles/list-category-posts.jpg&#34; class=&#34;aligncenter&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Avec ce plugin, vous allez pouvoir utiliser un shortcode à insérer directement dans le texte de votre article ou de votre page. Ce shortcode va ensuite afficher automatiquement tous les articles au sein de cette catégorie. Le plugin comporte pleins d&amp;rsquo;options. Je vous laisse les découvrir sur la page l&amp;rsquo;extension.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.bygga.fr/assets/img/articles/article-dans-categorie.jpg&#34; class=&#34;aligncenter&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;afficher-les-catégories-sans-plugin-ou-widget:f38be2ab6b1ea4046ab4824db79894f3&#34;&gt;Afficher les catégories sans plugin ou widget&lt;/h2&gt;
+
+&lt;p&gt;Pour ceux qui sont à l&amp;rsquo;aise avec WordPress et n&amp;rsquo;ont pas peur de modifier le code PHP de votre thème, vous pouvez choisir d&amp;rsquo;ajouter le code suivant dans le ficher dans lequel vous voulez afficher les catégories :&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-php&#34;&gt;&amp;lt;?php wp_list_categories( ); ?&amp;gt; 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Là aussi, vous avez le choix parmi pleins d&amp;rsquo;options. Vous pouvez par exemple décider de l&amp;rsquo;ordre d&amp;rsquo;affichage des catégories (par défaut cela se fait par ordre alphabétique). Pratique pour mettre en avant les catégories avec le plus d&amp;rsquo;article en avant.&lt;/p&gt;
+
+&lt;p&gt;Vous pouvez choisir aussi d&amp;rsquo;afficher ou non les sous-catégories ou bien les catégories vides.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Comment vraiment gagner de l&#39;argent avec un site web</title>
@@ -354,6 +434,69 @@ Nous allons y répondre sans plus tarder.&lt;/p&gt;
     </item>
     
     <item>
+      <title>5 Raisons de Commencer Un Blog</title>
+      <link>https://www.bygga.fr/raisons-commencer-blog/</link>
+      <pubDate>Sat, 14 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.bygga.fr/raisons-commencer-blog/</guid>
+      <description>
+
+&lt;p&gt;Les blogs sont à la mode en ce moment. En ce moment il y a plus de &lt;a href=&#34;http://www.frenchweb.fr/infographie-3-millions-de-blogs-crees-chaque-mois-dans-le-monde/106032&#34;&gt;3 millions de blogs créer tous les mois dans le monde&lt;/a&gt;. Ce chiffre est impressionnant, mais n&amp;rsquo;a rien de suprenant.&lt;/p&gt;
+
+&lt;p&gt;Les blogs sont des types de sites internet attractifs et qui fonctionne très bien dans ce monde digital et social.
+Voici cinq raisons que je donne pour vous montrer que c&amp;rsquo;est aussi grand temps pour vous de vous lancer et de créer votre blog.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.bygga.fr/assets/img/articles/raison-commencer-blog.jpg&#34; class=&#34;aligncenter&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;1-les-blogs-sont-faciles-à-mettre-en-place:2cf5a1efeac7d8d78f75fe44583df912&#34;&gt;1. Les blogs sont faciles à mettre en place&lt;/h2&gt;
+
+&lt;p&gt;L&amp;rsquo;un des gros avantages des blogs comparés aux sites internet c&amp;rsquo;est qu&amp;rsquo;ils sont ultra simple à mettre en place. &lt;a href=&#34;https://www.bygga.fr/creer-blog-gratuitement/&#34;&gt;Créer son blog ne prend que quelques minutes&lt;/a&gt;. Une fois WordPress installé, mettre en ligne un article est ultra simple et ne demande aucune connaissance technique.&lt;/p&gt;
+
+&lt;p&gt;Cet facilité de prise en main est l&amp;rsquo;une des raisons pour lesquels les blogs sont si populaires parmi les ados. De nombreux adolescents ont un blog sur le footbal, les jeux vidéos ou bien la mode et les produits de beauté.&lt;/p&gt;
+
+&lt;h2 id=&#34;2-gagner-de-l-argent-avec-un-blog:2cf5a1efeac7d8d78f75fe44583df912&#34;&gt;2. Gagner de l&amp;rsquo;argent avec un blog&lt;/h2&gt;
+
+&lt;p&gt;Si votre blog est suffisement populaire pour attirer des milliers de visiteurs tous les mois, vous allez pouvoir commencer à gagner de l&amp;rsquo;argent.&lt;/p&gt;
+
+&lt;p&gt;Ne vous attendez pas à recevoir un salaire complet avec votre blog, mais vous pouvez arrondir vos fins de mois sans trop d&amp;rsquo;effort.&lt;/p&gt;
+
+&lt;p&gt;Suivez mes conseils sur comment &lt;a href=&#34;https://www.bygga.fr/categories/monetisation/&#34;&gt;monétiser votre site&lt;/a&gt;, et vous pouvez être sûr de recevoir plusieurs centaines d&amp;rsquo;euro par mois en revenu publicitaire et commissions.&lt;/p&gt;
+
+&lt;h2 id=&#34;3-google-adore-les-blogs:2cf5a1efeac7d8d78f75fe44583df912&#34;&gt;3. Google adore les blogs&lt;/h2&gt;
+
+&lt;p&gt;Les blogs sont un bon ajout au site internet de votre entreprise. Pourquoi ? Tout simplement parce que vous allez pouvoir mettre en ligne du contenu nouveau régulièrement.&lt;/p&gt;
+
+&lt;p&gt;Google tient en compte la fraicheur de vos pages. Un site &lt;a href=&#34;http://www.gazelle-du-web.com/ecrire-pour-le-web/les-mises-a-jours/&#34;&gt;régulièrement mis à jour&lt;/a&gt; à donc une plus grande chance de bien figuré dans les résultats de recherche comparé à un site vitrine qui n&amp;rsquo;est mis à jour qu&amp;rsquo;une fois par an.&lt;/p&gt;
+
+&lt;p&gt;Créer donc un blog comme un complément de votre site web d&amp;rsquo;entreprise. Vous pouvez y publier l&amp;rsquo;actualité de votre entreprise mais aussi écrire sur des sujets au coeur de votre business.&lt;/p&gt;
+
+&lt;h2 id=&#34;4-attirez-de-nouveau-visiteurs-sur-votre-site-web:2cf5a1efeac7d8d78f75fe44583df912&#34;&gt;4. Attirez de nouveau visiteurs sur votre site web&lt;/h2&gt;
+
+&lt;p&gt;En écrivant des articles sur des sujets au coeur de votre business, vous allez pouvoir toucher de nouveaux lecteurs et donc de nouveaux clients.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Les visiteurs qui vont lire votre blog sont des visiteurs qui valent très cher et ne coûtent presque rien.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;S&amp;rsquo;ils viennent sur votre blog, c&amp;rsquo;est parce qu&amp;rsquo;ils sont intéressés par l&amp;rsquo;article et il y a donc de grandes chances qu&amp;rsquo;ils soient intéressés par vos produits ou services.&lt;/p&gt;
+
+&lt;h2 id=&#34;5-les-blogs-comme-centre-d-une-communauté:2cf5a1efeac7d8d78f75fe44583df912&#34;&gt;5. Les blogs comme centre d&amp;rsquo;une communauté&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.bygga.fr/assets/img/services-reseaux-sociaux.png&#34; class=&#34;alignright&#34; /&gt;
+Vous pouvez facilement construire une communauté autour d&amp;rsquo;un blog. De nombreuses personnes s&amp;rsquo;inscrivent au flux RSS des blogs pour être au courant des nouveaux articles et ne pas manquer une miette sur vos voyages, nouvelles expériences ou bien vos conseils.&lt;/p&gt;
+
+&lt;p&gt;Une communauté est extrêment important pour votre site et votre image. Si vous avez de nombreuses personnes qui suivent vos articles et s&amp;rsquo;impliquent en laissant des commentaires ils auront plus de chance de partager votre site sur les réseaux sociaux.&lt;/p&gt;
+
+&lt;h2 id=&#34;bonus-ça-occupe:2cf5a1efeac7d8d78f75fe44583df912&#34;&gt;Bonus : Ça occupe&lt;/h2&gt;
+
+&lt;p&gt;Un blog ça prend du temps, surtout si vous voulez être actifs et recevoir de plus en plus de visites (tout le monde aime se sentir aimer).
+Si vous êtes du genre à ne pas savoir quoi de vos dimanches après-midi, un blog peut être un bon passe temps. Vous aurez le sentiment de créer quelque chose d&amp;rsquo;utile, d&amp;rsquo;aider des gens, d&amp;rsquo;être reconnu, et pourquoi pas de gagner de l&amp;rsquo;argent.&lt;/p&gt;
+
+&lt;p&gt;J&amp;rsquo;espère que je vous ai convaincu et donné l&amp;rsquo;envie de commencer un blog. Lancez vous et décidez vous même si cela est pour vous ou non.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Optimiser WordPress pour de meilleures performances</title>
       <link>https://www.bygga.fr/optimiser-wordpress-performances/</link>
       <pubDate>Sat, 14 Nov 2015 00:00:00 +0000</pubDate>
@@ -523,69 +666,6 @@ Il est donc important que vous ayez une idée de l&amp;rsquo;impact de chaque ex
 &lt;p&gt;Si vous suivez l&amp;rsquo;astuce 6 sur l&amp;rsquo;optimisation de votre base de donnée, vous êtes déjà couvert. Sinon souvenez vous bien de supprimer les commentaires indésirables qu&amp;rsquo;Akismet découvre. Si votre site est populaire comme le mien, vous pouvez recevoir une centaine de commentaires indésirables par jour qui viennent uniquement prendre de la place dans votre base de donnée.&lt;/p&gt;
 
 &lt;p&gt;Vous pouvez trouver plus d&amp;rsquo;information en lisant cet article, ma foi très bon. &lt;a href=&#34;https://bulledev.com/optimiser-wordpress/&#34;&gt;Le guide complet pour accélérer et optimiser WordPress&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>5 Raisons de Commencer Un Blog</title>
-      <link>https://www.bygga.fr/raisons-commencer-blog/</link>
-      <pubDate>Sat, 14 Nov 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.bygga.fr/raisons-commencer-blog/</guid>
-      <description>
-
-&lt;p&gt;Les blogs sont à la mode en ce moment. En ce moment il y a plus de &lt;a href=&#34;http://www.frenchweb.fr/infographie-3-millions-de-blogs-crees-chaque-mois-dans-le-monde/106032&#34;&gt;3 millions de blogs créer tous les mois dans le monde&lt;/a&gt;. Ce chiffre est impressionnant, mais n&amp;rsquo;a rien de suprenant.&lt;/p&gt;
-
-&lt;p&gt;Les blogs sont des types de sites internet attractifs et qui fonctionne très bien dans ce monde digital et social.
-Voici cinq raisons que je donne pour vous montrer que c&amp;rsquo;est aussi grand temps pour vous de vous lancer et de créer votre blog.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://www.bygga.fr/assets/img/articles/raison-commencer-blog.jpg&#34; class=&#34;aligncenter&#34; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;1-les-blogs-sont-faciles-à-mettre-en-place:2cf5a1efeac7d8d78f75fe44583df912&#34;&gt;1. Les blogs sont faciles à mettre en place&lt;/h2&gt;
-
-&lt;p&gt;L&amp;rsquo;un des gros avantages des blogs comparés aux sites internet c&amp;rsquo;est qu&amp;rsquo;ils sont ultra simple à mettre en place. &lt;a href=&#34;https://www.bygga.fr/creer-blog-gratuitement/&#34;&gt;Créer son blog ne prend que quelques minutes&lt;/a&gt;. Une fois WordPress installé, mettre en ligne un article est ultra simple et ne demande aucune connaissance technique.&lt;/p&gt;
-
-&lt;p&gt;Cet facilité de prise en main est l&amp;rsquo;une des raisons pour lesquels les blogs sont si populaires parmi les ados. De nombreux adolescents ont un blog sur le footbal, les jeux vidéos ou bien la mode et les produits de beauté.&lt;/p&gt;
-
-&lt;h2 id=&#34;2-gagner-de-l-argent-avec-un-blog:2cf5a1efeac7d8d78f75fe44583df912&#34;&gt;2. Gagner de l&amp;rsquo;argent avec un blog&lt;/h2&gt;
-
-&lt;p&gt;Si votre blog est suffisement populaire pour attirer des milliers de visiteurs tous les mois, vous allez pouvoir commencer à gagner de l&amp;rsquo;argent.&lt;/p&gt;
-
-&lt;p&gt;Ne vous attendez pas à recevoir un salaire complet avec votre blog, mais vous pouvez arrondir vos fins de mois sans trop d&amp;rsquo;effort.&lt;/p&gt;
-
-&lt;p&gt;Suivez mes conseils sur comment &lt;a href=&#34;https://www.bygga.fr/categories/monetisation/&#34;&gt;monétiser votre site&lt;/a&gt;, et vous pouvez être sûr de recevoir plusieurs centaines d&amp;rsquo;euro par mois en revenu publicitaire et commissions.&lt;/p&gt;
-
-&lt;h2 id=&#34;3-google-adore-les-blogs:2cf5a1efeac7d8d78f75fe44583df912&#34;&gt;3. Google adore les blogs&lt;/h2&gt;
-
-&lt;p&gt;Les blogs sont un bon ajout au site internet de votre entreprise. Pourquoi ? Tout simplement parce que vous allez pouvoir mettre en ligne du contenu nouveau régulièrement.&lt;/p&gt;
-
-&lt;p&gt;Google tient en compte la fraicheur de vos pages. Un site &lt;a href=&#34;http://www.gazelle-du-web.com/ecrire-pour-le-web/les-mises-a-jours/&#34;&gt;régulièrement mis à jour&lt;/a&gt; à donc une plus grande chance de bien figuré dans les résultats de recherche comparé à un site vitrine qui n&amp;rsquo;est mis à jour qu&amp;rsquo;une fois par an.&lt;/p&gt;
-
-&lt;p&gt;Créer donc un blog comme un complément de votre site web d&amp;rsquo;entreprise. Vous pouvez y publier l&amp;rsquo;actualité de votre entreprise mais aussi écrire sur des sujets au coeur de votre business.&lt;/p&gt;
-
-&lt;h2 id=&#34;4-attirez-de-nouveau-visiteurs-sur-votre-site-web:2cf5a1efeac7d8d78f75fe44583df912&#34;&gt;4. Attirez de nouveau visiteurs sur votre site web&lt;/h2&gt;
-
-&lt;p&gt;En écrivant des articles sur des sujets au coeur de votre business, vous allez pouvoir toucher de nouveaux lecteurs et donc de nouveaux clients.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Les visiteurs qui vont lire votre blog sont des visiteurs qui valent très cher et ne coûtent presque rien.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;S&amp;rsquo;ils viennent sur votre blog, c&amp;rsquo;est parce qu&amp;rsquo;ils sont intéressés par l&amp;rsquo;article et il y a donc de grandes chances qu&amp;rsquo;ils soient intéressés par vos produits ou services.&lt;/p&gt;
-
-&lt;h2 id=&#34;5-les-blogs-comme-centre-d-une-communauté:2cf5a1efeac7d8d78f75fe44583df912&#34;&gt;5. Les blogs comme centre d&amp;rsquo;une communauté&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://www.bygga.fr/assets/img/services-reseaux-sociaux.png&#34; class=&#34;alignright&#34; /&gt;
-Vous pouvez facilement construire une communauté autour d&amp;rsquo;un blog. De nombreuses personnes s&amp;rsquo;inscrivent au flux RSS des blogs pour être au courant des nouveaux articles et ne pas manquer une miette sur vos voyages, nouvelles expériences ou bien vos conseils.&lt;/p&gt;
-
-&lt;p&gt;Une communauté est extrêment important pour votre site et votre image. Si vous avez de nombreuses personnes qui suivent vos articles et s&amp;rsquo;impliquent en laissant des commentaires ils auront plus de chance de partager votre site sur les réseaux sociaux.&lt;/p&gt;
-
-&lt;h2 id=&#34;bonus-ça-occupe:2cf5a1efeac7d8d78f75fe44583df912&#34;&gt;Bonus : Ça occupe&lt;/h2&gt;
-
-&lt;p&gt;Un blog ça prend du temps, surtout si vous voulez être actifs et recevoir de plus en plus de visites (tout le monde aime se sentir aimer).
-Si vous êtes du genre à ne pas savoir quoi de vos dimanches après-midi, un blog peut être un bon passe temps. Vous aurez le sentiment de créer quelque chose d&amp;rsquo;utile, d&amp;rsquo;aider des gens, d&amp;rsquo;être reconnu, et pourquoi pas de gagner de l&amp;rsquo;argent.&lt;/p&gt;
-
-&lt;p&gt;J&amp;rsquo;espère que je vous ai convaincu et donné l&amp;rsquo;envie de commencer un blog. Lancez vous et décidez vous même si cela est pour vous ou non.&lt;/p&gt;
 </description>
     </item>
     
@@ -891,22 +971,6 @@ WordPress va filtrer automatiquement les commentaires indésirables. Un très bo
     </item>
     
     <item>
-      <title>Formulaire envoyé</title>
-      <link>https://www.bygga.fr/analyse-web-merci/</link>
-      <pubDate>Sat, 31 Oct 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.bygga.fr/analyse-web-merci/</guid>
-      <description>
-
-&lt;h2 id=&#34;dans-quelques-heures-votre-site-sera-encore-plus-performant:47ef71488adbbbd8d95f1283e328b451&#34;&gt;Dans quelques heures votre site sera encore plus performant &amp;hellip;&lt;/h2&gt;
-
-&lt;p&gt;Nous avons bien reçu votre demande d&amp;rsquo;analyse de votre site web. Dans quelques heures vous pourrez mettre en oeuvre tous nos conseils pour améliorer votre site web.&lt;/p&gt;
-
-&lt;p&gt;En attendant, vous pouvez parcourir notre blog pour découvrir d&amp;rsquo;autres astuces pour rendre votre site performant et attractif.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Analyse gratuite de votre site web</title>
       <link>https://www.bygga.fr/analyse-web/</link>
       <pubDate>Sat, 31 Oct 2015 00:00:00 +0000</pubDate>
@@ -977,6 +1041,22 @@ WordPress va filtrer automatiquement les commentaires indésirables. Un très bo
         &lt;p&gt;&lt;strong&gt;L&#39;analyse est gratuite et sans frais cachés&lt;/strong&gt;. Nous sommes simplement généreux et le simple fait que vous partagez ce service avec vos amis nous rend heureux !&lt;/p&gt;
     &lt;/div&gt;
 &lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Formulaire envoyé</title>
+      <link>https://www.bygga.fr/analyse-web-merci/</link>
+      <pubDate>Sat, 31 Oct 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.bygga.fr/analyse-web-merci/</guid>
+      <description>
+
+&lt;h2 id=&#34;dans-quelques-heures-votre-site-sera-encore-plus-performant:47ef71488adbbbd8d95f1283e328b451&#34;&gt;Dans quelques heures votre site sera encore plus performant &amp;hellip;&lt;/h2&gt;
+
+&lt;p&gt;Nous avons bien reçu votre demande d&amp;rsquo;analyse de votre site web. Dans quelques heures vous pourrez mettre en oeuvre tous nos conseils pour améliorer votre site web.&lt;/p&gt;
+
+&lt;p&gt;En attendant, vous pouvez parcourir notre blog pour découvrir d&amp;rsquo;autres astuces pour rendre votre site performant et attractif.&lt;/p&gt;
 </description>
     </item>
     
@@ -1362,124 +1442,6 @@ Yolia est réaliser par les mêmes studio que Yogi et cela explique donc les nom
 
 &lt;p&gt;&lt;img src=&#34;http://www.bygga.fr/wp-content/uploads/2015/07/Built-With-Material-Design.jpg&#34; alt=&#34;Built With Material Design&#34; width=&#34;1279&#34; height=&#34;630&#34; class=&#34;aligncenter size-full wp-image-1075&#34; /&gt;&lt;br /&gt;
 &lt;a href=&#34;http://www.builtwithmaterialdesign.com/&#34; target=&#34;_blank&#34;&gt;BuiltWithMaterialDesign&lt;/a&gt;, le dernier site de ma sélection, mais pas forcement le moins intéressant. La selection qui y est proposé est très large, même si le contenu est quasiment exclusivement des apps. On ne retrouve pas d&amp;rsquo;outils ou de ressources pour vous aider à bien démarrer avec le design materiel.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Utiliser Google Material Design Lite comme alternative de Bootstrap</title>
-      <link>https://www.bygga.fr/utiliser-google-material-design-lite-comme-alternative-de-bootstrap/</link>
-      <pubDate>Sun, 12 Jul 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.bygga.fr/utiliser-google-material-design-lite-comme-alternative-de-bootstrap/</guid>
-      <description>
-
-&lt;h2 id=&#34;css-et-javascript-framework:8a27faa56da254bf41cd378c68dc1a78&#34;&gt;CSS et Javascript framework&lt;/h2&gt;
-
-&lt;p&gt;Développé et partagé open source par Twitter, &lt;a href=&#34;http://getbootstrap.com/&#34; target=&#34;_blank&#34;&gt;Bootstrap&lt;/a&gt; à été une révolution pour beaucoup de développeur de site internet. Il s&amp;rsquo;agit d&amp;rsquo;un framework qui comporte déjà tous les éléments dont vous avez besoin pour créer un site internet ou un blog. Il suffit simplement de les assembler dans le bon ordre pour sauver des centaines d&amp;rsquo;heures de codes.&lt;/p&gt;
-
-&lt;p&gt;Google à aussi travaillé sur un framework similaire et vient maintenant de le mettre à la disposition de tous, gratuitement. Son nom &lt;strong&gt;Material Design Lite&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;h2 id=&#34;introduction-à-material-design-lite:8a27faa56da254bf41cd378c68dc1a78&#34;&gt;Introduction à Material Design Lite&lt;/h2&gt;
-
-&lt;p&gt;Vous allez tout de suite remarqué que le design est identique à celui que Google utilise sur ses sites et sur Android. L&amp;rsquo;idée derrière ce nouveau framework CSS et Javascript c&amp;rsquo;est d&amp;rsquo;avoir une correspondance entre le comportement des matériaux dans la vraie vie et un équivalent sur les applications et sites internet.&lt;/p&gt;
-
-&lt;p&gt;Vous allez donc retrouver des spécifications pour donner de la profondeur avec des shadows par exemple. On retrouve aussi le style épuré introduit avec Android Lollipop.&lt;/p&gt;
-
-&lt;h2 id=&#34;comment-installer-material-design-lite-mdl:8a27faa56da254bf41cd378c68dc1a78&#34;&gt;Comment installer Material Design Lite (MDL)&lt;/h2&gt;
-
-&lt;p&gt;Commencez pas vous rendre sur le &lt;a href=&#34;http://www.getmdl.io/started/index.html&#34; target=&#34;_blank&#34;&gt;site officiel de MDL&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Vous avez besoin de deux fichiers pour faire fonctionner correctement le framework. Un fichier CSS et un fichier javascript. Un fichier optionnel comporte la définition des icônes.&lt;/p&gt;
-
-&lt;p&gt;Selon le type de site que vous avez, vous pouvez installer ces deux fichiers de plusieurs manières.&lt;br /&gt;
-Vous pouvez trouver plus d&amp;rsquo;exemple et de description directement sur le &lt;a href=&#34;http://www.getmdl.io/started/index.html&#34;&gt;installer MDL&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h3 id=&#34;mdl-sur-un-site-sans-framework:8a27faa56da254bf41cd378c68dc1a78&#34;&gt;MDL sur un site sans framework&lt;/h3&gt;
-
-&lt;pre&gt;
-  &lt;code class=&#34;language-html&#34;&gt;
-&amp;lt;link rel=&#34;stylesheet&#34; href=&#34;https://storage.googleapis.com/code.getmdl.io/1.0.0/material.indigo-pink.min.css&#34;&amp;gt;
-&amp;lt;script src=&#34;https://storage.googleapis.com/code.getmdl.io/1.0.0/material.min.js&#34;&amp;gt;&amp;lt;/script&amp;gt;
-&amp;lt;link rel=&#34;stylesheet&#34; href=&#34;https://fonts.googleapis.com/icon?family=Material+Icons&#34;&amp;gt;
-&lt;/code&gt;
-&lt;/pre&gt;
-
-&lt;h3 id=&#34;sous-wordpress:8a27faa56da254bf41cd378c68dc1a78&#34;&gt;Sous WordPress&lt;/h3&gt;
-
-&lt;p&gt;Ajouter les lignes suivantes dans le fichier &lt;mark&gt;function.php&lt;/mark&gt; de votre thème.&lt;br /&gt;
-Cela va permettre d&amp;rsquo;ajouter les fichier CSS et JS à votre site.&lt;/p&gt;
-
-&lt;pre&gt;
-&lt;code class=&#34;language-php&#34;&gt;
-function ajouter_mdl_scripts() {
-  wp_enqueue_style(&#39;mdl-css&#39;, &#39;https://storage.googleapis.com/code.getmdl.io/1.0.0/material.indigo-pink.min.css&#39; );
-  wp_enqueue_style(&#39;mdl-icon&#39;, &#39;https://fonts.googleapis.com/icon?family=Material+Icons&#39; );
-  wp_enqueue_script( &#39;mdl-js&#39;, &#39;https://storage.googleapis.com/code.getmdl.io/1.0.0/material.min.js&#39;);
-}
-add_action( &#39;wp_enqueue_scripts&#39;, &#39;ajouter_mdl_scripts&#39; );
-&lt;/code&gt;
-&lt;/pre&gt;
-
-&lt;h2 id=&#34;exemple-d-rsquo-utilisation-de-material-design-lite:8a27faa56da254bf41cd378c68dc1a78&#34;&gt;Exemple d&amp;rsquo;utilisation de Material Design Lite&lt;/h2&gt;
-
-&lt;h3 id=&#34;boutons:8a27faa56da254bf41cd378c68dc1a78&#34;&gt;Boutons&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://www.bygga.fr/wp-content/uploads/2015/07/bouton.jpg&#34; alt=&#34;bouton&#34; width=&#34;117&#34; height=&#34;52&#34; class=&#34;aligncenter size-full wp-image-1063&#34; /&gt;&lt;/p&gt;
-
-&lt;pre&gt;
-&lt;code class=&#34;language-html&#34;&gt;
-&amp;lt;button class=&#34;mdl-button mdl-js-button mdl-button--raised mdl-button--colored&#34;&amp;gt;
-  Button
-&amp;lt;/button&amp;gt;
-&lt;/code&gt;
-&lt;/pre&gt;
-
-&lt;h3 id=&#34;cards:8a27faa56da254bf41cd378c68dc1a78&#34;&gt;Cards&lt;/h3&gt;
-
-&lt;p&gt;Un des éléments clé des produits Google : Cards. Pensez à Google Now par exemple.&lt;br /&gt;
-Un peu plus difficile puisque vous devez aussi ajouter du style dans votre fichier &lt;mark&gt;style.css&lt;/mark&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://www.bygga.fr/wp-content/uploads/2015/07/card-mdl.jpg&#34; alt=&#34;Exemple de card&#34; width=&#34;527&#34; height=&#34;310&#34; class=&#34;aligncenter size-full wp-image-1064&#34; /&gt;&lt;/p&gt;
-
-&lt;pre&gt;
-&lt;code class=&#34;language-css&#34;&gt;
-.demo-card-wide.mdl-card {
-    width: 512px;
-  }
-  .demo-card-wide &amp;gt; .mdl-card__title {
-    color: #fff;
-    height: 176px;
-    background: url(&#39;../assets/demos/welcome_card.jpg&#39;) center / cover;
-  }
-  .demo-card-wide &amp;gt; .mdl-card__menu {
-    color: #fff;
-  }
-&lt;/code&gt;
-&lt;/pre&gt;
-
-&lt;pre&gt;
-&lt;code class=&#34;language-html&#34;&gt;
-&amp;lt;div class=&#34;mdl-card mdl-shadow--2dp demo-card-wide&#34;&amp;gt;
-  &amp;lt;div class=&#34;mdl-card__title&#34;&amp;gt;
-    &amp;lt;h2 class=&#34;mdl-card__title-text&#34;&amp;gt;Welcome&amp;lt;/h2&amp;gt;
-  &amp;lt;/div&amp;gt;
-  &amp;lt;div class=&#34;mdl-card__supporting-text&#34;&amp;gt;
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    Mauris sagittis pellentesque lacus eleifend lacinia...
-  &amp;lt;/div&amp;gt;
-  &amp;lt;div class=&#34;mdl-card__actions mdl-card--border&#34;&amp;gt;
-    &amp;lt;a class=&#34;mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect&#34;&amp;gt;
-      Get Started
-    &amp;lt;/a&amp;gt;
-  &amp;lt;/div&amp;gt;
-  &amp;lt;div class=&#34;mdl-card__menu&#34;&amp;gt;
-    &amp;lt;button class=&#34;mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect&#34;&amp;gt;
-      &amp;lt;i class=&#34;material-icons&#34;&amp;gt;share&amp;lt;/i&amp;gt;
-    &amp;lt;/button&amp;gt;
-  &amp;lt;/div&amp;gt;
-&amp;lt;/div&amp;gt;
-&lt;/code&gt;
-&lt;/pre&gt;
 </description>
     </item>
     

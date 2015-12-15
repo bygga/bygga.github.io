@@ -6,8 +6,88 @@
     <description>Recent content in Articles on Bygga</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-FR</language>
-    <lastBuildDate>Mon, 30 Nov 2015 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 15 Dec 2015 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://www.bygga.fr/article/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Comment afficher les sous-catégories dans WordPress</title>
+      <link>https://www.bygga.fr/afficher-sous-categorie-wordpress/</link>
+      <pubDate>Tue, 15 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.bygga.fr/afficher-sous-categorie-wordpress/</guid>
+      <description>
+
+&lt;p&gt;&lt;img src=&#34;https://www.bygga.fr/assets/img/articles/afficher-sous-categories-wordpress.png&#34; class=&#34;aligncenter&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;la-différence-entre-catégorie-et-mots-clef:f38be2ab6b1ea4046ab4824db79894f3&#34;&gt;La différence entre catégorie et mots-clef&lt;/h2&gt;
+
+&lt;p&gt;Il y a deux façons sous WordPress de d&amp;rsquo;organiser vos articles. Vous pouvez dire qu&amp;rsquo;ils appartiennent à une catégorie ou bien qu&amp;rsquo;ils ont des mots-clef.&lt;/p&gt;
+
+&lt;p&gt;Il est important de bien &lt;a href=&#34;http://wpformation.com/anatomie-articlepage-wordpress/&#34;&gt;comprendre la différence&lt;/a&gt; entre les deux pour pouvoir en tirer le meilleur.&lt;/p&gt;
+
+&lt;p&gt;La différence principale entre catégorie et mots-clé c&amp;rsquo;est que les catégories peuvent avoir des enfants, des sous catégories. Les mots clé, eux, ont tous le même niveau d&amp;rsquo;organisation.&lt;/p&gt;
+
+&lt;p&gt;Souvent un article possède une seule catégorie et/ou sous-catégorie et plusieurs mot-clés.&lt;/p&gt;
+
+&lt;h2 id=&#34;comment-donner-une-catégorie-et-sous-catégorie-à-vos-articles:f38be2ab6b1ea4046ab4824db79894f3&#34;&gt;Comment donner une catégorie et sous-catégorie à vos articles ?&lt;/h2&gt;
+
+&lt;p&gt;Quand vous rédigez vos articles, vous pouvez choisir une catégorie existante en la sélectionnant directement dans l&amp;rsquo;interface sur la droite de votre écran comme le montre la photo ci-dessous.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.bygga.fr/assets/img/articles/selectionner-categorie.jpg&#34; class=&#34;aligncenter&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Les sous-catégories s&amp;rsquo;affichent avec un alinéa sous la catégorie mère. A noté que vous n&amp;rsquo;êtes pas obligé de sélectionner la catégorie mère quand vous choisissez un sous-catégorie.&lt;/p&gt;
+
+&lt;p&gt;Si vous ne le faite pas, votre article apparaitra uniquement sur la page d&amp;rsquo;archive de la sous-catégorie.&lt;/p&gt;
+
+&lt;h2 id=&#34;créer-une-sous-catégorie:f38be2ab6b1ea4046ab4824db79894f3&#34;&gt;Créer une sous-catégorie&lt;/h2&gt;
+
+&lt;p&gt;Pour créer une catégorie ou sous-catégorie, vous pouvez cliquer sur &lt;em&gt;+Ajouter un nouvelle catégorie&lt;/em&gt;.
+Vous pouvez ensuite entrer le nom de la nouvelle catégorie et si c&amp;rsquo;est le cas, le nom de la catégorie parente.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.bygga.fr/assets/img/articles/ajouter-categorie.jpg&#34; class=&#34;aligncenter&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Dans ce cas, &lt;em&gt;Cérémonie&lt;/em&gt; est une sous-catégorie de &lt;em&gt;Mariage&lt;/em&gt;, au même titre que &lt;em&gt;Préparatifs&lt;/em&gt; qui existait déjà.
+Vous pouvez aussi continuer votre segmentatio en ajoutant une sous-sous-catégorie et ainsi de suite.&lt;/p&gt;
+
+&lt;h2 id=&#34;afficher-les-catégories-avec-un-widget-dans-votre-sidebar:f38be2ab6b1ea4046ab4824db79894f3&#34;&gt;Afficher les catégories avec un Widget dans votre sidebar&lt;/h2&gt;
+
+&lt;p&gt;La manière la plus simple pour les débutants &lt;a href=&#34;https://www.bygga.fr/tags/wordpress/&#34;&gt;WordPress&lt;/a&gt; d&amp;rsquo;afficher une sous-catégorie c&amp;rsquo;est d&amp;rsquo;utiliser les Widgets.
+Vous pouvez les trouver dans le menu de gauche sous la catégorie &amp;ldquo;Apparence&amp;rdquo;.
+Tout les thèmes et toutes les installations WordPress ont par défaut ce Widgets. Vous n&amp;rsquo;avez donc pas besoin d&amp;rsquo;installer une extension supplémentaire.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.bygga.fr/assets/img/articles/afficher-categorie.jpg&#34; class=&#34;aligncenter&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Faitez glisser le widget &lt;em&gt;Catégorie&lt;/em&gt; dans votre sidebar. Vous pouvez ensuite ajouter un titre et sélectionner parmi 3 options.
+La première vous permet de choisir si vous voulez afficher vos catégories comme une liste dans un menu déroulant ou bien sans. L&amp;rsquo;option menu-déroulant est un bon choix si vous avez beaucoup de catégorie. Pensez à vos pauvres utilisateurs sur leur téléphone.&lt;/p&gt;
+
+&lt;p&gt;La seconde option vous permet d&amp;rsquo;afficher le nombre d&amp;rsquo;articles attachés à une catégorie. Je ne vois pas forcement un grand intérêt, mais certaines personne l&amp;rsquo;utilise.&lt;/p&gt;
+
+&lt;p&gt;La troisièment option est celle qui nous intéresse. &lt;em&gt;Afficher la hiérarchie&lt;/em&gt; permet d&amp;rsquo;afficher les catégories et leur sous-catégories.&lt;/p&gt;
+
+&lt;h2 id=&#34;afficher-les-articles-d-une-catégories-dans-un-article-ou-une-page:f38be2ab6b1ea4046ab4824db79894f3&#34;&gt;Afficher les articles d&amp;rsquo;une catégories dans un article ou une page&lt;/h2&gt;
+
+&lt;p&gt;Si vous voulez afficher une liste de tout vos articles dans une certaine catégorie au sein même de vos pages ou de vos articles, vous pouvez le faire grâce à un très bon plugin.&lt;/p&gt;
+
+&lt;p&gt;Je vous conseille le plugin &lt;a href=&#34;https://fr.wordpress.org/plugins/list-category-posts/&#34;&gt;List category posts&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.bygga.fr/assets/img/articles/list-category-posts.jpg&#34; class=&#34;aligncenter&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Avec ce plugin, vous allez pouvoir utiliser un shortcode à insérer directement dans le texte de votre article ou de votre page. Ce shortcode va ensuite afficher automatiquement tous les articles au sein de cette catégorie. Le plugin comporte pleins d&amp;rsquo;options. Je vous laisse les découvrir sur la page l&amp;rsquo;extension.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.bygga.fr/assets/img/articles/article-dans-categorie.jpg&#34; class=&#34;aligncenter&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;afficher-les-catégories-sans-plugin-ou-widget:f38be2ab6b1ea4046ab4824db79894f3&#34;&gt;Afficher les catégories sans plugin ou widget&lt;/h2&gt;
+
+&lt;p&gt;Pour ceux qui sont à l&amp;rsquo;aise avec WordPress et n&amp;rsquo;ont pas peur de modifier le code PHP de votre thème, vous pouvez choisir d&amp;rsquo;ajouter le code suivant dans le ficher dans lequel vous voulez afficher les catégories :&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-php&#34;&gt;&amp;lt;?php wp_list_categories( ); ?&amp;gt; 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Là aussi, vous avez le choix parmi pleins d&amp;rsquo;options. Vous pouvez par exemple décider de l&amp;rsquo;ordre d&amp;rsquo;affichage des catégories (par défaut cela se fait par ordre alphabétique). Pratique pour mettre en avant les catégories avec le plus d&amp;rsquo;article en avant.&lt;/p&gt;
+
+&lt;p&gt;Vous pouvez choisir aussi d&amp;rsquo;afficher ou non les sous-catégories ou bien les catégories vides.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Comment vraiment gagner de l&#39;argent avec un site web</title>
@@ -1288,77 +1368,6 @@ Avec les nouvelles technologies disponible dans le domaine de la conception de s
 &lt;h3 id=&#34;wisdom-of-life:a17e06a0b29a296aa64c5e611dba7f2b&#34;&gt;Wisdom Of Life&lt;/h3&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://themeforest.net/item/wisdom-of-life-ngo-and-charity-theme/1778657?ref=bygga&#34;&gt;&lt;img src=&#34;http://www.bygga.fr/wp-content/uploads/2014/01/WOL.jpg&#34; alt=&#34;Wisdom of life&#34; width=&#34;550&#34; height=&#34;273&#34; class=&#34;aligncenter size-full wp-image-983&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>10 thèmes WordPress de qualité disponible en français</title>
-      <link>https://www.bygga.fr/10-themes-wordpress-de-qualite-disponible-en-francais/</link>
-      <pubDate>Sat, 11 Jan 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.bygga.fr/10-themes-wordpress-de-qualite-disponible-en-francais/</guid>
-      <description>
-
-&lt;h2 id=&#34;trouver-des-thèmes-wordpress-en-français:bf890fe29cb1376764161b6e21caee41&#34;&gt;Trouver des thèmes WordPress en français&lt;/h2&gt;
-
-&lt;p&gt;La majorité des français qui utilisent WordPress s&amp;rsquo;en servent pour proposer un site internet destiné à des visiteurs français. Il est donc important que l&amp;rsquo;intégralité du site soit dans la langue de Molière. Le problème c&amp;rsquo;est que la majorités des thèmes mis à disposition sont en anglais et ne proposent pas de traduction toute faite. Il vous faut donc &lt;a href=&#34;http://www.bygga.fr/comment-traduire-un-theme-wordpress-en-francais/&#34; title=&#34;Comment traduire un thème WordPress en francais&#34;&gt;traduire manuellement le thème&lt;/a&gt; et, même si cela est relativement facile, ça prend tout de même du temps.&lt;/p&gt;
-
-&lt;p&gt;Pour vous éviter donc la traduction de tous les texte anglais de votre thème (et aussi ne pas en oublier), voici une sélection de 20 thèmes relativement récents qui proposent tous une traduction française. Les thèmes sont de qualités et réalisés par des professionnels. Exactement ce qu&amp;rsquo;il vous faut pour propulser votre site sur les devants de la scène.&lt;/p&gt;
-
-&lt;h2 id=&#34;ma-sélection-de-thème-wordpress-en-français:bf890fe29cb1376764161b6e21caee41&#34;&gt;Ma sélection de thème WordPress en Français&lt;/h2&gt;
-
-&lt;h3 id=&#34;u-design:bf890fe29cb1376764161b6e21caee41&#34;&gt;U-Design&lt;/h3&gt;
-
-&lt;p&gt;U-Design c&amp;rsquo;est l&amp;rsquo;un des thèmes les plus vendu pour WordPress. Définitivement un très bon choix pour tout ceux qui veulent un thème qui s&amp;rsquo;adapte à n&amp;rsquo;importe quel design.&lt;br /&gt;
-&lt;a href=&#34;http://themeforest.net/item/udesign-wordpress-theme/253220?ref=bygga&#34;&gt;&lt;img src=&#34;http://www.bygga.fr/wp-content/uploads/2014/01/U-Design.jpg&#34; alt=&#34;U-Design&#34; width=&#34;500&#34; height=&#34;245&#34; class=&#34;aligncenter size-full wp-image-943&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;quickess:bf890fe29cb1376764161b6e21caee41&#34;&gt;Quickess&lt;/h3&gt;
-
-&lt;p&gt;Un thème prêt à utiliser en seulement quelques clics.&lt;br /&gt;
-&lt;a href=&#34;http://themeforest.net/item/quickess-responsive-corporate-wordpress-theme/3342256?ref=bygga&#34;&gt;&lt;img src=&#34;http://www.bygga.fr/wp-content/uploads/2014/01/Quickess.jpg&#34; alt=&#34;Quickess&#34; width=&#34;500&#34; height=&#34;248&#34; class=&#34;aligncenter size-full wp-image-946&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;studium:bf890fe29cb1376764161b6e21caee41&#34;&gt;Studium&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://themeforest.net/item/studium-for-business-corporate-portfolio/1143258?ref=bygga&#34;&gt;&lt;img src=&#34;http://www.bygga.fr/wp-content/uploads/2014/01/Studium.jpg&#34; alt=&#34;Studium&#34; width=&#34;500&#34; height=&#34;244&#34; class=&#34;aligncenter size-full wp-image-947&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;vintage-immersed:bf890fe29cb1376764161b6e21caee41&#34;&gt;Vintage Immersed&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://themeforest.net/item/vintage-immersed-multipurpose-wordpress-theme/2866563?ref=bygga&#34;&gt;&lt;img src=&#34;http://www.bygga.fr/wp-content/uploads/2014/01/Vintage-Immersed.jpg&#34; alt=&#34;Vintage Immersed&#34; width=&#34;500&#34; height=&#34;248&#34; class=&#34;aligncenter size-full wp-image-950&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;spa-treats-8211-spa-038-restaurant:bf890fe29cb1376764161b6e21caee41&#34;&gt;SPA Treats &amp;#8211; Spa &amp;#038; Restaurant&lt;/h3&gt;
-
-&lt;p&gt;Un thème WordPress parfait pour ceux qui veulent proposer des services du genre restaurant, spa, etc&amp;#8230;&lt;br /&gt;
-&lt;a href=&#34;http://themeforest.net/item/spa-treats-spa-restaurant-woocommerce-theme/3002682?ref=bygga&#34;&gt;&lt;img src=&#34;http://www.bygga.fr/wp-content/uploads/2014/01/Spa-Treats.jpg&#34; alt=&#34;Spa Treats&#34; width=&#34;500&#34; height=&#34;248&#34; class=&#34;aligncenter size-full wp-image-951&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;nunta:bf890fe29cb1376764161b6e21caee41&#34;&gt;Nunta&lt;/h3&gt;
-
-&lt;p&gt;Avec sa jolie palette de couleur il vous fera forcement craquer.&lt;br /&gt;
-&lt;a href=&#34;http://themeforest.net/item/nunta-wedding-responsive-wordpress-theme/4833895?ref=bygga&#34;&gt;&lt;img src=&#34;http://www.bygga.fr/wp-content/uploads/2014/01/Nunta.jpg&#34; alt=&#34;Nunta&#34; width=&#34;500&#34; height=&#34;248&#34; class=&#34;aligncenter size-full wp-image-952&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;mega:bf890fe29cb1376764161b6e21caee41&#34;&gt;Mega&lt;/h3&gt;
-
-&lt;p&gt;Un thème WordPress en français de qualité qui est responsive. Cela signifie que sont affichage est optimisé selon si vous regarder le site sur un ordinateur, une tablette ou bien un téléphone portable.&lt;br /&gt;
-&lt;a href=&#34;http://themeforest.net/item/mega-responsive-multipurpose-theme/5150300?ref=bygga&#34;&gt;&lt;img src=&#34;http://www.bygga.fr/wp-content/uploads/2014/01/mega.jpg&#34; alt=&#34;Mega Responsive WordPress theme&#34; width=&#34;500&#34; height=&#34;244&#34; class=&#34;aligncenter size-full wp-image-953&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;zig-zag:bf890fe29cb1376764161b6e21caee41&#34;&gt;Zig-zag&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://themeforest.net/item/zig-zag-responsive-wordpress-template/1348607?ref=bygga&#34;&gt;&lt;img src=&#34;http://www.bygga.fr/wp-content/uploads/2014/01/Zig-zag.jpg&#34; alt=&#34;Zig-zag&#34; width=&#34;500&#34; height=&#34;245&#34; class=&#34;aligncenter size-full wp-image-956&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;onecart:bf890fe29cb1376764161b6e21caee41&#34;&gt;OneCart&lt;/h3&gt;
-
-&lt;p&gt;Un très joli thème pour les français qui ont besoin d&amp;rsquo;un site de eCommerce.&lt;br /&gt;
-&lt;a href=&#34;http://themeforest.net/item/onecart-ajax-responsive-ecommerce-wordpress-theme/3167538?ref=bygga&#34;&gt;&lt;img src=&#34;http://www.bygga.fr/wp-content/uploads/2014/01/oneCart.jpg&#34; alt=&#34;Theme eCommerce OneCart&#34; width=&#34;500&#34; height=&#34;254&#34; class=&#34;aligncenter size-full wp-image-957&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;sintia:bf890fe29cb1376764161b6e21caee41&#34;&gt;Sintia&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://themeforest.net/item/sintia-responsive-for-business-portfolio-/3163493?ref=bygga&#34;&gt;&lt;img src=&#34;http://www.bygga.fr/wp-content/uploads/2014/01/Sintia.jpg&#34; alt=&#34;Sintia&#34; width=&#34;500&#34; height=&#34;248&#34; class=&#34;aligncenter size-full wp-image-958&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;où-trouver-encore-plus-de-thèmes-en-français:bf890fe29cb1376764161b6e21caee41&#34;&gt;Où trouver encore plus de thèmes en français&lt;/h2&gt;
-
-&lt;p&gt;Vous n&amp;rsquo;allez pas forcement trouver le thème de vos rêves parmi les dix proposés ci-dessus. C&amp;rsquo;est normal puisqu&amp;rsquo;il existe tellement de site internet différent qu&amp;rsquo;il est difficile d&amp;rsquo;en choisir que dix.&lt;br /&gt;
-Vous pouvez vous rendre sur &lt;a href=&#34;http://themeforest.net/search?utf8=%E2%9C%93&amp;#038;order_by=rating&amp;#038;category=wordpress&amp;#038;term=french&amp;#038;suggest=true&amp;#038;ref=bygga&#34; title=&#34;Thème en français sur ThemeForest&#34; target=&#34;_blank&#34;&gt;ThemeForest&lt;/a&gt; pour en découvrir encore plus. D&amp;rsquo;autres sites comme &lt;a href=&#34;http://www.wpbasics.fr/&#34; title=&#34;Traduction française de thèmes WordPress&#34; target=&#34;_blank&#34;&gt;WPBasics&lt;/a&gt; proposent des traductions pour des thèmes disponibles sur le commerce. À l&amp;rsquo;heure actuelle leur collection est relativement petites (seulement un douzaine de thèmes), mais ils semblent en ajouter régulièrement.&lt;/p&gt;
-
-&lt;p&gt;Vous remarquerez aussi que je n&amp;rsquo;ai pas mis de thème gratuit. Il y a une raison très simple pour ce choix : &lt;a href=&#34;http://www.bygga.fr/voila-pourquoi-il-faut-acheter-un-theme-payant-plutot-que-gratuit/&#34; title=&#34;Voilà pourquoi il faut acheter un thème payant plutôt que gratuit&#34;&gt;Les thèmes gratuit n&amp;rsquo;arrivent jamais à la cheville des thèmes professionnels&lt;/a&gt;. Il me semble bien plus important de dépenser quelques euros pour avoir un site optimisé et développé par quelqu&amp;rsquo;un qui connait sont boulot, plutôt que bâclé par un amateur. &amp;laquo;&amp;nbsp;Rien n&amp;rsquo;est jamais totalement gratuit&amp;nbsp;&amp;raquo;&amp;#8230;&lt;/p&gt;
 </description>
     </item>
     

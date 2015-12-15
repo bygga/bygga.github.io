@@ -6,8 +6,88 @@
     <description>Recent content in Wordpress on Bygga</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-FR</language>
-    <lastBuildDate>Sat, 11 Jan 2014 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 15 Dec 2015 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://www.bygga.fr/tags/wordpress/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Comment afficher les sous-catégories dans WordPress</title>
+      <link>https://www.bygga.fr/afficher-sous-categorie-wordpress/</link>
+      <pubDate>Tue, 15 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.bygga.fr/afficher-sous-categorie-wordpress/</guid>
+      <description>
+
+&lt;p&gt;&lt;img src=&#34;https://www.bygga.fr/assets/img/articles/afficher-sous-categories-wordpress.png&#34; class=&#34;aligncenter&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;la-différence-entre-catégorie-et-mots-clef:f38be2ab6b1ea4046ab4824db79894f3&#34;&gt;La différence entre catégorie et mots-clef&lt;/h2&gt;
+
+&lt;p&gt;Il y a deux façons sous WordPress de d&amp;rsquo;organiser vos articles. Vous pouvez dire qu&amp;rsquo;ils appartiennent à une catégorie ou bien qu&amp;rsquo;ils ont des mots-clef.&lt;/p&gt;
+
+&lt;p&gt;Il est important de bien &lt;a href=&#34;http://wpformation.com/anatomie-articlepage-wordpress/&#34;&gt;comprendre la différence&lt;/a&gt; entre les deux pour pouvoir en tirer le meilleur.&lt;/p&gt;
+
+&lt;p&gt;La différence principale entre catégorie et mots-clé c&amp;rsquo;est que les catégories peuvent avoir des enfants, des sous catégories. Les mots clé, eux, ont tous le même niveau d&amp;rsquo;organisation.&lt;/p&gt;
+
+&lt;p&gt;Souvent un article possède une seule catégorie et/ou sous-catégorie et plusieurs mot-clés.&lt;/p&gt;
+
+&lt;h2 id=&#34;comment-donner-une-catégorie-et-sous-catégorie-à-vos-articles:f38be2ab6b1ea4046ab4824db79894f3&#34;&gt;Comment donner une catégorie et sous-catégorie à vos articles ?&lt;/h2&gt;
+
+&lt;p&gt;Quand vous rédigez vos articles, vous pouvez choisir une catégorie existante en la sélectionnant directement dans l&amp;rsquo;interface sur la droite de votre écran comme le montre la photo ci-dessous.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.bygga.fr/assets/img/articles/selectionner-categorie.jpg&#34; class=&#34;aligncenter&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Les sous-catégories s&amp;rsquo;affichent avec un alinéa sous la catégorie mère. A noté que vous n&amp;rsquo;êtes pas obligé de sélectionner la catégorie mère quand vous choisissez un sous-catégorie.&lt;/p&gt;
+
+&lt;p&gt;Si vous ne le faite pas, votre article apparaitra uniquement sur la page d&amp;rsquo;archive de la sous-catégorie.&lt;/p&gt;
+
+&lt;h2 id=&#34;créer-une-sous-catégorie:f38be2ab6b1ea4046ab4824db79894f3&#34;&gt;Créer une sous-catégorie&lt;/h2&gt;
+
+&lt;p&gt;Pour créer une catégorie ou sous-catégorie, vous pouvez cliquer sur &lt;em&gt;+Ajouter un nouvelle catégorie&lt;/em&gt;.
+Vous pouvez ensuite entrer le nom de la nouvelle catégorie et si c&amp;rsquo;est le cas, le nom de la catégorie parente.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.bygga.fr/assets/img/articles/ajouter-categorie.jpg&#34; class=&#34;aligncenter&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Dans ce cas, &lt;em&gt;Cérémonie&lt;/em&gt; est une sous-catégorie de &lt;em&gt;Mariage&lt;/em&gt;, au même titre que &lt;em&gt;Préparatifs&lt;/em&gt; qui existait déjà.
+Vous pouvez aussi continuer votre segmentatio en ajoutant une sous-sous-catégorie et ainsi de suite.&lt;/p&gt;
+
+&lt;h2 id=&#34;afficher-les-catégories-avec-un-widget-dans-votre-sidebar:f38be2ab6b1ea4046ab4824db79894f3&#34;&gt;Afficher les catégories avec un Widget dans votre sidebar&lt;/h2&gt;
+
+&lt;p&gt;La manière la plus simple pour les débutants &lt;a href=&#34;https://www.bygga.fr/tags/wordpress/&#34;&gt;WordPress&lt;/a&gt; d&amp;rsquo;afficher une sous-catégorie c&amp;rsquo;est d&amp;rsquo;utiliser les Widgets.
+Vous pouvez les trouver dans le menu de gauche sous la catégorie &amp;ldquo;Apparence&amp;rdquo;.
+Tout les thèmes et toutes les installations WordPress ont par défaut ce Widgets. Vous n&amp;rsquo;avez donc pas besoin d&amp;rsquo;installer une extension supplémentaire.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.bygga.fr/assets/img/articles/afficher-categorie.jpg&#34; class=&#34;aligncenter&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Faitez glisser le widget &lt;em&gt;Catégorie&lt;/em&gt; dans votre sidebar. Vous pouvez ensuite ajouter un titre et sélectionner parmi 3 options.
+La première vous permet de choisir si vous voulez afficher vos catégories comme une liste dans un menu déroulant ou bien sans. L&amp;rsquo;option menu-déroulant est un bon choix si vous avez beaucoup de catégorie. Pensez à vos pauvres utilisateurs sur leur téléphone.&lt;/p&gt;
+
+&lt;p&gt;La seconde option vous permet d&amp;rsquo;afficher le nombre d&amp;rsquo;articles attachés à une catégorie. Je ne vois pas forcement un grand intérêt, mais certaines personne l&amp;rsquo;utilise.&lt;/p&gt;
+
+&lt;p&gt;La troisièment option est celle qui nous intéresse. &lt;em&gt;Afficher la hiérarchie&lt;/em&gt; permet d&amp;rsquo;afficher les catégories et leur sous-catégories.&lt;/p&gt;
+
+&lt;h2 id=&#34;afficher-les-articles-d-une-catégories-dans-un-article-ou-une-page:f38be2ab6b1ea4046ab4824db79894f3&#34;&gt;Afficher les articles d&amp;rsquo;une catégories dans un article ou une page&lt;/h2&gt;
+
+&lt;p&gt;Si vous voulez afficher une liste de tout vos articles dans une certaine catégorie au sein même de vos pages ou de vos articles, vous pouvez le faire grâce à un très bon plugin.&lt;/p&gt;
+
+&lt;p&gt;Je vous conseille le plugin &lt;a href=&#34;https://fr.wordpress.org/plugins/list-category-posts/&#34;&gt;List category posts&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.bygga.fr/assets/img/articles/list-category-posts.jpg&#34; class=&#34;aligncenter&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Avec ce plugin, vous allez pouvoir utiliser un shortcode à insérer directement dans le texte de votre article ou de votre page. Ce shortcode va ensuite afficher automatiquement tous les articles au sein de cette catégorie. Le plugin comporte pleins d&amp;rsquo;options. Je vous laisse les découvrir sur la page l&amp;rsquo;extension.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.bygga.fr/assets/img/articles/article-dans-categorie.jpg&#34; class=&#34;aligncenter&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;afficher-les-catégories-sans-plugin-ou-widget:f38be2ab6b1ea4046ab4824db79894f3&#34;&gt;Afficher les catégories sans plugin ou widget&lt;/h2&gt;
+
+&lt;p&gt;Pour ceux qui sont à l&amp;rsquo;aise avec WordPress et n&amp;rsquo;ont pas peur de modifier le code PHP de votre thème, vous pouvez choisir d&amp;rsquo;ajouter le code suivant dans le ficher dans lequel vous voulez afficher les catégories :&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-php&#34;&gt;&amp;lt;?php wp_list_categories( ); ?&amp;gt; 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Là aussi, vous avez le choix parmi pleins d&amp;rsquo;options. Vous pouvez par exemple décider de l&amp;rsquo;ordre d&amp;rsquo;affichage des catégories (par défaut cela se fait par ordre alphabétique). Pratique pour mettre en avant les catégories avec le plus d&amp;rsquo;article en avant.&lt;/p&gt;
+
+&lt;p&gt;Vous pouvez choisir aussi d&amp;rsquo;afficher ou non les sous-catégories ou bien les catégories vides.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>10 thèmes WordPress de qualité disponible en français</title>
@@ -942,100 +1022,6 @@ Par exemple :&lt;/p&gt;
 
 &lt;p&gt;Le plugin va automatiquement assigné un chiffre à votre citation et faire un lien vers le bas de votre page avec votre note. Cela marche sur le même principe que les &lt;a href=&#34;http://fr.wikipedia.org/wiki/Aide:Note&#34; title=&#34;Notes sur Wikipedia&#34;&gt;notes sur Wikipedia&lt;/a&gt;.&lt;br /&gt;
 En parlant de Wikipedia, j&amp;rsquo;aimerais vous faire remarqué que depuis l&amp;rsquo;introduction des notes et citations, Wikipedia à vu son status passé de simple site internet, à une encyclopédie référence et crédible. Donc faites de même avec votre site en y ajoutant ce plugin.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Afficher le nombre de fans Facebook, Twitter, RSS dans WordPress</title>
-      <link>https://www.bygga.fr/afficher-le-nombre-de-fans-facebook-twitter-rss-dans-wordpress/</link>
-      <pubDate>Mon, 17 Sep 2012 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.bygga.fr/afficher-le-nombre-de-fans-facebook-twitter-rss-dans-wordpress/</guid>
-      <description>
-
-&lt;p&gt;Voici une astuce rapide pour afficher votre nombre de personne qui se sont abonné à votre flux RSS, votre page Facebook ou bien votre compte Twitter.&lt;br /&gt;
-Ces données sont récupéré par PHP en utilisant les API des différents services. Voici le code que vous devez ajouter dans votre fichier function.php. Aucun plugin nécessaire.&lt;br /&gt;
-&lt;img src=&#34;http://www.bygga.fr/wp-content/uploads/2012/09/Fan-Facebook.png&#34; alt=&#34;Afficher Fan Facebook&#34; title=&#34;Fan-Facebook&#34; width=&#34;311&#34; height=&#34;125&#34; class=&#34;aligncenter size-full wp-image-250&#34; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;afficher-le-nombre-de-fans-facebook:0b6842d3e19185db7708bb9ee7851813&#34;&gt;Afficher le nombre de fans Facebook&lt;/h2&gt;
-
-&lt;p&gt;Pour que cela fonctionne vous devez connaitre votre ID Facebook (un nombre à 15 chiffres) ou bien le nom de votre page (&lt;code&gt;&lt;a href=&#34;http://www.facebook.com/**nom**&#34;&gt;http://www.facebook.com/**nom**&lt;/a&gt;&lt;/code&gt;).&lt;br /&gt;
-N’oubliez pas de remplacer &amp;laquo;&amp;nbsp;votre-nom-ou-ID&amp;nbsp;&amp;raquo; par votre propre nom ou ID.&lt;br /&gt;
-Code à ajouter dans le fichier &lt;code&gt;function.php&lt;/code&gt;&lt;/p&gt;
-
-&lt;pre class=&#34;language-php&#34;&gt;
-&lt;code&gt;
-/*************************************************************
-Fans Facebook. Retourne et affiche le nombre de fans Facebook
-**************************************************************/
-bygga_afficher_fans_facebook(){
-   $facebook = json_decode(file_get_contents(&#39;http://graph.facebook.com/votre-nom-ou-ID&#39;), true);
-   echo $facebook_count = $facebook[&#39;likes&#39;]; 
-}
-&lt;/code&gt;
-&lt;/pre&gt;
-
-&lt;p&gt;Pour afficher le nombre de &lt;a href=&#34;http://www.bygga.fr/5-plugins-pour-avoir-plus-de-fans-facebook-avec-wordpress/&#34; title=&#34;5 plugins pour avoir plus de fans Facebook avec WordPress&#34;&gt;fans Facebook&lt;/a&gt;, insérez le code suivant dans votre thème, par exemple dans &lt;code&gt;single.php&lt;/code&gt;.&lt;/p&gt;
-
-&lt;pre class=&#34;language-php&#34;&gt;
-&lt;code&gt;
-&amp;lt;p&amp;gt;Nombre de fans Facebook : &amp;lt; ?php bygga_afficher_fans_facebook() ;?&amp;gt;&amp;lt;/p&amp;gt;
-&lt;/code&gt;
-&lt;/pre&gt;
-
-&lt;h2 id=&#34;afficher-le-nombre-d-abonnés-à-votre-compte-twitter:0b6842d3e19185db7708bb9ee7851813&#34;&gt;Afficher le nombre d’abonnés à votre compte Twitter&lt;/h2&gt;
-
-&lt;p&gt;Même démarche que pour Facebook. Récupérez votre nom sous Twitter (&lt;code&gt;&lt;a href=&#34;http://www.twitter.fr/**nom**&#34;&gt;http://www.twitter.fr/**nom**&lt;/a&gt;&lt;/code&gt;) et remplacez le dans le code ci-dessous.&lt;br /&gt;
-Code à ajouter dans le fichier &lt;code&gt;function.php&lt;/code&gt;&lt;/p&gt;
-
-&lt;pre class=&#34;language-php&#34;&gt;
-&lt;code&gt;
-/****************************************************************
-Abonnés Twitter. Retourne et affiche le nombre d’abonnés Twitter
-*****************************************************************/
-bygga_afficher_abonnes_twitter(){
-   $twitter = json_decode(file_get_contents(&#39;https://api.twitter.com/1/users/lookup.json?screen_name=votre-nom&#39;), true);
-   echo $twiter_count = $twitter[0][&#39;followers_count&#39;];
-}
-&lt;/code&gt;
-&lt;/pre&gt;
-
-&lt;p&gt;Pour afficher le nombre d’abonnés Twitter, insérez le code suivant dans votre thème, par exemple dans &lt;code&gt;single.php&lt;/code&gt;.&lt;/p&gt;
-
-&lt;pre class=&#34;language-php&#34;&gt;
-&lt;code&gt;
-&amp;lt;p&amp;gt;Nombre d’abonnés Twitter : &amp;lt; ?php bygga_afficher_abonnes_twitter () ;?&amp;gt;&amp;lt;/p&amp;gt;
-&lt;/code&gt;
-&lt;/pre&gt;
-
-&lt;h2 id=&#34;afficher-le-nombre-d-abonné-à-votre-flux-rss:0b6842d3e19185db7708bb9ee7851813&#34;&gt;Afficher le nombre d’abonné à votre flux RSS&lt;/h2&gt;
-
-&lt;p&gt;Pour que ce code fonctionne vous devez avoir un compte &lt;a href=&#34;http://feedburner.google.com/&#34; title=&#34;Feedburner&#34; target=&#34;_blank&#34;&gt;Feedburner&lt;/a&gt;, activé l’API Feedburner Awareness et l’url de votre flux RSS. Remplacez &amp;laquo;&amp;nbsp;&lt;a href=&#34;http://feeds.feedburner.com/votre-nom&amp;nbsp;&amp;raquo;&#34;&gt;http://feeds.feedburner.com/votre-nom&amp;nbsp;&amp;raquo;&lt;/a&gt; par l’url de votre flux dans le code suivant.&lt;br /&gt;
-Code à ajouter dans le fichier &lt;code&gt;function.php&lt;/code&gt;&lt;/p&gt;
-
-&lt;pre class=&#34;language-php&#34;&gt;
-&lt;code&gt;
-/*************************************************************
-Abonnés Flux RSS. Retourne et affiche le nombre d’abonnés RSS
-**************************************************************/
-bygga_afficher_abonnes_rss(){
-   $rss = file_get_contents(&#39;http://feedburner.google.com/api/awareness/1.0/GetFeedData?uri=http://feeds.feedburner.com/votre-nom?format=xml&#39;);
-   $xml = new SimpleXmlElement($rss);
-   echo $rss_count = $xml-&amp;gt;feed-&amp;gt;entry-&amp;gt;attributes()-&amp;gt;circulation;
- 
-}
-&lt;/code&gt;
-&lt;/pre&gt;
-
-&lt;p&gt;Pour afficher le nombre d’abonnés au flux RSS, insérez le code suivant dans votre thème, par exemple dans &lt;code&gt;single.php&lt;/code&gt;.&lt;/p&gt;
-
-&lt;pre class=&#34;language-php&#34;&gt;
-&lt;code&gt;
-&amp;lt;p&amp;gt;Nombre d’abonnés au flux RSS : &amp;lt;?php bygga_afficher_abonnes_rss () ;?&amp;gt;&amp;lt;/p&amp;gt;
-&lt;/code&gt;
-&lt;/pre&gt;
-
-&lt;p&gt;Si vous ne voulez pas afficher ces données mais uniquement les utiliser dans une autre fonction vous pouvez faire cela en supprimant seulement le mot &amp;laquo;&amp;nbsp;echo&amp;nbsp;&amp;raquo; dans chacune des fonctions PHP.&lt;/p&gt;
 </description>
     </item>
     
