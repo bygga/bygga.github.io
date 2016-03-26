@@ -919,8 +919,8 @@ _e(All rights reserved,&amp;lsquo;bygga&amp;rsquo;);
 Le texte All rights reserved sera affiché, à moins qu&amp;rsquo;il n’existe un fichier de localisation en français, de nom &amp;lsquo;bygga&amp;rsquo; et une traduction française sera affichée à la place.&lt;br /&gt;
 L&amp;rsquo;avantage c&amp;rsquo;est que le futur utilisateur n&amp;rsquo;a pas besoin de parcourir l&amp;rsquo;ensemble de votre code pour trouver les textes à modifier.&lt;/p&gt;
 
-&lt;p&gt;Si vous ne souhaitez pas directement afficher le texte, mais l&amp;rsquo;utiliser en tant que variable, utiliser la fonction &lt;code&gt;__()&lt;/code&gt; à la place.&lt;br /&gt;
-&lt;code&gt;_e()&lt;/code&gt; est équivalent à &lt;code&gt;&amp;lt;?php echo __(); ?&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Si vous ne souhaitez pas directement afficher le texte, mais l&amp;rsquo;utiliser en tant que variable, utiliser la fonction &lt;code&gt;_&lt;em&gt;()&lt;/code&gt; à la place.&lt;br /&gt;
+&lt;code&gt;_e()&lt;/code&gt; est équivalent à &lt;code&gt;&amp;lt;?php echo _&lt;/em&gt;(); ?&amp;gt;&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;Si vous souhaitez plus d&amp;rsquo;information sur ces fonctions et leurs petites soeurs, vous pouvez consulter directement le &lt;a href=&#34;http://codex.wordpress.org/Translating_WordPress&#34; title=&#34;traduire WordPress&#34; target=&#34;_blank&#34;&gt;codex de WordPress&lt;/a&gt;.&lt;/p&gt;
 

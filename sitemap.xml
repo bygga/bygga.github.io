@@ -18,12 +18,12 @@
   </url>
   
   <url>
-    <loc>https://www.bygga.fr/contact/</loc>
+    <loc>https://www.bygga.fr/contact-merci/</loc>
     <lastmod>2015-11-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.bygga.fr/contact-merci/</loc>
+    <loc>https://www.bygga.fr/contact/</loc>
     <lastmod>2015-11-29T00:00:00+00:00</lastmod>
   </url>
   
@@ -303,18 +303,13 @@
   </url>
   
   <url>
-    <loc>https://www.bygga.fr/plugin-wordpress-pour-citer-vos-sources-en-pied-de-page/</loc>
-    <lastmod>2012-09-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.bygga.fr/comment-creer-un-barre-de-navigation-fixe-en-bas-dune-page/</loc>
     <lastmod>2012-09-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.bygga.fr/yoast-wordpress-seo-vs-all-in-one-seo-qui-choisir/</loc>
-    <lastmod>2012-09-17T00:00:00+00:00</lastmod>
+    <loc>https://www.bygga.fr/plugin-wordpress-pour-citer-vos-sources-en-pied-de-page/</loc>
+    <lastmod>2012-09-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -329,6 +324,11 @@
   
   <url>
     <loc>https://www.bygga.fr/rendre-son-site-attractif-sur-un-telephone-portable-sous-wordpress/</loc>
+    <lastmod>2012-09-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.bygga.fr/yoast-wordpress-seo-vs-all-in-one-seo-qui-choisir/</loc>
     <lastmod>2012-09-17T00:00:00+00:00</lastmod>
   </url>
   
